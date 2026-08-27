@@ -4,6 +4,18 @@
   "source": "https://github.com/ZeroPointRepo/awesome-ag-ui",
   "updated": "2026-08-27",
   "count": 348,
+  "coverage": {
+    "_note": "What this run actually looked at. `listed` plus every other field equals `candidates`: a candidate the run did not reach is reported here rather than omitted, because a cap that is not published reads as if everything was checked.",
+    "candidates": 745,
+    "listed": 247,
+    "curated": 101,
+    "dropped_no_dependency": 253,
+    "dropped_no_install_command": 0,
+    "dropped_unreadable": 0,
+    "skipped_for_rest_budget": 0,
+    "not_reached_by_cap": 245,
+    "curated_unchecked_for_rest_budget": 0
+  },
   "categories": {
     "connect-your-agent-framework-to-a-front-end": {
       "en": "Connect your agent framework to a front end"
@@ -54,7 +66,7 @@
       "description": {
         "en": "Serve a LangChain agent over AG-UI"
       },
-      "stars": 145094,
+      "stars": 145097,
       "install": "",
       "added": "2026-08-27",
       "agui_dependency": true,
@@ -91,7 +103,7 @@
       "description": {
         "en": "Give a LlamaIndex agent a front end"
       },
-      "stars": 51887,
+      "stars": 51888,
       "install": "",
       "added": "2026-08-27",
       "agui_dependency": true,
@@ -105,7 +117,7 @@
       "description": {
         "en": "Put an Agno agent behind a copilot"
       },
-      "stars": 41939,
+      "stars": 41938,
       "install": "",
       "added": "2026-08-27",
       "agui_dependency": true,
@@ -122,7 +134,7 @@
       "description": {
         "en": "Stream a LangGraph run into a React app"
       },
-      "stars": 40524,
+      "stars": 40528,
       "install": "",
       "added": "2026-08-27",
       "agui_dependency": true,
@@ -160,7 +172,7 @@
       "description": {
         "en": "Wire a Mastra agent to a chat UI"
       },
-      "stars": 27509,
+      "stars": 27510,
       "install": "",
       "added": "2026-08-27",
       "agui_dependency": true,
@@ -174,7 +186,7 @@
       "description": {
         "en": "Bridge the Vercel AI SDK"
       },
-      "stars": 26434,
+      "stars": 26433,
       "install": "",
       "added": "2026-08-27",
       "agui_dependency": true,
@@ -191,7 +203,7 @@
       "description": {
         "en": "Bring a Google ADK agent into a front end"
       },
-      "stars": 21303,
+      "stars": 21304,
       "install": "",
       "added": "2026-08-27",
       "agui_dependency": true,
@@ -243,7 +255,7 @@
       "description": {
         "en": "Attach a UI to Microsoft Agent Framework"
       },
-      "stars": 13141,
+      "stars": 13144,
       "install": "",
       "added": "2026-08-27",
       "agui_dependency": true,
@@ -278,7 +290,7 @@
       "description": {
         "en": "Put a Spring AI agent behind a copilot"
       },
-      "stars": 9362,
+      "stars": 9363,
       "install": "",
       "added": "2026-08-27",
       "agui_dependency": true,
@@ -320,7 +332,7 @@
       "description": {
         "en": "Connect Firebase Genkit to AG-UI"
       },
-      "stars": 6381,
+      "stars": 6383,
       "install": "",
       "added": "2026-08-27",
       "agui_dependency": true,
@@ -339,7 +351,7 @@
       "description": {
         "en": "Run an AG-UI agent on Cloudflare"
       },
-      "stars": 5490,
+      "stars": 5491,
       "install": "",
       "added": "2026-08-27",
       "agui_dependency": true,
@@ -425,7 +437,7 @@
       "description": {
         "en": "Open-source AI coworkers that each get a computer of their own: a browser, files and tools, with every action decided before it happens and recorded after. Bring any AG-UI agent."
       },
-      "stars": 3048,
+      "stars": 3054,
       "install": "",
       "added": "2026-08-27",
       "agui_dependency": true,
@@ -442,7 +454,7 @@
       "description": {
         "en": "A Go framework for building production agent systems with graph workflows, tools, memory, A2A, AG-UI, MCP, evaluation, and observability."
       },
-      "stars": 1736,
+      "stars": 1737,
       "install": "",
       "added": "2026-08-27",
       "agui_dependency": true,
@@ -691,7 +703,7 @@
       "description": {
         "en": "Run an AI desktop companion"
       },
-      "stars": 434,
+      "stars": 437,
       "install": "",
       "added": "2026-08-27",
       "agui_dependency": true,
@@ -3155,6 +3167,7 @@
       "agui_dependency": true,
       "evidence": "agent-code/agui-langgraph-agent/requirements.txt declares a CopilotKit package",
       "screenshots": [
+        "https://raw.githubusercontent.com/aws-samples/sample-agentcore-enterprise-platform/HEAD/docs/architecture-accounts.png",
         "https://raw.githubusercontent.com/aws-samples/sample-agentcore-enterprise-platform/HEAD/docs/architecture.png",
         "https://raw.githubusercontent.com/aws-samples/sample-agentcore-enterprise-platform/HEAD/docs/dashboard-monitor.png"
       ]
