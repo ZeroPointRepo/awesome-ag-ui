@@ -478,7 +478,14 @@ async function run(items, fn) {
   );
 }
 
+// The curated list is the product, so an entry that could not be CHECKED is not the same as an
+// entry that failed a check, and calling it a drop is how a low-allowance run quietly turns a
+// readable repo into a missing one. It gets its own state and it stops the run.
+let curatedUnchecked = 0;
 await run(curated, async (e) => {
+  if (budgetLeft <= RESERVE) { curatedUnchecked++; return; }
+  budgetLeft -= 6;
+  if (budgetLeft % 250 < 6) await refreshBudget();
   const r = await api(`https://api.github.com/repos/${e.slug}`);
   if (!r.ok) return void dropped.unresolved++;
   const j = await r.json();
@@ -552,13 +559,62 @@ console.log(
 
 rows.sort((a, b) => b.stars - a.stars || a.slug.localeCompare(b.slug));
 
+discovery.listed = rows.filter((r) => !r.curated).length;
+
 console.log(
-  `Rows: ${rows.length} (${rows.filter((r) => r.curated).length} curated, ${rows.filter((r) => !r.curated).length} discovered). ` +
-    `Dropped: ${dropped.unresolved} unresolved, ${dropped.archived} archived, ${dropped.renamed} renamed, ${dropped.noCommand} no usable install command, ${dropped.noEvidence} no AG-UI dependency evidence.`
+  `Rows: ${rows.length} (${rows.filter((r) => r.curated).length} curated, ${discovery.listed} discovered). ` +
+    `Curated drops: ${dropped.unresolved} unresolved, ${dropped.archived} archived, ${dropped.renamed} renamed.`
 );
+if (discovery.skippedForBudget > 0 || curatedUnchecked > 0) {
+  console.log(
+    `Stopped short to leave ${RESERVE} REST calls for the other jobs in this repo: ` +
+      `${curatedUnchecked} curated entries and ${discovery.skippedForBudget} candidates were not checked.`
+  );
+}
+console.log(
+  `Discovery coverage of ${discovery.candidates} candidates: ${discovery.listed} listed, ` +
+    `${discovery.droppedNoEvidence} no AG-UI dependency, ${discovery.droppedNoCommand} no usable install command, ` +
+    `${discovery.droppedUnreadable} unreadable, ${discovery.skippedForBudget} skipped for REST budget, ` +
+    `${discovery.notReachedByCap} not reached by the MAX_CANDIDATES cap.`
+);
+const accounted =
+  discovery.listed + discovery.droppedNoEvidence + discovery.droppedNoCommand +
+  discovery.droppedUnreadable + discovery.skippedForBudget + discovery.notReachedByCap;
+if (accounted !== discovery.candidates) {
+  console.error(
+    `Coverage does not reconcile: ${accounted} accounted for out of ${discovery.candidates} candidates. ` +
+      `Every candidate must end in exactly one bucket, so this is a bug in the buckets, not in the data.`
+  );
+  process.exit(1);
+}
+
+if (curatedUnchecked > 0) {
+  console.error(
+    `${curatedUnchecked} of ${curated.length} curated entries could not be checked: the REST allowance was ` +
+      `already down to the ${RESERVE}-call reserve when this run started. Keeping the existing catalog. ` +
+      `This is contention with another workflow, not a data problem, and it clears on the next run.`
+  );
+  process.exit(1);
+}
 
 if (rows.length < curated.length) {
   console.error(`Refusing to write a catalog smaller than the curated list (${rows.length} < ${curated.length}).`);
+  process.exit(1);
+}
+
+// The curated-list floor is a low bar: a run can lose a third of the catalog and still clear it.
+// A big shrink is almost always this run being unable to look properly rather than the ecosystem
+// losing a hundred projects overnight, so it has to be asked for out loud.
+const previousRows = (() => {
+  try { return (readFileSync('CATALOG.md', 'utf8').match(/^\| \[/gm) || []).length; } catch { return 0; }
+})();
+const SHRINK_FLOOR = Number(process.env.SHRINK_FLOOR || 0.9);
+if (previousRows > 0 && rows.length < previousRows * SHRINK_FLOOR) {
+  console.error(
+    `Refusing to shrink the catalog from ${previousRows} rows to ${rows.length}, below the ` +
+      `${Math.round(SHRINK_FLOOR * 100)}% floor. If this is deliberate, say so with SHRINK_FLOOR, and ` +
+      `check MAX_CANDIDATES first: lowering it shrinks the catalog and is the usual cause.`
+  );
   process.exit(1);
 }
 
@@ -764,6 +820,7 @@ const feed = {
     dropped_unreadable: discovery.droppedUnreadable,
     skipped_for_rest_budget: discovery.skippedForBudget,
     not_reached_by_cap: discovery.notReachedByCap,
+    curated_unchecked_for_rest_budget: curatedUnchecked,
   },
   categories,
   projects: rows.map((r) => {
