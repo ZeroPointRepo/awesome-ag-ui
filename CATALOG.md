@@ -42,7 +42,7 @@ is [README.md](README.md).
 | [haiku.rag](https://github.com/ggozad/haiku.rag) | Agentic RAG for local and self-hosted document search: hybrid retrieval, reranking and multimodal RAG on embedded… | 584 | ✅ app/frontend/package.json declares an AG-UI package |
 | [open-multi-agent-canvas](https://github.com/CopilotKit/open-multi-agent-canvas) | Manage several agents in one chat | 526 | ✅ agent/pyproject.toml declares a CopilotKit package |
 | [BookWorm](https://github.com/foxminchan/BookWorm) | The practical implementation of Aspire using Microservices, AI-Agents | 504 | ✅ src/Clients/apps/storefront/package.json declares an AG-UI package |
-| [Cyrene-Agent](https://github.com/Playa-0v0/Cyrene-Agent) | Run an AI desktop companion | 428 | ✅ package.json declares an AG-UI package |
+| [Cyrene-Agent](https://github.com/Playa-0v0/Cyrene-Agent) | Run an AI desktop companion | 434 | ✅ package.json declares an AG-UI package |
 | [agent-spec](https://github.com/oracle/agent-spec) | Run an Open Agent Spec agent over AG-UI | 405 | ✅ the protocol repo ships an integration for it |
 | [open-research-ANA](https://github.com/CopilotKit/open-research-ANA) | Run a research canvas | 400 | ✅ agent/requirements.txt declares a CopilotKit package |
 | [stratix-python](https://github.com/LayerLens/stratix-python) |  | 264 | ✅ samples/copilotkit/app/backend/requirements.txt declares a CopilotKit package |

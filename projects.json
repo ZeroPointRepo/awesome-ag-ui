@@ -54,7 +54,7 @@
       "description": {
         "en": "Serve a LangChain agent over AG-UI"
       },
-      "stars": 145091,
+      "stars": 145094,
       "install": "",
       "added": "2026-08-27",
       "agui_dependency": true,
@@ -72,7 +72,7 @@
       "description": {
         "en": "Drive a CrewAI Flow from the browser"
       },
-      "stars": 57660,
+      "stars": 57664,
       "install": "",
       "added": "2026-08-27",
       "agui_dependency": true,
@@ -91,7 +91,7 @@
       "description": {
         "en": "Give a LlamaIndex agent a front end"
       },
-      "stars": 51886,
+      "stars": 51887,
       "install": "",
       "added": "2026-08-27",
       "agui_dependency": true,
@@ -105,7 +105,7 @@
       "description": {
         "en": "Put an Agno agent behind a copilot"
       },
-      "stars": 41936,
+      "stars": 41939,
       "install": "",
       "added": "2026-08-27",
       "agui_dependency": true,
@@ -122,7 +122,7 @@
       "description": {
         "en": "Stream a LangGraph run into a React app"
       },
-      "stars": 40522,
+      "stars": 40524,
       "install": "",
       "added": "2026-08-27",
       "agui_dependency": true,
@@ -140,7 +140,7 @@
       "description": {
         "en": "Drop a copilot into a React, Angular, or mobile app"
       },
-      "stars": 37068,
+      "stars": 37069,
       "install": "",
       "added": "2026-08-27",
       "agui_dependency": true,
@@ -160,7 +160,7 @@
       "description": {
         "en": "Wire a Mastra agent to a chat UI"
       },
-      "stars": 27508,
+      "stars": 27509,
       "install": "",
       "added": "2026-08-27",
       "agui_dependency": true,
@@ -191,7 +191,7 @@
       "description": {
         "en": "Bring a Google ADK agent into a front end"
       },
-      "stars": 21302,
+      "stars": 21303,
       "install": "",
       "added": "2026-08-27",
       "agui_dependency": true,
@@ -224,7 +224,7 @@
       "description": {
         "en": "Read the protocol itself"
       },
-      "stars": 15567,
+      "stars": 15568,
       "install": "",
       "added": "2026-08-27",
       "agui_dependency": true,
@@ -243,7 +243,7 @@
       "description": {
         "en": "Attach a UI to Microsoft Agent Framework"
       },
-      "stars": 13137,
+      "stars": 13141,
       "install": "",
       "added": "2026-08-27",
       "agui_dependency": true,
@@ -260,7 +260,7 @@
       "description": {
         "en": "Generative UI SDK for React"
       },
-      "stars": 11170,
+      "stars": 11169,
       "install": "",
       "added": "2026-08-27",
       "agui_dependency": true,
@@ -278,7 +278,7 @@
       "description": {
         "en": "Put a Spring AI agent behind a copilot"
       },
-      "stars": 9361,
+      "stars": 9362,
       "install": "",
       "added": "2026-08-27",
       "agui_dependency": true,
@@ -306,7 +306,7 @@
       "description": {
         "en": "Run AWS Strands agents with a UI attached"
       },
-      "stars": 7026,
+      "stars": 7028,
       "install": "",
       "added": "2026-08-27",
       "agui_dependency": true,
@@ -425,7 +425,7 @@
       "description": {
         "en": "Open-source AI coworkers that each get a computer of their own: a browser, files and tools, with every action decided before it happens and recorded after. Bring any AG-UI agent."
       },
-      "stars": 3046,
+      "stars": 3048,
       "install": "",
       "added": "2026-08-27",
       "agui_dependency": true,
@@ -442,7 +442,7 @@
       "description": {
         "en": "A Go framework for building production agent systems with graph workflows, tools, memory, A2A, AG-UI, MCP, evaluation, and observability."
       },
-      "stars": 1735,
+      "stars": 1736,
       "install": "",
       "added": "2026-08-27",
       "agui_dependency": true,
@@ -691,7 +691,7 @@
       "description": {
         "en": "Run an AI desktop companion"
       },
-      "stars": 428,
+      "stars": 434,
       "install": "",
       "added": "2026-08-27",
       "agui_dependency": true,
