@@ -45,14 +45,37 @@ async function api(url, raw = false) {
   return undefined; // third state: could not be read
 }
 
+// File bodies come from the raw CDN at a PINNED commit, not from the REST contents API. Two
+// reasons, and the second one is why this changed. Pinning to a sha makes every file in a run come
+// from the same tree, so the config and the specs cannot disagree. And the contents API costs one
+// of the installation's 5,000 hourly REST calls per file, which for 200 spec files is most of the
+// allowance for every other workflow in the repo; the raw CDN costs none. Reading a file by its
+// per-commit raw URL is the same rule we verify our own pushes with.
+let PINNED = null;
+
 async function readFile(p) {
   if (LOCAL) { try { return fs.readFileSync(path.join(LOCAL, p), "utf8"); } catch { return undefined; } }
-  return api(`https://api.github.com/repos/${REPO}/contents/${p}`, true);
+  const ref = PINNED || "HEAD";
+  for (let i = 0; i < 4; i++) {
+    let r;
+    try {
+      r = await fetch(`https://raw.githubusercontent.com/${REPO}/${ref}/${p}`, {
+        headers: { "User-Agent": H["User-Agent"] },
+        signal: AbortSignal.timeout(30000),
+      });
+    } catch { await new Promise((s) => setTimeout(s, 2000)); continue; }
+    if (r.status === 404) return "";
+    if (r.ok) return r.text();
+    await new Promise((s) => setTimeout(s, 2000 * (i + 1)));
+  }
+  failures++;
+  return undefined; // third state: could not be read
 }
 
 async function head() {
   if (LOCAL) return "local";
   const j = await api(`https://api.github.com/repos/${REPO}/commits/HEAD`);
+  PINNED = j?.sha ?? null;
   return j?.sha ?? "unknown";
 }
 
@@ -121,7 +144,7 @@ async function listSpecs() {
     })(root);
     return out;
   }
-  const tree = await api(`https://api.github.com/repos/${REPO}/git/trees/HEAD?recursive=1`);
+  const tree = await api(`https://api.github.com/repos/${REPO}/git/trees/${PINNED || "HEAD"}?recursive=1`);
   if (!tree?.tree) throw new Error("could not read the repo tree; refusing to publish a partial matrix");
   return tree.tree.filter((n) => n.type === "blob" && n.path.startsWith("apps/dojo/e2e/tests/") && /\.(spec|event-trace)\.ts$/.test(n.path)).map((n) => n.path);
 }
@@ -166,7 +189,7 @@ function replaceBlock(text, name, body) {
 }
 
 const main = async () => {
-  const sha = await head();
+  const sha = await head(); // also pins every subsequent read to this exact tree
   const { features, labels, integrations, shelved } = await loadConfig();
   const known = new Set(features);
   const { tested, specCount, unresolved, unreadable } = await loadTested(known);
