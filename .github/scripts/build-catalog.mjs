@@ -96,7 +96,28 @@ function expandVars(md) {
 
 let readFailures = 0;
 
+// File bodies come from the raw CDN, which costs nothing against the installation's 5,000 REST
+// calls an hour. That allowance is shared with every other workflow in this repo, and spending it
+// on file reads is what starved the link check the first time this ran at full size. The REST
+// contents endpoint is kept as the fallback for the one thing raw cannot do: resolve which of
+// README.md, readme.md or README.rst a repo actually has.
+async function rawText(slug, file) {
+  try {
+    const r = await fetch(`https://raw.githubusercontent.com/${slug}/HEAD/${file}`, {
+      headers: { 'User-Agent': H['User-Agent'] },
+      signal: AbortSignal.timeout(20000),
+    });
+    if (r.status === 404) return '';
+    if (!r.ok) return null;
+    return await r.text();
+  } catch {
+    return null;
+  }
+}
+
 async function fetchReadme(slug) {
+  const quick = await rawText(slug, 'README.md');
+  if (quick) return expandVars(quick);
   const r = await api(`https://api.github.com/repos/${slug}/readme`);
   if (!r.ok) {
     readFailures++;
@@ -330,12 +351,7 @@ try {
 }
 
 async function rawFile(slug, file) {
-  const r = await api(`https://api.github.com/repos/${slug}/contents/${encodeURIComponent(file)}`);
-  if (r.status === 404) return '';
-  if (!r.ok) return null;
-  const j = await r.json();
-  if (!j || !j.content) return '';
-  return Buffer.from(j.content, 'base64').toString('utf8');
+  return rawText(slug, file);
 }
 
 async function depEvidence(slug, md) {
@@ -484,7 +500,7 @@ async function run(items, fn) {
 let curatedUnchecked = 0;
 await run(curated, async (e) => {
   if (budgetLeft <= RESERVE) { curatedUnchecked++; return; }
-  budgetLeft -= 6;
+  budgetLeft -= 2; // the repo lookup and the tree read; file bodies come off the raw CDN
   if (budgetLeft % 250 < 6) await refreshBudget();
   const r = await api(`https://api.github.com/repos/${e.slug}`);
   if (!r.ok) return void dropped.unresolved++;
@@ -518,7 +534,7 @@ await run(curated, async (e) => {
 
 await run(shortlist, async (it) => {
   if (budgetLeft <= RESERVE) { discovery.skippedForBudget++; return; }
-  budgetLeft -= 5; // one tree read, up to three manifests, one README
+  budgetLeft -= 1; // one tree read; the README and the manifests come off the raw CDN
   if (budgetLeft % 250 < 5) await refreshBudget();
   const md = await fetchReadme(it.full_name);
   let cmd = null;
