@@ -432,6 +432,24 @@ function extractImages(slug, md) {
 
 // ---------------------------------------------------------------- verify + assemble
 
+// The Actions token gets 5,000 REST calls an hour for the whole installation, shared with every
+// other workflow in the repo. A full discovery pass at MAX_CANDIDATES can eat most of that, and the
+// first time it did, the link-check job an hour later failed on a rate limit it had no part in
+// causing. So discovery stops while there is still budget for the other jobs, and says how many
+// candidates it skipped. A cap that is not printed reads as "we checked everything".
+const RESERVE = Number(process.env.RATE_RESERVE || 600);
+let budgetLeft = Infinity;
+async function refreshBudget() {
+  try {
+    const r = await fetch('https://api.github.com/rate_limit', { headers: H });
+    if (!r.ok) return;
+    const j = await r.json();
+    budgetLeft = j.resources?.core?.remaining ?? Infinity;
+  } catch { /* leave the last reading in place */ }
+}
+await refreshBudget();
+console.log(`REST budget at start: ${budgetLeft === Infinity ? 'unknown' : budgetLeft} (reserving ${RESERVE} for other jobs)`);
+
 const rows = [];
 const dropped = { unresolved: 0, archived: 0, renamed: 0, noCommand: 0, noEvidence: 0 };
 
@@ -475,7 +493,11 @@ await run(curated, async (e) => {
   });
 });
 
+let budgetStopped = 0;
 await run(shortlist, async (it) => {
+  if (budgetLeft <= RESERVE) { budgetStopped++; return; }
+  budgetLeft -= 5; // one tree read, up to three manifests, one README
+  if (budgetLeft % 250 < 5) await refreshBudget();
   const md = await fetchReadme(it.full_name);
   let cmd = null;
   if (INSTALL_RE) {
