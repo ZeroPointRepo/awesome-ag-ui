@@ -1,0 +1,7 @@
+{
+  "_note": "MCP servers this list names, with the endpoint each one's own documentation publishes. The generator opens an unauthenticated MCP initialize against each and records what the server does about auth, because that is exactly the boundary @ag-ui/mcp-middleware cares about: it stamps static headers on outbound requests and runs no OAuth flow, so a server that needs a static key works and one that needs an interactive sign-in does not. Endpoints are read off the project's own docs and never guessed from a repo name.",
+  "endpoints": {
+    "ZeroPointRepo/zillow-mcp": "https://api.zillapi.com/mcp",
+    "ZeroPointRepo/youtube-mcp": "https://transcriptapi.com/mcp"
+  }
+}

@@ -1,0 +1,262 @@
+integration_id,integration_name,capability,declared,disabled,spec
+"agent-spec-langgraph","Open Agent Spec (LangGraph)","agentic_chat",true,false,true
+"agent-spec-langgraph","Open Agent Spec (LangGraph)","human_in_the_loop",true,false,false
+"agent-spec-langgraph","Open Agent Spec (LangGraph)","tool_based_generative_ui",true,false,false
+"agent-spec-langgraph","Open Agent Spec (LangGraph)","backend_tool_rendering",true,false,false
+"agent-spec-langgraph","Open Agent Spec (LangGraph)","v1_agentic_chat",true,false,false
+"agent-spec-wayflow","Open Agent Spec (Wayflow)","agentic_chat",true,false,true
+"agent-spec-wayflow","Open Agent Spec (Wayflow)","human_in_the_loop",true,false,false
+"agent-spec-wayflow","Open Agent Spec (Wayflow)","tool_based_generative_ui",true,false,false
+"agent-spec-wayflow","Open Agent Spec (Wayflow)","backend_tool_rendering",true,false,false
+"agent-spec-wayflow","Open Agent Spec (Wayflow)","v1_agentic_chat",true,false,false
+"langgraph","LangGraph (Python)","agentic_chat",true,false,true
+"langgraph","LangGraph (Python)","agentic_generative_ui",true,false,true
+"langgraph","LangGraph (Python)","human_in_the_loop",true,false,true
+"langgraph","LangGraph (Python)","predictive_state_updates",true,false,true
+"langgraph","LangGraph (Python)","shared_state",true,false,true
+"langgraph","LangGraph (Python)","tool_based_generative_ui",true,false,true
+"langgraph","LangGraph (Python)","backend_tool_rendering",true,false,true
+"langgraph","LangGraph (Python)","agentic_chat_reasoning",true,false,true
+"langgraph","LangGraph (Python)","agentic_chat_multimodal",true,false,true
+"langgraph","LangGraph (Python)","subgraphs",true,false,true
+"langgraph","LangGraph (Python)","v1_agentic_chat",true,false,true
+"langgraph","LangGraph (Python)","a2ui_fixed_schema",true,false,true
+"langgraph","LangGraph (Python)","a2ui_dynamic_schema",true,false,true
+"langgraph","LangGraph (Python)","a2ui_advanced",true,false,true
+"langgraph-fastapi","LangGraph (FastAPI)","agentic_chat",true,false,true
+"langgraph-fastapi","LangGraph (FastAPI)","agentic_generative_ui",true,false,true
+"langgraph-fastapi","LangGraph (FastAPI)","human_in_the_loop",true,false,true
+"langgraph-fastapi","LangGraph (FastAPI)","predictive_state_updates",true,false,true
+"langgraph-fastapi","LangGraph (FastAPI)","shared_state",true,false,true
+"langgraph-fastapi","LangGraph (FastAPI)","tool_based_generative_ui",true,false,true
+"langgraph-fastapi","LangGraph (FastAPI)","backend_tool_rendering",true,false,true
+"langgraph-fastapi","LangGraph (FastAPI)","agentic_chat_reasoning",true,false,true
+"langgraph-fastapi","LangGraph (FastAPI)","agentic_chat_multimodal",true,false,true
+"langgraph-fastapi","LangGraph (FastAPI)","subgraphs",true,false,true
+"langgraph-fastapi","LangGraph (FastAPI)","v1_agentic_chat",true,false,true
+"langgraph-fastapi","LangGraph (FastAPI)","a2ui_fixed_schema",true,false,true
+"langgraph-fastapi","LangGraph (FastAPI)","a2ui_dynamic_schema",true,false,true
+"langgraph-fastapi","LangGraph (FastAPI)","a2ui_advanced",true,false,true
+"langgraph-typescript","LangGraph (Typescript)","agentic_chat",true,false,true
+"langgraph-typescript","LangGraph (Typescript)","agentic_generative_ui",true,false,true
+"langgraph-typescript","LangGraph (Typescript)","human_in_the_loop",true,false,true
+"langgraph-typescript","LangGraph (Typescript)","predictive_state_updates",true,false,true
+"langgraph-typescript","LangGraph (Typescript)","shared_state",true,false,true
+"langgraph-typescript","LangGraph (Typescript)","tool_based_generative_ui",true,false,true
+"langgraph-typescript","LangGraph (Typescript)","backend_tool_rendering",false,true,false
+"langgraph-typescript","LangGraph (Typescript)","agentic_chat_reasoning",true,false,true
+"langgraph-typescript","LangGraph (Typescript)","agentic_chat_multimodal",true,false,true
+"langgraph-typescript","LangGraph (Typescript)","subgraphs",true,false,true
+"langgraph-typescript","LangGraph (Typescript)","v1_agentic_chat",true,false,true
+"langgraph-typescript","LangGraph (Typescript)","a2ui_fixed_schema",true,false,true
+"langgraph-typescript","LangGraph (Typescript)","a2ui_dynamic_schema",true,false,true
+"langgraph-typescript","LangGraph (Typescript)","a2ui_advanced",true,false,true
+"langgraph-typescript","LangGraph (Typescript)","a2ui_recovery",true,false,true
+"mastra","Mastra","agentic_chat",true,false,true
+"mastra","Mastra","human_in_the_loop",true,false,true
+"mastra","Mastra","interrupt",true,false,true
+"mastra","Mastra","shared_state",true,false,true
+"mastra","Mastra","tool_based_generative_ui",true,false,true
+"mastra","Mastra","backend_tool_rendering",true,false,true
+"mastra","Mastra","agentic_chat_reasoning",true,false,true
+"mastra","Mastra","agentic_chat_multimodal",true,false,true
+"mastra","Mastra","v1_agentic_chat",true,false,true
+"mastra","Mastra","a2ui_fixed_schema",true,false,true
+"mastra","Mastra","a2ui_dynamic_schema",true,false,true
+"mastra","Mastra","a2ui_recovery",true,false,true
+"mastra","Mastra","observational_memory",true,false,true
+"mastra-agent-local","Mastra Agent (Local)","agentic_chat",true,false,true
+"mastra-agent-local","Mastra Agent (Local)","human_in_the_loop",true,false,true
+"mastra-agent-local","Mastra Agent (Local)","interrupt",true,false,true
+"mastra-agent-local","Mastra Agent (Local)","shared_state",true,false,true
+"mastra-agent-local","Mastra Agent (Local)","tool_based_generative_ui",true,false,true
+"mastra-agent-local","Mastra Agent (Local)","backend_tool_rendering",true,false,true
+"mastra-agent-local","Mastra Agent (Local)","v1_agentic_chat",true,false,true
+"mastra-agent-local","Mastra Agent (Local)","a2ui_fixed_schema",true,false,true
+"mastra-agent-local","Mastra Agent (Local)","a2ui_dynamic_schema",true,false,true
+"mastra-agent-local","Mastra Agent (Local)","a2ui_recovery",true,false,true
+"mastra-agent-local","Mastra Agent (Local)","background_agents",true,false,true
+"mastra-agent-local","Mastra Agent (Local)","observational_memory",true,false,true
+"spring-ai","Spring AI","agentic_chat",true,false,true
+"spring-ai","Spring AI","agentic_generative_ui",true,false,false
+"spring-ai","Spring AI","human_in_the_loop",true,false,false
+"spring-ai","Spring AI","shared_state",true,false,false
+"spring-ai","Spring AI","tool_based_generative_ui",true,false,false
+"spring-ai","Spring AI","v1_agentic_chat",true,false,false
+"pydantic-ai","Pydantic AI","agentic_chat",true,false,true
+"pydantic-ai","Pydantic AI","agentic_generative_ui",true,false,true
+"pydantic-ai","Pydantic AI","human_in_the_loop",true,false,true
+"pydantic-ai","Pydantic AI","predictive_state_updates",false,true,false
+"pydantic-ai","Pydantic AI","shared_state",true,false,true
+"pydantic-ai","Pydantic AI","tool_based_generative_ui",true,false,true
+"pydantic-ai","Pydantic AI","backend_tool_rendering",true,false,true
+"pydantic-ai","Pydantic AI","agentic_chat_multimodal",true,false,true
+"pydantic-ai","Pydantic AI","v1_agentic_chat",true,false,true
+"adk-middleware","Google ADK","agentic_chat",true,false,true
+"adk-middleware","Google ADK","human_in_the_loop",true,false,true
+"adk-middleware","Google ADK","predictive_state_updates",true,false,true
+"adk-middleware","Google ADK","shared_state",true,false,true
+"adk-middleware","Google ADK","tool_based_generative_ui",true,false,true
+"adk-middleware","Google ADK","backend_tool_rendering",true,false,true
+"adk-middleware","Google ADK","v1_agentic_chat",true,false,true
+"adk-middleware","Google ADK","a2ui_fixed_schema",true,false,true
+"adk-middleware","Google ADK","a2ui_dynamic_schema",true,false,true
+"adk-middleware","Google ADK","a2ui_recovery",true,false,true
+"microsoft-agent-framework-dotnet","Microsoft Agent Framework (.NET)","agentic_chat",true,false,true
+"microsoft-agent-framework-dotnet","Microsoft Agent Framework (.NET)","agentic_generative_ui",true,false,false
+"microsoft-agent-framework-dotnet","Microsoft Agent Framework (.NET)","human_in_the_loop",true,false,false
+"microsoft-agent-framework-dotnet","Microsoft Agent Framework (.NET)","predictive_state_updates",true,false,false
+"microsoft-agent-framework-dotnet","Microsoft Agent Framework (.NET)","shared_state",true,false,false
+"microsoft-agent-framework-dotnet","Microsoft Agent Framework (.NET)","tool_based_generative_ui",true,false,false
+"microsoft-agent-framework-dotnet","Microsoft Agent Framework (.NET)","backend_tool_rendering",true,false,false
+"microsoft-agent-framework-dotnet","Microsoft Agent Framework (.NET)","subgraphs",true,false,false
+"microsoft-agent-framework-dotnet","Microsoft Agent Framework (.NET)","v1_agentic_chat",true,false,false
+"ag-ui-dotnet","AG-UI .NET SDK","agentic_chat",true,false,true
+"ag-ui-dotnet","AG-UI .NET SDK","agentic_generative_ui",true,false,true
+"ag-ui-dotnet","AG-UI .NET SDK","human_in_the_loop",true,false,true
+"ag-ui-dotnet","AG-UI .NET SDK","predictive_state_updates",true,false,true
+"ag-ui-dotnet","AG-UI .NET SDK","shared_state",true,false,true
+"ag-ui-dotnet","AG-UI .NET SDK","tool_based_generative_ui",true,false,true
+"ag-ui-dotnet","AG-UI .NET SDK","backend_tool_rendering",true,false,true
+"ag-ui-dotnet","AG-UI .NET SDK","v1_agentic_chat",true,false,true
+"ag-ui-dotnet","AG-UI .NET SDK","a2ui_fixed_schema",true,false,true
+"ag-ui-dotnet","AG-UI .NET SDK","a2ui_dynamic_schema",true,false,true
+"ag-ui-dotnet","AG-UI .NET SDK","a2ui_advanced",true,false,true
+"ag-ui-dotnet","AG-UI .NET SDK","a2ui_recovery",true,false,true
+"microsoft-agent-framework-python","Microsoft Agent Framework (Python)","agentic_chat",true,false,true
+"microsoft-agent-framework-python","Microsoft Agent Framework (Python)","agentic_generative_ui",true,false,false
+"microsoft-agent-framework-python","Microsoft Agent Framework (Python)","human_in_the_loop",true,false,false
+"microsoft-agent-framework-python","Microsoft Agent Framework (Python)","predictive_state_updates",true,false,false
+"microsoft-agent-framework-python","Microsoft Agent Framework (Python)","shared_state",true,false,false
+"microsoft-agent-framework-python","Microsoft Agent Framework (Python)","tool_based_generative_ui",true,false,false
+"microsoft-agent-framework-python","Microsoft Agent Framework (Python)","backend_tool_rendering",true,false,false
+"microsoft-agent-framework-python","Microsoft Agent Framework (Python)","agentic_chat_multimodal",true,false,false
+"microsoft-agent-framework-python","Microsoft Agent Framework (Python)","v1_agentic_chat",true,false,false
+"ag2","AG2","agentic_chat",true,false,true
+"ag2","AG2","agentic_generative_ui",true,false,false
+"ag2","AG2","human_in_the_loop",true,false,false
+"ag2","AG2","shared_state",true,false,false
+"ag2","AG2","tool_based_generative_ui",true,false,false
+"ag2","AG2","backend_tool_rendering",true,false,false
+"ag2","AG2","agentic_chat_multimodal",true,false,false
+"ag2","AG2","v1_agentic_chat",true,false,false
+"agno","Agno","agentic_chat",true,false,true
+"agno","Agno","agentic_generative_ui",true,false,false
+"agno","Agno","human_in_the_loop",true,false,true
+"agno","Agno","predictive_state_updates",true,false,false
+"agno","Agno","shared_state",true,false,false
+"agno","Agno","tool_based_generative_ui",true,false,true
+"agno","Agno","backend_tool_rendering",true,false,true
+"agno","Agno","agentic_chat_reasoning",true,false,false
+"agno","Agno","agentic_chat_multimodal",true,false,false
+"agno","Agno","v1_agentic_chat",true,false,true
+"llama-index","LlamaIndex","agentic_chat",true,false,true
+"llama-index","LlamaIndex","agentic_generative_ui",true,false,true
+"llama-index","LlamaIndex","human_in_the_loop",true,false,true
+"llama-index","LlamaIndex","shared_state",true,false,true
+"llama-index","LlamaIndex","backend_tool_rendering",true,false,true
+"llama-index","LlamaIndex","agentic_chat_multimodal",true,false,true
+"llama-index","LlamaIndex","v1_agentic_chat",true,false,true
+"crewai","CrewAI Flows","agentic_chat",true,false,true
+"crewai","CrewAI Flows","agentic_generative_ui",true,false,true
+"crewai","CrewAI Flows","human_in_the_loop",true,false,true
+"crewai","CrewAI Flows","interrupt",true,false,true
+"crewai","CrewAI Flows","predictive_state_updates",true,false,true
+"crewai","CrewAI Flows","shared_state",true,false,true
+"crewai","CrewAI Flows","tool_based_generative_ui",true,false,true
+"crewai","CrewAI Flows","backend_tool_rendering",true,false,true
+"crewai","CrewAI Flows","agentic_chat_reasoning",true,false,true
+"crewai","CrewAI Flows","agentic_chat_multimodal",true,false,true
+"crewai","CrewAI Flows","v1_agentic_chat",true,false,true
+"crewai","CrewAI Flows","a2ui_fixed_schema",true,false,true
+"crewai","CrewAI Flows","a2ui_dynamic_schema",true,false,true
+"crewai","CrewAI Flows","a2ui_recovery",true,false,true
+"crewai","CrewAI Flows","crew_chat",true,false,true
+"crewai","CrewAI Flows","error_flow",true,false,true
+"crewai-conversational-flows","CrewAI Conversational Flows","agentic_chat",true,false,true
+"crewai-conversational-flows","CrewAI Conversational Flows","agentic_generative_ui",true,false,true
+"crewai-conversational-flows","CrewAI Conversational Flows","human_in_the_loop",true,false,true
+"crewai-conversational-flows","CrewAI Conversational Flows","interrupt",true,false,true
+"crewai-conversational-flows","CrewAI Conversational Flows","predictive_state_updates",true,false,true
+"crewai-conversational-flows","CrewAI Conversational Flows","shared_state",true,false,true
+"crewai-conversational-flows","CrewAI Conversational Flows","tool_based_generative_ui",true,false,true
+"crewai-conversational-flows","CrewAI Conversational Flows","backend_tool_rendering",true,false,true
+"crewai-conversational-flows","CrewAI Conversational Flows","agentic_chat_reasoning",true,false,true
+"crewai-conversational-flows","CrewAI Conversational Flows","agentic_chat_multimodal",true,false,true
+"crewai-conversational-flows","CrewAI Conversational Flows","v1_agentic_chat",true,false,true
+"crewai-conversational-flows","CrewAI Conversational Flows","a2ui_fixed_schema",true,false,true
+"crewai-conversational-flows","CrewAI Conversational Flows","a2ui_dynamic_schema",true,false,true
+"crewai-conversational-flows","CrewAI Conversational Flows","a2ui_recovery",true,false,true
+"middleware-starter","Middleware Starter","agentic_chat",true,false,true
+"middleware-starter","Middleware Starter","v1_agentic_chat",true,false,true
+"server-starter","Server Starter","agentic_chat",true,false,true
+"server-starter","Server Starter","v1_agentic_chat",true,false,true
+"server-starter-all-features","Server Starter (All Features)","agentic_chat",true,false,true
+"server-starter-all-features","Server Starter (All Features)","agentic_generative_ui",true,false,true
+"server-starter-all-features","Server Starter (All Features)","human_in_the_loop",true,false,true
+"server-starter-all-features","Server Starter (All Features)","predictive_state_updates",true,false,true
+"server-starter-all-features","Server Starter (All Features)","shared_state",true,false,true
+"server-starter-all-features","Server Starter (All Features)","tool_based_generative_ui",true,false,true
+"server-starter-all-features","Server Starter (All Features)","backend_tool_rendering",true,false,true
+"server-starter-all-features","Server Starter (All Features)","agentic_chat_reasoning",false,true,false
+"server-starter-all-features","Server Starter (All Features)","v1_agentic_chat",true,false,true
+"aws-strands","AWS Strands (Python)","agentic_chat",true,false,true
+"aws-strands","AWS Strands (Python)","agentic_generative_ui",true,false,true
+"aws-strands","AWS Strands (Python)","human_in_the_loop",true,false,true
+"aws-strands","AWS Strands (Python)","interrupt",true,false,true
+"aws-strands","AWS Strands (Python)","predictive_state_updates",true,false,true
+"aws-strands","AWS Strands (Python)","shared_state",true,false,true
+"aws-strands","AWS Strands (Python)","tool_based_generative_ui",true,false,true
+"aws-strands","AWS Strands (Python)","backend_tool_rendering",true,false,true
+"aws-strands","AWS Strands (Python)","agentic_chat_reasoning",true,false,true
+"aws-strands","AWS Strands (Python)","agentic_chat_multimodal",true,false,true
+"aws-strands","AWS Strands (Python)","multi_agent",true,false,true
+"aws-strands","AWS Strands (Python)","v1_agentic_chat",true,false,true
+"aws-strands","AWS Strands (Python)","a2ui_fixed_schema",true,false,true
+"aws-strands","AWS Strands (Python)","a2ui_dynamic_schema",true,false,true
+"aws-strands","AWS Strands (Python)","a2ui_advanced",true,false,true
+"aws-strands","AWS Strands (Python)","a2ui_recovery",true,false,true
+"aws-strands-typescript","AWS Strands (TypeScript)","agentic_chat",true,false,true
+"aws-strands-typescript","AWS Strands (TypeScript)","agentic_generative_ui",true,false,true
+"aws-strands-typescript","AWS Strands (TypeScript)","human_in_the_loop",true,false,true
+"aws-strands-typescript","AWS Strands (TypeScript)","interrupt",true,false,true
+"aws-strands-typescript","AWS Strands (TypeScript)","predictive_state_updates",true,false,true
+"aws-strands-typescript","AWS Strands (TypeScript)","shared_state",true,false,true
+"aws-strands-typescript","AWS Strands (TypeScript)","tool_based_generative_ui",true,false,true
+"aws-strands-typescript","AWS Strands (TypeScript)","backend_tool_rendering",true,false,true
+"aws-strands-typescript","AWS Strands (TypeScript)","agentic_chat_reasoning",true,false,true
+"aws-strands-typescript","AWS Strands (TypeScript)","agentic_chat_multimodal",true,false,true
+"aws-strands-typescript","AWS Strands (TypeScript)","multi_agent",true,false,true
+"aws-strands-typescript","AWS Strands (TypeScript)","v1_agentic_chat",true,false,true
+"aws-strands-typescript","AWS Strands (TypeScript)","a2ui_fixed_schema",true,false,true
+"aws-strands-typescript","AWS Strands (TypeScript)","a2ui_dynamic_schema",true,false,true
+"aws-strands-typescript","AWS Strands (TypeScript)","a2ui_advanced",true,false,true
+"aws-strands-typescript","AWS Strands (TypeScript)","a2ui_recovery",true,false,true
+"claude-agent-sdk-python","Claude Agent SDK (Python)","agentic_chat",true,false,true
+"claude-agent-sdk-python","Claude Agent SDK (Python)","human_in_the_loop",true,false,true
+"claude-agent-sdk-python","Claude Agent SDK (Python)","shared_state",true,false,true
+"claude-agent-sdk-python","Claude Agent SDK (Python)","tool_based_generative_ui",true,false,true
+"claude-agent-sdk-python","Claude Agent SDK (Python)","backend_tool_rendering",true,false,true
+"claude-agent-sdk-typescript","Claude Agent SDK (Typescript)","agentic_chat",true,false,true
+"claude-agent-sdk-typescript","Claude Agent SDK (Typescript)","human_in_the_loop",true,false,true
+"claude-agent-sdk-typescript","Claude Agent SDK (Typescript)","shared_state",true,false,true
+"claude-agent-sdk-typescript","Claude Agent SDK (Typescript)","tool_based_generative_ui",true,false,true
+"claude-agent-sdk-typescript","Claude Agent SDK (Typescript)","backend_tool_rendering",true,false,true
+"claude-managed-agents-dotnet","Claude Managed Agents (.NET)","agentic_chat",true,false,false
+"claude-managed-agents-dotnet","Claude Managed Agents (.NET)","human_in_the_loop",true,false,false
+"claude-managed-agents-dotnet","Claude Managed Agents (.NET)","tool_based_generative_ui",true,false,false
+"claude-managed-agents-dotnet","Claude Managed Agents (.NET)","backend_tool_rendering",true,false,false
+"claude-managed-agents-python","Claude Managed Agents (Python)","agentic_chat",true,false,false
+"claude-managed-agents-python","Claude Managed Agents (Python)","human_in_the_loop",true,false,false
+"claude-managed-agents-python","Claude Managed Agents (Python)","tool_based_generative_ui",true,false,false
+"claude-managed-agents-python","Claude Managed Agents (Python)","backend_tool_rendering",true,false,false
+"claude-managed-agents-typescript","Claude Managed Agents (Typescript)","agentic_chat",true,false,false
+"claude-managed-agents-typescript","Claude Managed Agents (Typescript)","human_in_the_loop",true,false,false
+"claude-managed-agents-typescript","Claude Managed Agents (Typescript)","tool_based_generative_ui",true,false,false
+"claude-managed-agents-typescript","Claude Managed Agents (Typescript)","backend_tool_rendering",true,false,false
+"langroid","Langroid","agentic_chat",true,false,true
+"langroid","Langroid","agentic_generative_ui",true,false,true
+"langroid","Langroid","shared_state",true,false,true
+"langroid","Langroid","backend_tool_rendering",true,false,true
+"watsonx","IBM watsonx orchestrate","agentic_chat",true,false,false
+"watsonx","IBM watsonx orchestrate","v1_agentic_chat",true,false,false

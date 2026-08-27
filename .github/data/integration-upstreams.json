@@ -1,0 +1,33 @@
+{
+  "_note": "Framework repositories that ag-ui-protocol/ag-ui ships an integration for, keyed by the dojo integration id. Hand-maintained: the protocol repo names its integrations by directory, not by upstream URL, so the mapping from `integrations/<dir>` to the project's own repository is the one link in the chain a script cannot derive. Everything downstream of it is generated. Add a row when the protocol repo adds an integration directory.",
+  "upstreams": {
+    "langgraph": "langchain-ai/langgraph",
+    "langgraph-fastapi": "langchain-ai/langgraph",
+    "langgraph-typescript": "langchain-ai/langgraph",
+    "langchain": "langchain-ai/langchain",
+    "mastra": "mastra-ai/mastra",
+    "mastra-agent-local": "mastra-ai/mastra",
+    "crewai": "crewAIInc/crewAI",
+    "crewai-conversational-flows": "crewAIInc/crewAI",
+    "pydantic-ai": "pydantic/pydantic-ai",
+    "adk-middleware": "google/adk-python",
+    "microsoft-agent-framework-dotnet": "microsoft/agent-framework",
+    "microsoft-agent-framework-python": "microsoft/agent-framework",
+    "ag2": "ag2ai/ag2",
+    "agno": "agno-agi/agno",
+    "llama-index": "run-llama/llama_index",
+    "aws-strands": "strands-agents/harness-sdk",
+    "aws-strands-typescript": "strands-agents/harness-sdk",
+    "claude-agent-sdk-python": "anthropics/claude-agent-sdk-python",
+    "claude-agent-sdk-typescript": "anthropics/claude-agent-sdk-python",
+    "langroid": "langroid/langroid",
+    "agent-spec-langgraph": "oracle/agent-spec",
+    "agent-spec-wayflow": "oracle/wayflow",
+    "spring-ai": "spring-projects/spring-ai",
+    "genkit": "genkit-ai/genkit",
+    "cloudflare-agents": "cloudflare/agents",
+    "watsonx": "IBM/ibm-watsonx-orchestrate-adk",
+    "vercel-ai-sdk": "vercel/ai",
+    "a2a": "a2aproject/A2A"
+  }
+}

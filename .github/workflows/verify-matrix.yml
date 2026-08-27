@@ -1,0 +1,100 @@
+name: verify-matrix
+
+# Rebuilds every derived layer from live sources: the AG-UI capability matrix out of the protocol
+# repo, then the catalog out of this README plus repository search. The matrix runs first because
+# the README numbers it writes are what the catalog step then counts around.
+
+on:
+  schedule:
+    - cron: "0 8 * * 1" # Mondays 08:00 UTC, ahead of the weekly maintenance pass
+  workflow_dispatch: {}
+  push:
+    branches: [main]
+    paths:
+      - README.md
+      - .github/scripts/build-matrix.mjs
+      - .github/scripts/build-catalog.mjs
+      - .github/data/integration-upstreams.json
+      - .github/workflows/verify-matrix.yml
+
+permissions:
+  contents: write
+
+concurrency:
+  group: verify-matrix
+  cancel-in-progress: false
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Rebuild the capability matrix from ag-ui-protocol/ag-ui
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: node .github/scripts/build-matrix.mjs
+
+      # Runs even when the matrix step aborted, because the catalog reads different sources and a
+      # protocol-repo hiccup should not also freeze the catalog.
+      - name: Rebuild CATALOG.md, catalog.csv and projects.json
+        if: always()
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          MAX_CANDIDATES: "500"
+        run: node .github/scripts/build-catalog.mjs
+
+      - name: Commit whatever changed
+        if: always()
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          TRACKED="README.md MATRIX.md matrix.csv matrix.json badges CATALOG.md catalog.csv projects.json .github/data/first-seen.json"
+          if git diff --quiet -- $TRACKED; then
+            echo "Nothing moved this run."
+            exit 0
+          fi
+          git add $TRACKED
+          git commit -m "chore: refresh matrix and catalog [skip ci]"
+          # Two runs can finish at once (the weekly cron, a push, a manual dispatch). Rebasing does
+          # not work here: both rewrite the same generated files, so the rebase stops on a content
+          # conflict every time. These files are pure output, so the loser replays its own copy on
+          # top of whatever landed first, and only the generated README blocks are re-applied.
+          for i in 1 2 3; do
+            git push && exit 0
+            git fetch origin main
+            tmp=$(mktemp -d)
+            cp -r MATRIX.md matrix.csv matrix.json badges CATALOG.md catalog.csv projects.json .github/data/first-seen.json "$tmp"/
+            cp README.md "$tmp/README.mine"
+            git reset --hard origin/main
+            # A first-seen date can only ever be recorded too late, so keeping the earlier one is
+            # always the truthful merge. Every other field has no known error direction, so those
+            # are replayed wholesale from this run rather than merged.
+            node -e '
+              const fs=require("fs"), a=process.argv[1], b=process.argv[2];
+              const rd=p=>{try{return JSON.parse(fs.readFileSync(p,"utf8"))}catch{return{seen:{}}}};
+              const mine=rd(a), theirs=rd(b), seen={...theirs.seen};
+              for(const [k,v] of Object.entries(mine.seen||{})) if(!seen[k]||v<seen[k]) seen[k]=v;
+              mine.seen=Object.fromEntries(Object.entries(seen).sort(([x],[y])=>x.localeCompare(y)));
+              fs.writeFileSync(b, JSON.stringify(mine,null,2)+"\n");
+            ' "$tmp/first-seen.json" .github/data/first-seen.json
+            cp -r "$tmp"/MATRIX.md "$tmp"/matrix.csv "$tmp"/matrix.json "$tmp"/badges "$tmp"/CATALOG.md "$tmp"/catalog.csv "$tmp"/projects.json .
+            # README prose is whatever landed on main; only the generated blocks come from this run.
+            node -e '
+              const fs=require("fs");
+              const mine=fs.readFileSync(process.argv[1],"utf8");
+              let base=fs.readFileSync("README.md","utf8");
+              for (const name of ["matrix","capabilities","catalogcount"]) {
+                const re=new RegExp("(<!-- "+name+":start -->)[\\\\s\\\\S]*?(<!-- "+name+":end -->)");
+                const m=mine.match(re);
+                if (m && re.test(base)) base=base.replace(re, m[0]);
+              }
+              const badge=mine.match(/badge\/projects-\d+-6963ff/);
+              if (badge) base=base.replace(/badge\/projects-\d+-6963ff/, badge[0]);
+              fs.writeFileSync("README.md", base);
+            ' "$tmp/README.mine"
+            git add $TRACKED
+            git diff --cached --quiet && exit 0
+            git commit -m "chore: refresh matrix and catalog [skip ci]"
+          done
+          git push

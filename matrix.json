@@ -1,0 +1,826 @@
+{
+  "source": "ag-ui-protocol/ag-ui",
+  "commit": "1edff613daf16f12438dd19ce283d61d1907c650",
+  "checked": "2026-08-27",
+  "integrations": [
+    {
+      "id": "agent-spec-langgraph",
+      "name": "Open Agent Spec (LangGraph)",
+      "declared": [
+        "agentic_chat",
+        "v1_agentic_chat",
+        "backend_tool_rendering",
+        "human_in_the_loop",
+        "tool_based_generative_ui"
+      ],
+      "disabled": [],
+      "tested": [
+        "agentic_chat"
+      ]
+    },
+    {
+      "id": "agent-spec-wayflow",
+      "name": "Open Agent Spec (Wayflow)",
+      "declared": [
+        "agentic_chat",
+        "v1_agentic_chat",
+        "backend_tool_rendering",
+        "human_in_the_loop",
+        "tool_based_generative_ui"
+      ],
+      "disabled": [],
+      "tested": [
+        "agentic_chat"
+      ]
+    },
+    {
+      "id": "langgraph",
+      "name": "LangGraph (Python)",
+      "declared": [
+        "agentic_chat",
+        "agentic_chat_reasoning",
+        "agentic_chat_multimodal",
+        "v1_agentic_chat",
+        "backend_tool_rendering",
+        "human_in_the_loop",
+        "agentic_generative_ui",
+        "predictive_state_updates",
+        "shared_state",
+        "tool_based_generative_ui",
+        "subgraphs",
+        "a2ui_dynamic_schema",
+        "a2ui_fixed_schema",
+        "a2ui_advanced"
+      ],
+      "disabled": [],
+      "tested": [
+        "agentic_chat",
+        "agentic_chat_reasoning",
+        "agentic_chat_multimodal",
+        "v1_agentic_chat",
+        "backend_tool_rendering",
+        "human_in_the_loop",
+        "agentic_generative_ui",
+        "predictive_state_updates",
+        "shared_state",
+        "tool_based_generative_ui",
+        "subgraphs",
+        "a2ui_dynamic_schema",
+        "a2ui_fixed_schema",
+        "a2ui_advanced"
+      ]
+    },
+    {
+      "id": "langgraph-fastapi",
+      "name": "LangGraph (FastAPI)",
+      "declared": [
+        "agentic_chat",
+        "agentic_chat_reasoning",
+        "agentic_chat_multimodal",
+        "v1_agentic_chat",
+        "backend_tool_rendering",
+        "human_in_the_loop",
+        "agentic_generative_ui",
+        "predictive_state_updates",
+        "shared_state",
+        "tool_based_generative_ui",
+        "subgraphs",
+        "a2ui_fixed_schema",
+        "a2ui_dynamic_schema",
+        "a2ui_advanced"
+      ],
+      "disabled": [],
+      "tested": [
+        "agentic_chat",
+        "agentic_chat_reasoning",
+        "agentic_chat_multimodal",
+        "v1_agentic_chat",
+        "backend_tool_rendering",
+        "human_in_the_loop",
+        "agentic_generative_ui",
+        "predictive_state_updates",
+        "shared_state",
+        "tool_based_generative_ui",
+        "subgraphs",
+        "a2ui_fixed_schema",
+        "a2ui_dynamic_schema",
+        "a2ui_advanced"
+      ]
+    },
+    {
+      "id": "langgraph-typescript",
+      "name": "LangGraph (Typescript)",
+      "declared": [
+        "agentic_chat",
+        "agentic_chat_reasoning",
+        "agentic_chat_multimodal",
+        "v1_agentic_chat",
+        "human_in_the_loop",
+        "agentic_generative_ui",
+        "predictive_state_updates",
+        "shared_state",
+        "tool_based_generative_ui",
+        "subgraphs",
+        "a2ui_dynamic_schema",
+        "a2ui_fixed_schema",
+        "a2ui_advanced",
+        "a2ui_recovery"
+      ],
+      "disabled": [
+        "backend_tool_rendering"
+      ],
+      "tested": [
+        "agentic_chat",
+        "agentic_chat_reasoning",
+        "agentic_chat_multimodal",
+        "v1_agentic_chat",
+        "human_in_the_loop",
+        "agentic_generative_ui",
+        "predictive_state_updates",
+        "shared_state",
+        "tool_based_generative_ui",
+        "subgraphs",
+        "a2ui_dynamic_schema",
+        "a2ui_fixed_schema",
+        "a2ui_advanced",
+        "a2ui_recovery"
+      ]
+    },
+    {
+      "id": "mastra",
+      "name": "Mastra",
+      "declared": [
+        "agentic_chat",
+        "agentic_chat_reasoning",
+        "agentic_chat_multimodal",
+        "v1_agentic_chat",
+        "backend_tool_rendering",
+        "human_in_the_loop",
+        "interrupt",
+        "shared_state",
+        "tool_based_generative_ui",
+        "a2ui_dynamic_schema",
+        "a2ui_recovery",
+        "a2ui_fixed_schema",
+        "observational_memory"
+      ],
+      "disabled": [],
+      "tested": [
+        "agentic_chat",
+        "agentic_chat_reasoning",
+        "agentic_chat_multimodal",
+        "v1_agentic_chat",
+        "backend_tool_rendering",
+        "human_in_the_loop",
+        "interrupt",
+        "shared_state",
+        "tool_based_generative_ui",
+        "a2ui_dynamic_schema",
+        "a2ui_recovery",
+        "a2ui_fixed_schema",
+        "observational_memory"
+      ]
+    },
+    {
+      "id": "mastra-agent-local",
+      "name": "Mastra Agent (Local)",
+      "declared": [
+        "agentic_chat",
+        "v1_agentic_chat",
+        "backend_tool_rendering",
+        "human_in_the_loop",
+        "interrupt",
+        "shared_state",
+        "tool_based_generative_ui",
+        "background_agents",
+        "a2ui_dynamic_schema",
+        "a2ui_recovery",
+        "a2ui_fixed_schema",
+        "observational_memory"
+      ],
+      "disabled": [],
+      "tested": [
+        "agentic_chat",
+        "v1_agentic_chat",
+        "backend_tool_rendering",
+        "human_in_the_loop",
+        "interrupt",
+        "shared_state",
+        "tool_based_generative_ui",
+        "background_agents",
+        "a2ui_dynamic_schema",
+        "a2ui_recovery",
+        "a2ui_fixed_schema",
+        "observational_memory"
+      ]
+    },
+    {
+      "id": "spring-ai",
+      "name": "Spring AI",
+      "declared": [
+        "agentic_chat",
+        "v1_agentic_chat",
+        "shared_state",
+        "tool_based_generative_ui",
+        "human_in_the_loop",
+        "agentic_generative_ui"
+      ],
+      "disabled": [],
+      "tested": [
+        "agentic_chat"
+      ]
+    },
+    {
+      "id": "pydantic-ai",
+      "name": "Pydantic AI",
+      "declared": [
+        "agentic_chat",
+        "agentic_chat_multimodal",
+        "v1_agentic_chat",
+        "backend_tool_rendering",
+        "human_in_the_loop",
+        "agentic_generative_ui",
+        "shared_state",
+        "tool_based_generative_ui"
+      ],
+      "disabled": [
+        "predictive_state_updates"
+      ],
+      "tested": [
+        "agentic_chat",
+        "agentic_chat_multimodal",
+        "v1_agentic_chat",
+        "backend_tool_rendering",
+        "human_in_the_loop",
+        "agentic_generative_ui",
+        "shared_state",
+        "tool_based_generative_ui"
+      ]
+    },
+    {
+      "id": "adk-middleware",
+      "name": "Google ADK",
+      "declared": [
+        "agentic_chat",
+        "v1_agentic_chat",
+        "backend_tool_rendering",
+        "human_in_the_loop",
+        "predictive_state_updates",
+        "shared_state",
+        "tool_based_generative_ui",
+        "a2ui_fixed_schema",
+        "a2ui_dynamic_schema",
+        "a2ui_recovery"
+      ],
+      "disabled": [],
+      "tested": [
+        "agentic_chat",
+        "v1_agentic_chat",
+        "backend_tool_rendering",
+        "human_in_the_loop",
+        "predictive_state_updates",
+        "shared_state",
+        "tool_based_generative_ui",
+        "a2ui_fixed_schema",
+        "a2ui_dynamic_schema",
+        "a2ui_recovery"
+      ]
+    },
+    {
+      "id": "microsoft-agent-framework-dotnet",
+      "name": "Microsoft Agent Framework (.NET)",
+      "declared": [
+        "agentic_chat",
+        "v1_agentic_chat",
+        "backend_tool_rendering",
+        "human_in_the_loop",
+        "agentic_generative_ui",
+        "predictive_state_updates",
+        "shared_state",
+        "tool_based_generative_ui",
+        "subgraphs"
+      ],
+      "disabled": [],
+      "tested": [
+        "agentic_chat"
+      ]
+    },
+    {
+      "id": "ag-ui-dotnet",
+      "name": "AG-UI .NET SDK",
+      "declared": [
+        "agentic_chat",
+        "v1_agentic_chat",
+        "backend_tool_rendering",
+        "human_in_the_loop",
+        "agentic_generative_ui",
+        "predictive_state_updates",
+        "shared_state",
+        "tool_based_generative_ui",
+        "a2ui_fixed_schema",
+        "a2ui_dynamic_schema",
+        "a2ui_advanced",
+        "a2ui_recovery"
+      ],
+      "disabled": [],
+      "tested": [
+        "agentic_chat",
+        "v1_agentic_chat",
+        "backend_tool_rendering",
+        "human_in_the_loop",
+        "agentic_generative_ui",
+        "predictive_state_updates",
+        "shared_state",
+        "tool_based_generative_ui",
+        "a2ui_fixed_schema",
+        "a2ui_dynamic_schema",
+        "a2ui_advanced",
+        "a2ui_recovery"
+      ]
+    },
+    {
+      "id": "microsoft-agent-framework-python",
+      "name": "Microsoft Agent Framework (Python)",
+      "declared": [
+        "agentic_chat",
+        "agentic_chat_multimodal",
+        "v1_agentic_chat",
+        "backend_tool_rendering",
+        "human_in_the_loop",
+        "agentic_generative_ui",
+        "predictive_state_updates",
+        "shared_state",
+        "tool_based_generative_ui"
+      ],
+      "disabled": [],
+      "tested": [
+        "agentic_chat"
+      ]
+    },
+    {
+      "id": "ag2",
+      "name": "AG2",
+      "declared": [
+        "agentic_chat",
+        "v1_agentic_chat",
+        "agentic_chat_multimodal",
+        "backend_tool_rendering",
+        "human_in_the_loop",
+        "agentic_generative_ui",
+        "shared_state",
+        "tool_based_generative_ui"
+      ],
+      "disabled": [],
+      "tested": [
+        "agentic_chat"
+      ]
+    },
+    {
+      "id": "agno",
+      "name": "Agno",
+      "declared": [
+        "agentic_chat",
+        "v1_agentic_chat",
+        "agentic_chat_reasoning",
+        "agentic_chat_multimodal",
+        "agentic_generative_ui",
+        "backend_tool_rendering",
+        "human_in_the_loop",
+        "predictive_state_updates",
+        "shared_state",
+        "tool_based_generative_ui"
+      ],
+      "disabled": [],
+      "tested": [
+        "agentic_chat",
+        "v1_agentic_chat",
+        "backend_tool_rendering",
+        "human_in_the_loop",
+        "tool_based_generative_ui"
+      ]
+    },
+    {
+      "id": "llama-index",
+      "name": "LlamaIndex",
+      "declared": [
+        "agentic_chat",
+        "v1_agentic_chat",
+        "agentic_chat_multimodal",
+        "backend_tool_rendering",
+        "human_in_the_loop",
+        "agentic_generative_ui",
+        "shared_state"
+      ],
+      "disabled": [],
+      "tested": [
+        "agentic_chat",
+        "v1_agentic_chat",
+        "agentic_chat_multimodal",
+        "backend_tool_rendering",
+        "human_in_the_loop",
+        "agentic_generative_ui",
+        "shared_state"
+      ]
+    },
+    {
+      "id": "crewai",
+      "name": "CrewAI Flows",
+      "declared": [
+        "agentic_chat",
+        "agentic_chat_reasoning",
+        "agentic_chat_multimodal",
+        "v1_agentic_chat",
+        "backend_tool_rendering",
+        "interrupt",
+        "human_in_the_loop",
+        "agentic_generative_ui",
+        "predictive_state_updates",
+        "shared_state",
+        "tool_based_generative_ui",
+        "a2ui_dynamic_schema",
+        "a2ui_recovery",
+        "a2ui_fixed_schema",
+        "crew_chat",
+        "error_flow"
+      ],
+      "disabled": [],
+      "tested": [
+        "agentic_chat",
+        "agentic_chat_reasoning",
+        "agentic_chat_multimodal",
+        "v1_agentic_chat",
+        "backend_tool_rendering",
+        "interrupt",
+        "human_in_the_loop",
+        "agentic_generative_ui",
+        "predictive_state_updates",
+        "shared_state",
+        "tool_based_generative_ui",
+        "a2ui_dynamic_schema",
+        "a2ui_recovery",
+        "a2ui_fixed_schema",
+        "crew_chat",
+        "error_flow"
+      ]
+    },
+    {
+      "id": "crewai-conversational-flows",
+      "name": "CrewAI Conversational Flows",
+      "declared": [
+        "agentic_chat",
+        "agentic_chat_reasoning",
+        "agentic_chat_multimodal",
+        "v1_agentic_chat",
+        "backend_tool_rendering",
+        "interrupt",
+        "human_in_the_loop",
+        "agentic_generative_ui",
+        "predictive_state_updates",
+        "shared_state",
+        "tool_based_generative_ui",
+        "a2ui_dynamic_schema",
+        "a2ui_recovery",
+        "a2ui_fixed_schema"
+      ],
+      "disabled": [],
+      "tested": [
+        "agentic_chat",
+        "agentic_chat_reasoning",
+        "agentic_chat_multimodal",
+        "v1_agentic_chat",
+        "backend_tool_rendering",
+        "interrupt",
+        "human_in_the_loop",
+        "agentic_generative_ui",
+        "predictive_state_updates",
+        "shared_state",
+        "tool_based_generative_ui",
+        "a2ui_dynamic_schema",
+        "a2ui_recovery",
+        "a2ui_fixed_schema"
+      ]
+    },
+    {
+      "id": "middleware-starter",
+      "name": "Middleware Starter",
+      "declared": [
+        "agentic_chat",
+        "v1_agentic_chat"
+      ],
+      "disabled": [],
+      "tested": [
+        "agentic_chat",
+        "v1_agentic_chat"
+      ]
+    },
+    {
+      "id": "server-starter",
+      "name": "Server Starter",
+      "declared": [
+        "agentic_chat",
+        "v1_agentic_chat"
+      ],
+      "disabled": [],
+      "tested": [
+        "agentic_chat",
+        "v1_agentic_chat"
+      ]
+    },
+    {
+      "id": "server-starter-all-features",
+      "name": "Server Starter (All Features)",
+      "declared": [
+        "agentic_chat",
+        "v1_agentic_chat",
+        "backend_tool_rendering",
+        "human_in_the_loop",
+        "agentic_generative_ui",
+        "predictive_state_updates",
+        "shared_state",
+        "tool_based_generative_ui"
+      ],
+      "disabled": [
+        "agentic_chat_reasoning"
+      ],
+      "tested": [
+        "agentic_chat",
+        "v1_agentic_chat",
+        "backend_tool_rendering",
+        "human_in_the_loop",
+        "agentic_generative_ui",
+        "predictive_state_updates",
+        "shared_state",
+        "tool_based_generative_ui"
+      ]
+    },
+    {
+      "id": "aws-strands",
+      "name": "AWS Strands (Python)",
+      "declared": [
+        "agentic_chat",
+        "agentic_chat_reasoning",
+        "agentic_chat_multimodal",
+        "v1_agentic_chat",
+        "backend_tool_rendering",
+        "agentic_generative_ui",
+        "shared_state",
+        "human_in_the_loop",
+        "interrupt",
+        "predictive_state_updates",
+        "tool_based_generative_ui",
+        "multi_agent",
+        "a2ui_dynamic_schema",
+        "a2ui_fixed_schema",
+        "a2ui_advanced",
+        "a2ui_recovery"
+      ],
+      "disabled": [],
+      "tested": [
+        "agentic_chat",
+        "agentic_chat_reasoning",
+        "agentic_chat_multimodal",
+        "v1_agentic_chat",
+        "backend_tool_rendering",
+        "agentic_generative_ui",
+        "shared_state",
+        "human_in_the_loop",
+        "interrupt",
+        "predictive_state_updates",
+        "tool_based_generative_ui",
+        "multi_agent",
+        "a2ui_dynamic_schema",
+        "a2ui_fixed_schema",
+        "a2ui_advanced",
+        "a2ui_recovery"
+      ]
+    },
+    {
+      "id": "aws-strands-typescript",
+      "name": "AWS Strands (TypeScript)",
+      "declared": [
+        "agentic_chat",
+        "agentic_chat_reasoning",
+        "agentic_chat_multimodal",
+        "v1_agentic_chat",
+        "backend_tool_rendering",
+        "agentic_generative_ui",
+        "shared_state",
+        "human_in_the_loop",
+        "interrupt",
+        "predictive_state_updates",
+        "tool_based_generative_ui",
+        "multi_agent",
+        "a2ui_dynamic_schema",
+        "a2ui_fixed_schema",
+        "a2ui_advanced",
+        "a2ui_recovery"
+      ],
+      "disabled": [],
+      "tested": [
+        "agentic_chat",
+        "agentic_chat_reasoning",
+        "agentic_chat_multimodal",
+        "v1_agentic_chat",
+        "backend_tool_rendering",
+        "agentic_generative_ui",
+        "shared_state",
+        "human_in_the_loop",
+        "interrupt",
+        "predictive_state_updates",
+        "tool_based_generative_ui",
+        "multi_agent",
+        "a2ui_dynamic_schema",
+        "a2ui_fixed_schema",
+        "a2ui_advanced",
+        "a2ui_recovery"
+      ]
+    },
+    {
+      "id": "claude-agent-sdk-python",
+      "name": "Claude Agent SDK (Python)",
+      "declared": [
+        "agentic_chat",
+        "backend_tool_rendering",
+        "shared_state",
+        "human_in_the_loop",
+        "tool_based_generative_ui"
+      ],
+      "disabled": [],
+      "tested": [
+        "agentic_chat",
+        "backend_tool_rendering",
+        "shared_state",
+        "human_in_the_loop",
+        "tool_based_generative_ui"
+      ]
+    },
+    {
+      "id": "claude-agent-sdk-typescript",
+      "name": "Claude Agent SDK (Typescript)",
+      "declared": [
+        "agentic_chat",
+        "backend_tool_rendering",
+        "shared_state",
+        "human_in_the_loop",
+        "tool_based_generative_ui"
+      ],
+      "disabled": [],
+      "tested": [
+        "agentic_chat",
+        "backend_tool_rendering",
+        "shared_state",
+        "human_in_the_loop",
+        "tool_based_generative_ui"
+      ]
+    },
+    {
+      "id": "claude-managed-agents-dotnet",
+      "name": "Claude Managed Agents (.NET)",
+      "declared": [
+        "agentic_chat",
+        "backend_tool_rendering",
+        "human_in_the_loop",
+        "tool_based_generative_ui"
+      ],
+      "disabled": [],
+      "tested": []
+    },
+    {
+      "id": "claude-managed-agents-python",
+      "name": "Claude Managed Agents (Python)",
+      "declared": [
+        "agentic_chat",
+        "backend_tool_rendering",
+        "human_in_the_loop",
+        "tool_based_generative_ui"
+      ],
+      "disabled": [],
+      "tested": []
+    },
+    {
+      "id": "claude-managed-agents-typescript",
+      "name": "Claude Managed Agents (Typescript)",
+      "declared": [
+        "agentic_chat",
+        "backend_tool_rendering",
+        "human_in_the_loop",
+        "tool_based_generative_ui"
+      ],
+      "disabled": [],
+      "tested": []
+    },
+    {
+      "id": "langroid",
+      "name": "Langroid",
+      "declared": [
+        "agentic_chat",
+        "backend_tool_rendering",
+        "agentic_generative_ui",
+        "shared_state"
+      ],
+      "disabled": [],
+      "tested": [
+        "agentic_chat",
+        "backend_tool_rendering",
+        "agentic_generative_ui",
+        "shared_state"
+      ]
+    },
+    {
+      "id": "watsonx",
+      "name": "IBM watsonx orchestrate",
+      "declared": [
+        "agentic_chat",
+        "v1_agentic_chat"
+      ],
+      "disabled": [],
+      "tested": []
+    }
+  ],
+  "capabilities": [
+    "agentic_chat",
+    "agentic_generative_ui",
+    "human_in_the_loop",
+    "interrupt",
+    "predictive_state_updates",
+    "shared_state",
+    "tool_based_generative_ui",
+    "backend_tool_rendering",
+    "agentic_chat_reasoning",
+    "agentic_chat_multimodal",
+    "subgraphs",
+    "multi_agent",
+    "a2a_chat",
+    "vnext_chat",
+    "v1_agentic_chat",
+    "a2ui_fixed_schema",
+    "a2ui_dynamic_schema",
+    "a2ui_advanced",
+    "a2ui_recovery",
+    "crew_chat",
+    "error_flow",
+    "background_agents",
+    "observational_memory"
+  ],
+  "labels": {
+    "agentic_chat": "Agentic Chat",
+    "backend_tool_rendering": "Backend Tool Rendering",
+    "human_in_the_loop": "Human in the loop",
+    "interrupt": "Interrupt (Suspend/Resume)",
+    "agentic_generative_ui": "Agentic Generative UI",
+    "tool_based_generative_ui": "Tool Based Generative UI",
+    "shared_state": "Shared State between agent and UI",
+    "predictive_state_updates": "Predictive State Updates",
+    "agentic_chat_reasoning": "Agentic Chat Reasoning",
+    "agentic_chat_multimodal": "Agentic Chat Multimodal",
+    "subgraphs": "Subgraphs",
+    "multi_agent": "Multi-Agent",
+    "a2a_chat": "A2A Chat",
+    "vnext_chat": "VNext Chat",
+    "a2ui_fixed_schema": "A2UI Fixed Schema",
+    "a2ui_dynamic_schema": "A2UI Dynamic Schema",
+    "a2ui_advanced": "A2UI Advanced",
+    "background_agents": "Background Agents",
+    "observational_memory": "Observational Memory",
+    "a2ui_recovery": "A2UI Error Recovery",
+    "crew_chat": "Crew Chat",
+    "error_flow": "Error Flow"
+  },
+  "perCapability": {
+    "agentic_chat": 30,
+    "agentic_generative_ui": 17,
+    "human_in_the_loop": 26,
+    "interrupt": 6,
+    "predictive_state_updates": 13,
+    "shared_state": 22,
+    "tool_based_generative_ui": 25,
+    "backend_tool_rendering": 25,
+    "agentic_chat_reasoning": 9,
+    "agentic_chat_multimodal": 13,
+    "subgraphs": 4,
+    "multi_agent": 2,
+    "a2a_chat": 0,
+    "vnext_chat": 0,
+    "v1_agentic_chat": 24,
+    "a2ui_fixed_schema": 11,
+    "a2ui_dynamic_schema": 11,
+    "a2ui_advanced": 6,
+    "a2ui_recovery": 9,
+    "crew_chat": 1,
+    "error_flow": 1,
+    "background_agents": 1,
+    "observational_memory": 2
+  },
+  "shelved": [
+    "langchain",
+    "builtin",
+    "vercel-ai-sdk"
+  ],
+  "totals": {
+    "declared": 258,
+    "tested": 203,
+    "specCount": 200,
+    "unresolved": 3,
+    "unreadable": 0
+  }
+}
