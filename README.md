@@ -50,7 +50,7 @@ it next to the entry.
 - [Good to know](#good-to-know)
 
 <!-- catalogcount:start -->
-**Full catalog:** all 238 AG-UI projects this list can resolve and check, in [CATALOG.md](CATALOG.md)
+**Full catalog:** all 348 AG-UI projects this list can resolve and check, in [CATALOG.md](CATALOG.md)
 
 **Machine-readable:** the same rows as data in [catalog.csv](catalog.csv) and [projects.json](projects.json), and the capability grid in [matrix.csv](matrix.csv)
 <!-- catalogcount:end -->
