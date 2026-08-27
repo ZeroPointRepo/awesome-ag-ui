@@ -201,9 +201,25 @@ const ranked = [...found.values()]
   .filter((it) => !curatedSlugs.has(it.full_name.toLowerCase()))
   .sort((a, b) => b.stargazers_count - a.stargazers_count);
 const shortlist = ranked.slice(0, MAX_CANDIDATES);
-if (ranked.length > shortlist.length) {
+
+// Every candidate discovery turned up has to end this run in exactly one bucket. A candidate that
+// is capped away, or skipped because the REST budget ran low, is not "dropped" and is not "listed",
+// and if it lands in neither it disappears: the page then reads as if we checked everything, which
+// is the exact failure the cap and the budget guard exist to prevent. The reconciliation below is
+// asserted, so a bucket added later and left out of it fails the run rather than quietly shrinking
+// the visible total.
+const discovery = {
+  candidates: ranked.length,
+  notReachedByCap: ranked.length - shortlist.length,
+  skippedForBudget: 0,
+  droppedUnreadable: 0,
+  droppedNoCommand: 0,
+  droppedNoEvidence: 0,
+  listed: 0,
+};
+if (discovery.notReachedByCap > 0) {
   console.log(
-    `Capped at MAX_CANDIDATES=${MAX_CANDIDATES}: ${ranked.length - shortlist.length} lower-starred candidates not checked this run`
+    `Capped at MAX_CANDIDATES=${MAX_CANDIDATES}: ${discovery.notReachedByCap} lower-starred candidates not reached this run`
   );
 }
 
@@ -493,22 +509,21 @@ await run(curated, async (e) => {
   });
 });
 
-let budgetStopped = 0;
 await run(shortlist, async (it) => {
-  if (budgetLeft <= RESERVE) { budgetStopped++; return; }
+  if (budgetLeft <= RESERVE) { discovery.skippedForBudget++; return; }
   budgetLeft -= 5; // one tree read, up to three manifests, one README
   if (budgetLeft % 250 < 5) await refreshBudget();
   const md = await fetchReadme(it.full_name);
   let cmd = null;
   if (INSTALL_RE) {
-    if (!md) return void dropped.unresolved++;
+    if (!md) { discovery.droppedUnreadable++; dropped.unresolved++; return; }
     cmd = extractCommand(it.full_name, md);
-    if (!cmd) return void dropped.noCommand++;
+    if (!cmd) { discovery.droppedNoCommand++; dropped.noCommand++; return; }
   }
   const ev = await depEvidence(it.full_name, md);
   // A discovered repo earns its row only on evidence. `false` is a real answer and drops it;
   // `null` means we could not check, which is not the same thing and also does not get a row.
-  if (ev.ok !== true) { dropped.noEvidence++; return; }
+  if (ev.ok !== true) { discovery.droppedNoEvidence++; dropped.noEvidence++; return; }
   rows.push({
     name: it.full_name.split('/')[1],
     slug: it.full_name,
@@ -736,6 +751,20 @@ const feed = {
   source: REPO_URL,
   updated: today,
   count: rows.length,
+  coverage: {
+    _note:
+      'What this run actually looked at. `listed` plus every other field equals `candidates`: a ' +
+      'candidate the run did not reach is reported here rather than omitted, because a cap that is ' +
+      'not published reads as if everything was checked.',
+    candidates: discovery.candidates,
+    listed: discovery.listed,
+    curated: rows.filter((r) => r.curated).length,
+    dropped_no_dependency: discovery.droppedNoEvidence,
+    dropped_no_install_command: discovery.droppedNoCommand,
+    dropped_unreadable: discovery.droppedUnreadable,
+    skipped_for_rest_budget: discovery.skippedForBudget,
+    not_reached_by_cap: discovery.notReachedByCap,
+  },
   categories,
   projects: rows.map((r) => {
     const [owner] = r.slug.split('/');
