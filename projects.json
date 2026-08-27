@@ -3,13 +3,13 @@
   "url": "https://github.com/ZeroPointRepo/awesome-ag-ui",
   "source": "https://github.com/ZeroPointRepo/awesome-ag-ui",
   "updated": "2026-08-27",
-  "count": 348,
+  "count": 347,
   "coverage": {
     "_note": "What this run actually looked at. `listed` plus every other field equals `candidates`: a candidate the run did not reach is reported here rather than omitted, because a cap that is not published reads as if everything was checked.",
     "candidates": 745,
-    "listed": 247,
+    "listed": 246,
     "curated": 101,
-    "dropped_no_dependency": 253,
+    "dropped_no_dependency": 254,
     "dropped_no_install_command": 0,
     "dropped_unreadable": 0,
     "skipped_for_rest_budget": 0,
@@ -66,7 +66,7 @@
       "description": {
         "en": "Serve a LangChain agent over AG-UI"
       },
-      "stars": 145097,
+      "stars": 145101,
       "install": "",
       "added": "2026-08-27",
       "agui_dependency": true,
@@ -84,7 +84,7 @@
       "description": {
         "en": "Drive a CrewAI Flow from the browser"
       },
-      "stars": 57664,
+      "stars": 57666,
       "install": "",
       "added": "2026-08-27",
       "agui_dependency": true,
@@ -117,7 +117,7 @@
       "description": {
         "en": "Put an Agno agent behind a copilot"
       },
-      "stars": 41938,
+      "stars": 41939,
       "install": "",
       "added": "2026-08-27",
       "agui_dependency": true,
@@ -134,7 +134,7 @@
       "description": {
         "en": "Stream a LangGraph run into a React app"
       },
-      "stars": 40528,
+      "stars": 40535,
       "install": "",
       "added": "2026-08-27",
       "agui_dependency": true,
@@ -172,7 +172,7 @@
       "description": {
         "en": "Wire a Mastra agent to a chat UI"
       },
-      "stars": 27510,
+      "stars": 27509,
       "install": "",
       "added": "2026-08-27",
       "agui_dependency": true,
@@ -186,7 +186,7 @@
       "description": {
         "en": "Bridge the Vercel AI SDK"
       },
-      "stars": 26433,
+      "stars": 26435,
       "install": "",
       "added": "2026-08-27",
       "agui_dependency": true,
@@ -203,7 +203,7 @@
       "description": {
         "en": "Bring a Google ADK agent into a front end"
       },
-      "stars": 21304,
+      "stars": 21305,
       "install": "",
       "added": "2026-08-27",
       "agui_dependency": true,
@@ -236,7 +236,7 @@
       "description": {
         "en": "Read the protocol itself"
       },
-      "stars": 15568,
+      "stars": 15569,
       "install": "",
       "added": "2026-08-27",
       "agui_dependency": true,
@@ -255,7 +255,7 @@
       "description": {
         "en": "Attach a UI to Microsoft Agent Framework"
       },
-      "stars": 13144,
+      "stars": 13146,
       "install": "",
       "added": "2026-08-27",
       "agui_dependency": true,
@@ -351,7 +351,7 @@
       "description": {
         "en": "Run an AG-UI agent on Cloudflare"
       },
-      "stars": 5491,
+      "stars": 5492,
       "install": "",
       "added": "2026-08-27",
       "agui_dependency": true,
@@ -416,6 +416,23 @@
       ]
     },
     {
+      "name": "OpenBot",
+      "owner": "CopilotKit",
+      "url": "https://github.com/CopilotKit/OpenBot",
+      "category": "unsorted",
+      "description": {
+        "en": "Open-source AI coworkers that each get a computer of their own: a browser, files and tools, with every action decided before it happens and recorded after. Bring any AG-UI agent."
+      },
+      "stars": 3091,
+      "install": "",
+      "added": "2026-08-27",
+      "agui_dependency": true,
+      "evidence": "package.json declares a CopilotKit package",
+      "screenshots": [
+        "https://raw.githubusercontent.com/CopilotKit/OpenBot/HEAD/assets/architecture-light.svg"
+      ]
+    },
+    {
       "name": "core",
       "owner": "cheshire-cat-ai",
       "url": "https://github.com/cheshire-cat-ai/core",
@@ -428,23 +445,6 @@
       "added": "2026-08-27",
       "agui_dependency": true,
       "evidence": "pyproject.toml declares an AG-UI package"
-    },
-    {
-      "name": "OpenBot",
-      "owner": "CopilotKit",
-      "url": "https://github.com/CopilotKit/OpenBot",
-      "category": "unsorted",
-      "description": {
-        "en": "Open-source AI coworkers that each get a computer of their own: a browser, files and tools, with every action decided before it happens and recorded after. Bring any AG-UI agent."
-      },
-      "stars": 3054,
-      "install": "",
-      "added": "2026-08-27",
-      "agui_dependency": true,
-      "evidence": "package.json declares a CopilotKit package",
-      "screenshots": [
-        "https://raw.githubusercontent.com/CopilotKit/OpenBot/HEAD/assets/architecture-light.svg"
-      ]
     },
     {
       "name": "trpc-agent-go",
@@ -703,7 +703,7 @@
       "description": {
         "en": "Run an AI desktop companion"
       },
-      "stars": 437,
+      "stars": 438,
       "install": "",
       "added": "2026-08-27",
       "agui_dependency": true,
@@ -751,23 +751,6 @@
       ]
     },
     {
-      "name": "stratix-python",
-      "owner": "LayerLens",
-      "url": "https://github.com/LayerLens/stratix-python",
-      "category": "unsorted",
-      "description": {
-        "en": ""
-      },
-      "stars": 264,
-      "install": "",
-      "added": "2026-08-27",
-      "agui_dependency": true,
-      "evidence": "samples/copilotkit/app/backend/requirements.txt declares a CopilotKit package",
-      "screenshots": [
-        "https://raw.githubusercontent.com/LayerLens/stratix-python/HEAD/demo-stratix.gif"
-      ]
-    },
-    {
       "name": "shadify",
       "owner": "CopilotKit",
       "url": "https://github.com/CopilotKit/shadify",
@@ -780,6 +763,23 @@
       "added": "2026-08-27",
       "agui_dependency": true,
       "evidence": "apps/agent/pyproject.toml declares a CopilotKit package"
+    },
+    {
+      "name": "stratix-python",
+      "owner": "LayerLens",
+      "url": "https://github.com/LayerLens/stratix-python",
+      "category": "unsorted",
+      "description": {
+        "en": ""
+      },
+      "stars": 261,
+      "install": "",
+      "added": "2026-08-27",
+      "agui_dependency": true,
+      "evidence": "samples/copilotkit/app/backend/requirements.txt declares a CopilotKit package",
+      "screenshots": [
+        "https://raw.githubusercontent.com/LayerLens/stratix-python/HEAD/demo-stratix.gif"
+      ]
     },
     {
       "name": "AgenticX",
@@ -1117,20 +1117,6 @@
       "evidence": "package.json declares a CopilotKit package"
     },
     {
-      "name": "angular-agent-framework",
-      "owner": "cacheplane",
-      "url": "https://github.com/cacheplane/angular-agent-framework",
-      "category": "render-the-agent-in-your-front-end",
-      "description": {
-        "en": "Build agentic Angular apps"
-      },
-      "stars": 70,
-      "install": "",
-      "added": "2026-08-27",
-      "agui_dependency": true,
-      "evidence": "package.json declares an AG-UI package"
-    },
-    {
       "name": "VercelZero",
       "owner": "DaveSimoes",
       "url": "https://github.com/DaveSimoes/VercelZero",
@@ -1147,6 +1133,20 @@
         "https://raw.githubusercontent.com/DaveSimoes/VercelZero/HEAD/assets/vercelzero-readme-demo.gif",
         "https://raw.githubusercontent.com/DaveSimoes/VercelZero/HEAD/assets/banner.svg"
       ]
+    },
+    {
+      "name": "angular-agent-framework",
+      "owner": "cacheplane",
+      "url": "https://github.com/cacheplane/angular-agent-framework",
+      "category": "render-the-agent-in-your-front-end",
+      "description": {
+        "en": "Build agentic Angular apps"
+      },
+      "stars": 67,
+      "install": "",
+      "added": "2026-08-27",
+      "agui_dependency": true,
+      "evidence": "package.json declares an AG-UI package"
     },
     {
       "name": "human-in-the-loop-rag-agent",
@@ -4066,20 +4066,6 @@
       "evidence": "app/pyproject.toml declares an AG-UI package"
     },
     {
-      "name": "django-copilotkit",
-      "owner": "sasaeo",
-      "url": "https://github.com/sasaeo/django-copilotkit",
-      "category": "unsorted",
-      "description": {
-        "en": "This repository provides an example of how to integrate CopilotKit with a Django backend. Since the official CopilotKit repo doesn’t include Django support, this project shows a working setup to save you time. 🚀"
-      },
-      "stars": 2,
-      "install": "",
-      "added": "2026-08-27",
-      "agui_dependency": true,
-      "evidence": "requirements.txt declares a CopilotKit package"
-    },
-    {
       "name": "chatbot",
       "owner": "soliplex",
       "url": "https://github.com/soliplex/chatbot",
@@ -5333,8 +5319,8 @@
       "stars": 1,
       "install": "",
       "added": "2026-08-27",
-      "agui_dependency": true,
-      "evidence": "requirements.txt declares an AG-UI package"
+      "agui_dependency": false,
+      "evidence": "no dependency found"
     },
     {
       "name": "memory-companion-genui",
