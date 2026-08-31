@@ -66,7 +66,7 @@
       "description": {
         "en": "Serve a LangChain agent over AG-UI"
       },
-      "stars": 145323,
+      "stars": 145325,
       "install": "",
       "added": "2026-08-27",
       "agui_dependency": true,
@@ -134,7 +134,7 @@
       "description": {
         "en": "Stream a LangGraph run into a React app"
       },
-      "stars": 40762,
+      "stars": 40766,
       "install": "",
       "added": "2026-08-27",
       "agui_dependency": true,
@@ -172,7 +172,7 @@
       "description": {
         "en": "Wire a Mastra agent to a chat UI"
       },
-      "stars": 27585,
+      "stars": 27588,
       "install": "",
       "added": "2026-08-27",
       "agui_dependency": true,
@@ -304,7 +304,7 @@
       "description": {
         "en": "Front-end the Claude Agent SDK"
       },
-      "stars": 8007,
+      "stars": 8008,
       "install": "",
       "added": "2026-08-27",
       "agui_dependency": true,
@@ -351,7 +351,7 @@
       "description": {
         "en": "Run an AG-UI agent on Cloudflare"
       },
-      "stars": 5502,
+      "stars": 5501,
       "install": "",
       "added": "2026-08-27",
       "agui_dependency": true,
@@ -423,7 +423,7 @@
       "description": {
         "en": "Open-source AI coworkers that each get a computer of their own: a browser, files and tools, with every action decided before it happens and recorded after. Bring any AG-UI agent."
       },
-      "stars": 3570,
+      "stars": 3571,
       "install": "",
       "added": "2026-08-27",
       "agui_dependency": true,
