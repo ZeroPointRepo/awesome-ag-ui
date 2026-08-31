@@ -1,7 +1,7 @@
 {
   "source": "ag-ui-protocol/ag-ui",
-  "commit": "90c0528532f044b8bcf7d2145cca8f88096feda5",
-  "checked": "2026-08-27",
+  "commit": "162ab772fd15d545d514499e39dd52187fbec82d",
+  "checked": "2026-08-31",
   "integrations": [
     {
       "id": "agent-spec-langgraph",
@@ -350,11 +350,19 @@
         "agentic_generative_ui",
         "predictive_state_updates",
         "shared_state",
-        "tool_based_generative_ui"
+        "tool_based_generative_ui",
+        "a2ui_dynamic_schema",
+        "a2ui_advanced",
+        "a2ui_recovery",
+        "a2ui_fixed_schema"
       ],
       "disabled": [],
       "tested": [
-        "agentic_chat"
+        "agentic_chat",
+        "a2ui_dynamic_schema",
+        "a2ui_advanced",
+        "a2ui_recovery",
+        "a2ui_fixed_schema"
       ]
     },
     {
@@ -802,10 +810,10 @@
     "a2a_chat": 0,
     "vnext_chat": 0,
     "v1_agentic_chat": 24,
-    "a2ui_fixed_schema": 11,
-    "a2ui_dynamic_schema": 11,
-    "a2ui_advanced": 6,
-    "a2ui_recovery": 9,
+    "a2ui_fixed_schema": 12,
+    "a2ui_dynamic_schema": 12,
+    "a2ui_advanced": 7,
+    "a2ui_recovery": 10,
     "crew_chat": 1,
     "error_flow": 1,
     "background_agents": 1,
@@ -817,9 +825,9 @@
     "vercel-ai-sdk"
   ],
   "totals": {
-    "declared": 258,
-    "tested": 203,
-    "specCount": 200,
+    "declared": 262,
+    "tested": 207,
+    "specCount": 204,
     "unresolved": 3,
     "unreadable": 0
   }
