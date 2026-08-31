@@ -318,7 +318,7 @@
       "description": {
         "en": "Run AWS Strands agents with a UI attached"
       },
-      "stars": 7073,
+      "stars": 7074,
       "install": "",
       "added": "2026-08-27",
       "agui_dependency": true,
@@ -423,7 +423,7 @@
       "description": {
         "en": "Open-source AI coworkers that each get a computer of their own: a browser, files and tools, with every action decided before it happens and recorded after. Bring any AG-UI agent."
       },
-      "stars": 3569,
+      "stars": 3570,
       "install": "",
       "added": "2026-08-27",
       "agui_dependency": true,
