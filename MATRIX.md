@@ -1,7 +1,7 @@
 # AG-UI capability matrix
 
 Every framework integration in `ag-ui-protocol/ag-ui` against every capability the protocol's dojo defines.
-Read from `apps/dojo/src/menu.ts` and `apps/dojo/e2e/tests` at commit `90c0528532f044b8bcf7d2145cca8f88096feda5` on 2026-08-27.
+Read from `apps/dojo/src/menu.ts` and `apps/dojo/e2e/tests` at commit `162ab772fd15d545d514499e39dd52187fbec82d` on 2026-08-31.
 
 ✅ declared and driven by an end-to-end spec · ◻️ declared, no spec resolved · 🚫 present in the config but commented out
 
@@ -15,12 +15,12 @@ Read from `apps/dojo/src/menu.ts` and `apps/dojo/e2e/tests` at commit `90c052853
 | LangGraph (Python) | ✅ | ✅ | ✅ |  | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |  | ✅ | ✅ | ✅ | ✅ |  |  |  |  |  |
 | LangGraph (Typescript) | ✅ | ✅ | ✅ |  | ✅ | ✅ | ✅ | 🚫 | ✅ | ✅ | ✅ |  | ✅ | ✅ | ✅ | ✅ | ✅ |  |  |  |  |
 | Mastra | ✅ |  | ✅ | ✅ |  | ✅ | ✅ | ✅ | ✅ | ✅ |  |  | ✅ | ✅ | ✅ |  | ✅ |  |  |  | ✅ |
+| Microsoft Agent Framework (Python) | ✅ | ◻️ | ◻️ |  | ◻️ | ◻️ | ◻️ | ◻️ |  | ◻️ |  |  | ◻️ | ✅ | ✅ | ✅ | ✅ |  |  |  |  |
 | AG-UI .NET SDK | ✅ | ✅ | ✅ |  | ✅ | ✅ | ✅ | ✅ |  |  |  |  | ✅ | ✅ | ✅ | ✅ | ✅ |  |  |  |  |
 | Mastra Agent (Local) | ✅ |  | ✅ | ✅ |  | ✅ | ✅ | ✅ |  |  |  |  | ✅ | ✅ | ✅ |  | ✅ |  |  | ✅ | ✅ |
 | Agno | ✅ | ◻️ | ✅ |  | ◻️ | ◻️ | ✅ | ✅ | ◻️ | ◻️ |  |  | ✅ |  |  |  |  |  |  |  |  |
 | Google ADK | ✅ |  | ✅ |  | ✅ | ✅ | ✅ | ✅ |  |  |  |  | ✅ | ✅ | ✅ |  | ✅ |  |  |  |  |
 | Microsoft Agent Framework (.NET) | ✅ | ◻️ | ◻️ |  | ◻️ | ◻️ | ◻️ | ◻️ |  |  | ◻️ |  | ◻️ |  |  |  |  |  |  |  |  |
-| Microsoft Agent Framework (Python) | ✅ | ◻️ | ◻️ |  | ◻️ | ◻️ | ◻️ | ◻️ |  | ◻️ |  |  | ◻️ |  |  |  |  |  |  |  |  |
 | AG2 | ✅ | ◻️ | ◻️ |  |  | ◻️ | ◻️ | ◻️ |  | ◻️ |  |  | ◻️ |  |  |  |  |  |  |  |  |
 | Pydantic AI | ✅ | ✅ | ✅ |  | 🚫 | ✅ | ✅ | ✅ |  | ✅ |  |  | ✅ |  |  |  |  |  |  |  |  |
 | Server Starter (All Features) | ✅ | ✅ | ✅ |  | ✅ | ✅ | ✅ | ✅ | 🚫 |  |  |  | ✅ |  |  |  |  |  |  |  |  |
@@ -38,4 +38,4 @@ Read from `apps/dojo/src/menu.ts` and `apps/dojo/e2e/tests` at commit `90c052853
 | Middleware Starter | ✅ |  |  |  |  |  |  |  |  |  |  |  | ✅ |  |  |  |  |  |  |  |  |
 | Server Starter | ✅ |  |  |  |  |  |  |  |  |  |  |  | ✅ |  |  |  |  |  |  |  |  |
 
-30 integrations · 23 capabilities · 258 declared slots · 203 with a spec · 200 spec files read, 3 unresolved, 0 unreadable.
+30 integrations · 23 capabilities · 262 declared slots · 207 with a spec · 204 spec files read, 3 unresolved, 0 unreadable.

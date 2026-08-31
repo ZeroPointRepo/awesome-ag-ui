@@ -132,6 +132,10 @@ integration_id,integration_name,capability,declared,disabled,spec
 "microsoft-agent-framework-python","Microsoft Agent Framework (Python)","backend_tool_rendering",true,false,false
 "microsoft-agent-framework-python","Microsoft Agent Framework (Python)","agentic_chat_multimodal",true,false,false
 "microsoft-agent-framework-python","Microsoft Agent Framework (Python)","v1_agentic_chat",true,false,false
+"microsoft-agent-framework-python","Microsoft Agent Framework (Python)","a2ui_fixed_schema",true,false,true
+"microsoft-agent-framework-python","Microsoft Agent Framework (Python)","a2ui_dynamic_schema",true,false,true
+"microsoft-agent-framework-python","Microsoft Agent Framework (Python)","a2ui_advanced",true,false,true
+"microsoft-agent-framework-python","Microsoft Agent Framework (Python)","a2ui_recovery",true,false,true
 "ag2","AG2","agentic_chat",true,false,true
 "ag2","AG2","agentic_generative_ui",true,false,false
 "ag2","AG2","human_in_the_loop",true,false,false

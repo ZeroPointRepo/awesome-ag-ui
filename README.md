@@ -50,7 +50,7 @@ it next to the entry.
 - [Good to know](#good-to-know)
 
 <!-- catalogcount:start -->
-**Full catalog:** all 347 AG-UI projects this list can resolve and check, in [CATALOG.md](CATALOG.md)
+**Full catalog:** all 345 AG-UI projects this list can resolve and check, in [CATALOG.md](CATALOG.md)
 
 **Machine-readable:** the same rows as data in [catalog.csv](catalog.csv) and [projects.json](projects.json), and the capability grid in [matrix.csv](matrix.csv)
 <!-- catalogcount:end -->
@@ -125,9 +125,9 @@ integration has which, before you build on it.
 <!-- matrix:start -->
 The protocol repo carries a live demo app, the Dojo, whose config file is the project's own
 declaration of which capabilities each integration offers, and an end to end suite that drives those
-same cells in a browser. **30 integrations declare 258 capability slots between them, and 203
+same cells in a browser. **30 integrations declare 262 capability slots between them, and 207
 of those slots have a dojo test behind them.** Both numbers are read out of the repo at commit
-`90c0528`, not off a comparison page.
+`162ab77`, not off a comparison page.
 
 `Backed by a dojo test` means the suite navigates to that integration's page for that capability. It
 is evidence the cell runs, not a promise the feature is production ready.
@@ -142,12 +142,12 @@ is evidence the cell runs, not a promise the feature is production ready.
 | LangGraph (Python) | 14 | 14 |
 | LangGraph (Typescript) | 14 | 14 |
 | Mastra | 13 | 13 |
+| Microsoft Agent Framework (Python) | 13 | 5 |
 | AG-UI .NET SDK | 12 | 12 |
 | Mastra Agent (Local) | 12 | 12 |
 | Agno | 10 | 5 |
 | Google ADK | 10 | 10 |
 | Microsoft Agent Framework (.NET) | 9 | 1 |
-| Microsoft Agent Framework (Python) | 9 | 1 |
 | AG2 | 8 | 1 |
 | Pydantic AI | 8 | 8 |
 | Server Starter (All Features) | 8 | 8 |
@@ -165,13 +165,13 @@ is evidence the cell runs, not a promise the feature is production ready.
 | Middleware Starter | 2 | 2 |
 | Server Starter | 2 | 2 |
 
-**19 of the 30 have every capability they declare under test.** The widest gaps are Microsoft Agent Framework (.NET) (1 of 9), Microsoft Agent Framework (Python) (1 of 9), AG2 (1 of 8), Spring AI (1 of 6), Agno (5 of 10). 4 integrations declare capabilities with no test behind any of them: Claude Managed Agents (.NET), Claude Managed Agents (Python), Claude Managed Agents (Typescript), IBM watsonx orchestrate.
+**19 of the 30 have every capability they declare under test.** The widest gaps are Microsoft Agent Framework (.NET) (1 of 9), Microsoft Agent Framework (Python) (5 of 13), AG2 (1 of 8), Spring AI (1 of 6), Agno (5 of 10). 4 integrations declare capabilities with no test behind any of them: Claude Managed Agents (.NET), Claude Managed Agents (Python), Claude Managed Agents (Typescript), IBM watsonx orchestrate.
 
 3 more adapters sit in the repo with their dojo entry commented out, so they are shipped code
 without a live cell: langchain, builtin, vercel-ai-sdk. 2 capabilities are defined in the protocol's own type and
 declared by nobody yet: `a2a_chat`, `vnext_chat`.
 
-Of 200 spec files read, 3 could not be tied to an integration and capability. They are counted
+Of 204 spec files read, 3 could not be tied to an integration and capability. They are counted
 in neither column.
 <!-- matrix:end -->
 
@@ -194,11 +194,11 @@ you can tell a safe assumption from a lucky one.
 | `agentic_generative_ui` <sub>Agentic Generative UI</sub> | 17 |
 | `agentic_chat_multimodal` <sub>Agentic Chat Multimodal</sub> | 13 |
 | `predictive_state_updates` <sub>Predictive State Updates</sub> | 13 |
-| `a2ui_dynamic_schema` <sub>A2UI Dynamic Schema</sub> | 11 |
-| `a2ui_fixed_schema` <sub>A2UI Fixed Schema</sub> | 11 |
-| `a2ui_recovery` <sub>A2UI Error Recovery</sub> | 9 |
+| `a2ui_dynamic_schema` <sub>A2UI Dynamic Schema</sub> | 12 |
+| `a2ui_fixed_schema` <sub>A2UI Fixed Schema</sub> | 12 |
+| `a2ui_recovery` <sub>A2UI Error Recovery</sub> | 10 |
 | `agentic_chat_reasoning` <sub>Agentic Chat Reasoning</sub> | 9 |
-| `a2ui_advanced` <sub>A2UI Advanced</sub> | 6 |
+| `a2ui_advanced` <sub>A2UI Advanced</sub> | 7 |
 | `interrupt` <sub>Interrupt (Suspend/Resume)</sub> | 6 |
 | `subgraphs` <sub>Subgraphs</sub> | 4 |
 | `multi_agent` <sub>Multi-Agent</sub> | 2 |
