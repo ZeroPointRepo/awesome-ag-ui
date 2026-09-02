@@ -1,0 +1,445 @@
+{
+  "_note": "GitHub numeric repository id for every entry this list links to, recorded the first time the entry resolves. The id is immutable and survives a rename or a transfer; the slug does not, and once a vacated slug is claimed by somebody else, a slug-keyed lookup returns the new owner and reports the stale link as correct. Written by .github/scripts/resolve-names.mjs, never edited by hand.",
+  "ids": {
+    "adner/agui_microsoftagentframework_sample": {
+      "id": 1127141542,
+      "full_name": "adner/AgUI_MicrosoftAgentFramework_Sample"
+    },
+    "adner/genui_mcp": {
+      "id": 1238316223,
+      "full_name": "adner/GenUI_MCP"
+    },
+    "aenas11/copilotkitvue": {
+      "id": 1217980615,
+      "full_name": "Aenas11/CopilotKitVue"
+    },
+    "ag-ui-protocol/a2a-demo": {
+      "id": 1024220541,
+      "full_name": "ag-ui-protocol/a2a-demo"
+    },
+    "ag-ui-protocol/ag-ui": {
+      "id": 979392131,
+      "full_name": "ag-ui-protocol/ag-ui"
+    },
+    "ag2ai/ag2": {
+      "id": 886912514,
+      "full_name": "ag2ai/ag2"
+    },
+    "agentivity-labs/agentivity_ag_ui": {
+      "id": 1245037106,
+      "full_name": "agentivity-labs/agentivity_ag_ui"
+    },
+    "agenui/agenui": {
+      "id": 1188481596,
+      "full_name": "AGenUI/AGenUI"
+    },
+    "agno-agi/agno": {
+      "id": 488641606,
+      "full_name": "agno-agi/agno"
+    },
+    "aianytime/adk-ag-ui-demo": {
+      "id": 1070094935,
+      "full_name": "AIAnytime/adk-ag-ui-demo"
+    },
+    "aleck31/myaibox": {
+      "id": 968951576,
+      "full_name": "aleck31/MyAIBOX"
+    },
+    "alibaba/agui-chain": {
+      "id": 1050275669,
+      "full_name": "alibaba/agui-chain"
+    },
+    "allada-homelab/langgraph-kit": {
+      "id": 1206403687,
+      "full_name": "allada-homelab/langgraph-kit"
+    },
+    "allcolor/pawflow-agents": {
+      "id": 1198911438,
+      "full_name": "allcolor/PawFlow-Agents"
+    },
+    "anthropics/claude-agent-sdk-python": {
+      "id": 1000486904,
+      "full_name": "anthropics/claude-agent-sdk-python"
+    },
+    "artui/ag-ui-web-component": {
+      "id": 1256084594,
+      "full_name": "Artui/ag-ui-web-component"
+    },
+    "artui/django-ag-ui": {
+      "id": 1256084551,
+      "full_name": "Artui/django-ag-ui"
+    },
+    "aryprogrammer/legal-document-reviewer": {
+      "id": 878571750,
+      "full_name": "ARYPROGRAMMER/Legal-Document-Reviewer"
+    },
+    "aws/bedrock-agentcore-sdk-python": {
+      "id": 1015684263,
+      "full_name": "aws/bedrock-agentcore-sdk-python"
+    },
+    "bhaveshchow20/generative-a11y": {
+      "id": 1329294056,
+      "full_name": "bhaveshchow20/generative-a11y"
+    },
+    "bradenstitt/ag-ui-protocol-demo": {
+      "id": 1067557173,
+      "full_name": "BradenStitt/AG-UI-Protocol-Demo"
+    },
+    "breeznik/agui_demo": {
+      "id": 1098017617,
+      "full_name": "breeznik/agui_demo"
+    },
+    "cacheplane/angular-agent-framework": {
+      "id": 1185745318,
+      "full_name": "cacheplane/angular-agent-framework"
+    },
+    "caizongyuan/dsh-ag-ui": {
+      "id": 1343303625,
+      "full_name": "CaiZongyuan/dsh-ag-ui"
+    },
+    "caizongyuan/dsh-agui-demo": {
+      "id": 1344865031,
+      "full_name": "CaiZongyuan/DSH-AGUI-demo"
+    },
+    "cheshire-cat-ai/core": {
+      "id": 599338659,
+      "full_name": "cheshire-cat-ai/core"
+    },
+    "cloudflare/agents": {
+      "id": 924394244,
+      "full_name": "cloudflare/agents"
+    },
+    "contextable/ag-ui-4k": {
+      "id": 1002175820,
+      "full_name": "Contextable/ag-ui-4k"
+    },
+    "contextablemark/clawg-ui": {
+      "id": 1148329597,
+      "full_name": "contextablemark/clawg-ui"
+    },
+    "copilotkit/aimock": {
+      "id": 1171243154,
+      "full_name": "CopilotKit/aimock"
+    },
+    "copilotkit/channels-sdk": {
+      "id": 1302172683,
+      "full_name": "CopilotKit/channels-sdk"
+    },
+    "copilotkit/copilotkit": {
+      "id": 655515393,
+      "full_name": "CopilotKit/CopilotKit"
+    },
+    "copilotkit/excalidraw-studio": {
+      "id": 1181979408,
+      "full_name": "CopilotKit/excalidraw-studio"
+    },
+    "copilotkit/find-the-bug": {
+      "id": 869770394,
+      "full_name": "CopilotKit/find-the-bug"
+    },
+    "copilotkit/mcp-client": {
+      "id": 968121440,
+      "full_name": "CopilotKit/mcp-client"
+    },
+    "copilotkit/open-gemini-canvas": {
+      "id": 1031654038,
+      "full_name": "CopilotKit/open-gemini-canvas"
+    },
+    "copilotkit/open-mcp-client": {
+      "id": 945152231,
+      "full_name": "CopilotKit/open-mcp-client"
+    },
+    "copilotkit/open-multi-agent-canvas": {
+      "id": 928176450,
+      "full_name": "CopilotKit/open-multi-agent-canvas"
+    },
+    "copilotkit/open-research-ana": {
+      "id": 882880878,
+      "full_name": "CopilotKit/open-research-ANA"
+    },
+    "copilotkit/opengenerativeui": {
+      "id": 1180226026,
+      "full_name": "CopilotKit/OpenGenerativeUI"
+    },
+    "copilotkit/opentag": {
+      "id": 1280934172,
+      "full_name": "CopilotKit/OpenTag"
+    },
+    "copilotkit/pathfinder": {
+      "id": 1193029166,
+      "full_name": "CopilotKit/pathfinder"
+    },
+    "copilotkit/shadify": {
+      "id": 1166817838,
+      "full_name": "CopilotKit/shadify"
+    },
+    "crewaiinc/crewai": {
+      "id": 710601088,
+      "full_name": "crewAIInc/crewAI"
+    },
+    "crewform/crewform": {
+      "id": 1164790900,
+      "full_name": "CrewForm/crewform"
+    },
+    "dash-copilotkit/dash-copilotkit": {
+      "id": 1063281063,
+      "full_name": "dash-copilotkit/dash-copilotkit"
+    },
+    "datagallery-ai/dataagent": {
+      "id": 1273054934,
+      "full_name": "datagallery-ai/dataagent"
+    },
+    "datalayer/agent-runtimes": {
+      "id": 1099666442,
+      "full_name": "datalayer/agent-runtimes"
+    },
+    "davedushi/copilotkit-claudecode-bridge": {
+      "id": 1156566876,
+      "full_name": "DaveDushi/copilotkit-claudecode-bridge"
+    },
+    "deep-codeai/agents.kt": {
+      "id": 1174292578,
+      "full_name": "Deep-CodeAI/Agents.KT"
+    },
+    "demondamon/agenticx": {
+      "id": 772408997,
+      "full_name": "DemonDamon/AgenticX"
+    },
+    "denniszielke/frontier-agents-workshop": {
+      "id": 1102945018,
+      "full_name": "denniszielke/frontier-agents-workshop"
+    },
+    "dsouzavijeth/geovision": {
+      "id": 1204040604,
+      "full_name": "dsouzavijeth/geovision"
+    },
+    "eosc-data-commons/data-commons-search": {
+      "id": 1028444118,
+      "full_name": "EOSC-Data-Commons/data-commons-search"
+    },
+    "fe-51shebao/vue-copilotkit": {
+      "id": 848059209,
+      "full_name": "fe-51shebao/vue-copilotkit"
+    },
+    "folken2/ag-ui-crewai-research": {
+      "id": 1022221585,
+      "full_name": "Folken2/ag-ui-crewai-research"
+    },
+    "genkit-ai/genkit": {
+      "id": 793795224,
+      "full_name": "genkit-ai/genkit"
+    },
+    "ggozad/haiku.skills": {
+      "id": 1157495022,
+      "full_name": "ggozad/haiku.skills"
+    },
+    "google/adk-python": {
+      "id": 958830659,
+      "full_name": "google/adk-python"
+    },
+    "greathayat/langgraph-whatsapp-bot": {
+      "id": 995975719,
+      "full_name": "GreatHayat/langgraph-whatsapp-bot"
+    },
+    "greyisheep/ag-ui-adk-grounding-app": {
+      "id": 1067880634,
+      "full_name": "Greyisheep/ag-ui-adk-grounding-app"
+    },
+    "hastekit/agent-sdk-go": {
+      "id": 1147702213,
+      "full_name": "hastekit/agent-sdk-go"
+    },
+    "hotherio/streamblocks": {
+      "id": 1057949715,
+      "full_name": "hotherio/streamblocks"
+    },
+    "hyunjunjeon/open-langgraph-platform": {
+      "id": 1084772276,
+      "full_name": "HyunjunJeon/open-langgraph-platform"
+    },
+    "ibm/ibm-watsonx-orchestrate-adk": {
+      "id": 956708722,
+      "full_name": "IBM/ibm-watsonx-orchestrate-adk"
+    },
+    "iknowcodesoup/copilot-agent-network": {
+      "id": 1322962129,
+      "full_name": "iknowcodesoup/copilot-agent-network"
+    },
+    "jasonyoo2020/ag-ui-dify-adapter": {
+      "id": 1250077666,
+      "full_name": "JasonYoo2020/ag-ui-dify-adapter"
+    },
+    "jerelvelarde/generative-ui-london-hackathon-starter": {
+      "id": 1252757994,
+      "full_name": "jerelvelarde/generative-ui-london-hackathon-starter"
+    },
+    "klammertime/ag-ui-cloudflare": {
+      "id": 1055997841,
+      "full_name": "Klammertime/ag-ui-cloudflare"
+    },
+    "langchain-ai/langchain": {
+      "id": 552661142,
+      "full_name": "langchain-ai/langchain"
+    },
+    "langchain-ai/langgraph": {
+      "id": 676672661,
+      "full_name": "langchain-ai/langgraph"
+    },
+    "langgraph4j/langgraph4j-copilotkit": {
+      "id": 1000478981,
+      "full_name": "langgraph4j/langgraph4j-copilotkit"
+    },
+    "langroid/langroid": {
+      "id": 628729877,
+      "full_name": "langroid/langroid"
+    },
+    "markmdev/ag-ui-a2a-demo": {
+      "id": 1068032940,
+      "full_name": "markmdev/ag-ui-a2a-demo"
+    },
+    "mastra-ai/mastra": {
+      "id": 839037098,
+      "full_name": "mastra-ai/mastra"
+    },
+    "microsoft/agent-framework": {
+      "id": 974445592,
+      "full_name": "microsoft/agent-framework"
+    },
+    "mims-harvard/athena": {
+      "id": 1250634182,
+      "full_name": "mims-harvard/ATHENA"
+    },
+    "mnutt/copilotkit-debugger": {
+      "id": 971607964,
+      "full_name": "mnutt/copilotkit-debugger"
+    },
+    "namanrajpal/acp-to-agui": {
+      "id": 1245035377,
+      "full_name": "namanrajpal/acp-to-agui"
+    },
+    "nebari-dev/ravnar": {
+      "id": 1204980292,
+      "full_name": "nebari-dev/ravnar"
+    },
+    "nsphung/agent-studio-starter": {
+      "id": 1162602267,
+      "full_name": "nsphung/agent-studio-starter"
+    },
+    "opensearch-project/opensearch-agent-server": {
+      "id": 1174630258,
+      "full_name": "opensearch-project/opensearch-agent-server"
+    },
+    "oracle/agent-spec": {
+      "id": 1068438483,
+      "full_name": "oracle/agent-spec"
+    },
+    "oracle/wayflow": {
+      "id": 1068439598,
+      "full_name": "oracle/wayflow"
+    },
+    "phil65/agentpool": {
+      "id": 899003856,
+      "full_name": "phil65/agentpool"
+    },
+    "playa-0v0/cyrene-agent": {
+      "id": 1291503861,
+      "full_name": "Playa-0v0/Cyrene-Agent"
+    },
+    "predictivelabsai/alpatrade": {
+      "id": 1295716403,
+      "full_name": "predictivelabsai/alpatrade"
+    },
+    "pseudo-lab/agent_studio": {
+      "id": 1043239325,
+      "full_name": "Pseudo-Lab/Agent_Studio"
+    },
+    "pukeko-robotics/galvanized-pukeko": {
+      "id": 1003592224,
+      "full_name": "pukeko-robotics/galvanized-pukeko"
+    },
+    "pydantic/pydantic-ai": {
+      "id": 818331198,
+      "full_name": "pydantic/pydantic-ai"
+    },
+    "rrazvd/ag-ui-adk-react-chat": {
+      "id": 1076445649,
+      "full_name": "rrazvd/ag-ui-adk-react-chat"
+    },
+    "run-llama/llama_index": {
+      "id": 560704231,
+      "full_name": "run-llama/llama_index"
+    },
+    "samy-clivolt/dominad": {
+      "id": 1079406068,
+      "full_name": "samy-clivolt/Dominad"
+    },
+    "spring-projects/spring-ai": {
+      "id": 659402878,
+      "full_name": "spring-projects/spring-ai"
+    },
+    "strands-agents/harness-sdk": {
+      "id": 983715534,
+      "full_name": "strands-agents/harness-sdk"
+    },
+    "thegreatbonnie/a2a-travel-demo-app": {
+      "id": 1071742603,
+      "full_name": "TheGreatBonnie/a2a-travel-demo-app"
+    },
+    "trendmicro/adk-agui-middleware": {
+      "id": 1062234928,
+      "full_name": "trendmicro/adk-agui-middleware"
+    },
+    "vbwyrde/n8n_builder": {
+      "id": 1013420493,
+      "full_name": "vbwyrde/N8N_Builder"
+    },
+    "vercel/ai": {
+      "id": 644461337,
+      "full_name": "vercel/ai"
+    },
+    "vesias/aiaas-boilerplate-framework": {
+      "id": 1008614299,
+      "full_name": "Vesias/AIaaS-Boilerplate-Framework"
+    },
+    "virattt/financial-agent-ui": {
+      "id": 783730923,
+      "full_name": "virattt/financial-agent-ui"
+    },
+    "zeropointrepo/awesome-agent-plugins": {
+      "id": 1332056401,
+      "full_name": "ZeroPointRepo/awesome-agent-plugins"
+    },
+    "zeropointrepo/awesome-cursor-plugins": {
+      "id": 1345761300,
+      "full_name": "ZeroPointRepo/awesome-cursor-plugins"
+    },
+    "zeropointrepo/awesome-dsh-plugins": {
+      "id": 1341546900,
+      "full_name": "ZeroPointRepo/awesome-dsh-plugins"
+    },
+    "zeropointrepo/awesome-fx-skills": {
+      "id": 1343444151,
+      "full_name": "ZeroPointRepo/awesome-fx-skills"
+    },
+    "zeropointrepo/awesome-grok-bot": {
+      "id": 1332067090,
+      "full_name": "ZeroPointRepo/awesome-grok-bot"
+    },
+    "zeropointrepo/awesome-hermes-skills": {
+      "id": 1223597497,
+      "full_name": "ZeroPointRepo/awesome-hermes-skills"
+    },
+    "zeropointrepo/youtube-mcp": {
+      "id": 1104811310,
+      "full_name": "ZeroPointRepo/youtube-mcp"
+    },
+    "zeropointrepo/zillow-mcp": {
+      "id": 1291916762,
+      "full_name": "ZeroPointRepo/zillow-mcp"
+    },
+    "zonlabs/registry": {
+      "id": 1077492790,
+      "full_name": "zonlabs/registry"
+    }
+  }
+}
