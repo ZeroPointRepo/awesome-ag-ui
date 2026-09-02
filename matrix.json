@@ -1,7 +1,7 @@
 {
   "source": "ag-ui-protocol/ag-ui",
-  "commit": "162ab772fd15d545d514499e39dd52187fbec82d",
-  "checked": "2026-08-31",
+  "commit": "a0ab7334753f55da9ed4dd089c89a20fdb78a340",
+  "checked": "2026-09-02",
   "integrations": [
     {
       "id": "agent-spec-langgraph",
@@ -567,6 +567,7 @@
       "declared": [
         "agentic_chat",
         "agentic_chat_reasoning",
+        "agentic_chat_citations",
         "agentic_chat_multimodal",
         "v1_agentic_chat",
         "backend_tool_rendering",
@@ -586,6 +587,7 @@
       "tested": [
         "agentic_chat",
         "agentic_chat_reasoning",
+        "agentic_chat_citations",
         "agentic_chat_multimodal",
         "v1_agentic_chat",
         "backend_tool_rendering",
@@ -608,6 +610,7 @@
       "declared": [
         "agentic_chat",
         "agentic_chat_reasoning",
+        "agentic_chat_citations",
         "agentic_chat_multimodal",
         "v1_agentic_chat",
         "backend_tool_rendering",
@@ -627,6 +630,7 @@
       "tested": [
         "agentic_chat",
         "agentic_chat_reasoning",
+        "agentic_chat_citations",
         "agentic_chat_multimodal",
         "v1_agentic_chat",
         "backend_tool_rendering",
@@ -755,6 +759,7 @@
     "tool_based_generative_ui",
     "backend_tool_rendering",
     "agentic_chat_reasoning",
+    "agentic_chat_citations",
     "agentic_chat_multimodal",
     "subgraphs",
     "multi_agent",
@@ -780,6 +785,7 @@
     "shared_state": "Shared State between agent and UI",
     "predictive_state_updates": "Predictive State Updates",
     "agentic_chat_reasoning": "Agentic Chat Reasoning",
+    "agentic_chat_citations": "Agentic Chat Citations",
     "agentic_chat_multimodal": "Agentic Chat Multimodal",
     "subgraphs": "Subgraphs",
     "multi_agent": "Multi-Agent",
@@ -804,6 +810,7 @@
     "tool_based_generative_ui": 25,
     "backend_tool_rendering": 25,
     "agentic_chat_reasoning": 9,
+    "agentic_chat_citations": 2,
     "agentic_chat_multimodal": 13,
     "subgraphs": 4,
     "multi_agent": 2,
@@ -825,9 +832,9 @@
     "vercel-ai-sdk"
   ],
   "totals": {
-    "declared": 262,
-    "tested": 207,
-    "specCount": 204,
+    "declared": 264,
+    "tested": 209,
+    "specCount": 206,
     "unresolved": 3,
     "unreadable": 0
   }

@@ -50,7 +50,7 @@ it next to the entry.
 - [Good to know](#good-to-know)
 
 <!-- catalogcount:start -->
-**Full catalog:** all 345 AG-UI projects this list can resolve and check, in [CATALOG.md](CATALOG.md)
+**Full catalog:** all 342 AG-UI projects this list can resolve and check, in [CATALOG.md](CATALOG.md)
 
 **Machine-readable:** the same rows as data in [catalog.csv](catalog.csv) and [projects.json](projects.json), and the capability grid in [matrix.csv](matrix.csv)
 <!-- catalogcount:end -->
@@ -125,17 +125,17 @@ integration has which, before you build on it.
 <!-- matrix:start -->
 The protocol repo carries a live demo app, the Dojo, whose config file is the project's own
 declaration of which capabilities each integration offers, and an end to end suite that drives those
-same cells in a browser. **30 integrations declare 262 capability slots between them, and 207
+same cells in a browser. **30 integrations declare 264 capability slots between them, and 209
 of those slots have a dojo test behind them.** Both numbers are read out of the repo at commit
-`162ab77`, not off a comparison page.
+`a0ab733`, not off a comparison page.
 
 `Backed by a dojo test` means the suite navigates to that integration's page for that capability. It
 is evidence the cell runs, not a promise the feature is production ready.
 
 | Integration | Capabilities declared | Backed by a dojo test |
 |---|---:|---:|
-| AWS Strands (Python) | 16 | 16 |
-| AWS Strands (TypeScript) | 16 | 16 |
+| AWS Strands (Python) | 17 | 17 |
+| AWS Strands (TypeScript) | 17 | 17 |
 | CrewAI Flows | 16 | 16 |
 | CrewAI Conversational Flows | 14 | 14 |
 | LangGraph (FastAPI) | 14 | 14 |
@@ -171,7 +171,7 @@ is evidence the cell runs, not a promise the feature is production ready.
 without a live cell: langchain, builtin, vercel-ai-sdk. 2 capabilities are defined in the protocol's own type and
 declared by nobody yet: `a2a_chat`, `vnext_chat`.
 
-Of 204 spec files read, 3 could not be tied to an integration and capability. They are counted
+Of 206 spec files read, 3 could not be tied to an integration and capability. They are counted
 in neither column.
 <!-- matrix:end -->
 
@@ -180,7 +180,7 @@ in neither column.
 ## AG-UI capabilities, from most supported to least
 
 <!-- capabilities:start -->
-23 named capabilities exist. This is how many of the 30 integrations declare each one, so
+24 named capabilities exist. This is how many of the 30 integrations declare each one, so
 you can tell a safe assumption from a lucky one.
 
 | Capability | Integrations |
@@ -201,6 +201,7 @@ you can tell a safe assumption from a lucky one.
 | `a2ui_advanced` <sub>A2UI Advanced</sub> | 7 |
 | `interrupt` <sub>Interrupt (Suspend/Resume)</sub> | 6 |
 | `subgraphs` <sub>Subgraphs</sub> | 4 |
+| `agentic_chat_citations` <sub>Agentic Chat Citations</sub> | 2 |
 | `multi_agent` <sub>Multi-Agent</sub> | 2 |
 | `observational_memory` <sub>Observational Memory</sub> | 2 |
 | `background_agents` <sub>Background Agents</sub> | 1 |

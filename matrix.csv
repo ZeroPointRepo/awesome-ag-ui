@@ -213,6 +213,7 @@ integration_id,integration_name,capability,declared,disabled,spec
 "aws-strands","AWS Strands (Python)","tool_based_generative_ui",true,false,true
 "aws-strands","AWS Strands (Python)","backend_tool_rendering",true,false,true
 "aws-strands","AWS Strands (Python)","agentic_chat_reasoning",true,false,true
+"aws-strands","AWS Strands (Python)","agentic_chat_citations",true,false,true
 "aws-strands","AWS Strands (Python)","agentic_chat_multimodal",true,false,true
 "aws-strands","AWS Strands (Python)","multi_agent",true,false,true
 "aws-strands","AWS Strands (Python)","v1_agentic_chat",true,false,true
@@ -229,6 +230,7 @@ integration_id,integration_name,capability,declared,disabled,spec
 "aws-strands-typescript","AWS Strands (TypeScript)","tool_based_generative_ui",true,false,true
 "aws-strands-typescript","AWS Strands (TypeScript)","backend_tool_rendering",true,false,true
 "aws-strands-typescript","AWS Strands (TypeScript)","agentic_chat_reasoning",true,false,true
+"aws-strands-typescript","AWS Strands (TypeScript)","agentic_chat_citations",true,false,true
 "aws-strands-typescript","AWS Strands (TypeScript)","agentic_chat_multimodal",true,false,true
 "aws-strands-typescript","AWS Strands (TypeScript)","multi_agent",true,false,true
 "aws-strands-typescript","AWS Strands (TypeScript)","v1_agentic_chat",true,false,true
