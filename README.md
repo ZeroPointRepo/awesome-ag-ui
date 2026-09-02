@@ -50,7 +50,7 @@ it next to the entry.
 - [Good to know](#good-to-know)
 
 <!-- catalogcount:start -->
-**Full catalog:** all 342 AG-UI projects this list can resolve and check, in [CATALOG.md](CATALOG.md)
+**Full catalog:** all 352 AG-UI projects this list can resolve and check, in [CATALOG.md](CATALOG.md)
 
 **Machine-readable:** the same rows as data in [catalog.csv](catalog.csv) and [projects.json](projects.json), and the capability grid in [matrix.csv](matrix.csv)
 <!-- catalogcount:end -->
@@ -127,7 +127,7 @@ The protocol repo carries a live demo app, the Dojo, whose config file is the pr
 declaration of which capabilities each integration offers, and an end to end suite that drives those
 same cells in a browser. **30 integrations declare 264 capability slots between them, and 209
 of those slots have a dojo test behind them.** Both numbers are read out of the repo at commit
-`a0ab733`, not off a comparison page.
+`e929f55`, not off a comparison page.
 
 `Backed by a dojo test` means the suite navigates to that integration's page for that capability. It
 is evidence the cell runs, not a promise the feature is production ready.

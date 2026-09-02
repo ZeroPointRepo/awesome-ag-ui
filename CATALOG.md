@@ -41,14 +41,14 @@ is [README.md](README.md).
 | [dataagent](https://github.com/datagallery-ai/dataagent) | Analyse data in an agent workbench | 745 | ✅ package.json declares an AG-UI package |
 | [haiku.rag](https://github.com/ggozad/haiku.rag) | Agentic RAG for local and self-hosted document search: hybrid retrieval, reranking and multimodal RAG on embedded… | 587 | ✅ app/frontend/package.json declares an AG-UI package |
 | [open-multi-agent-canvas](https://github.com/CopilotKit/open-multi-agent-canvas) | Manage several agents in one chat | 527 | ✅ agent/pyproject.toml declares a CopilotKit package |
-| [Cyrene-Agent](https://github.com/Playa-0v0/Cyrene-Agent) | Run an AI desktop companion | 510 | ✅ package.json declares an AG-UI package |
+| [Cyrene-Agent](https://github.com/Playa-0v0/Cyrene-Agent) | Run an AI desktop companion | 512 | ✅ package.json declares an AG-UI package |
 | [BookWorm](https://github.com/foxminchan/BookWorm) | The practical implementation of Aspire using Microservices, AI-Agents | 503 | ✅ src/Clients/apps/storefront/package.json declares an AG-UI package |
 | [agent-spec](https://github.com/oracle/agent-spec) | Run an Open Agent Spec agent over AG-UI | 409 | ✅ the protocol repo ships an integration for it |
 | [open-research-ANA](https://github.com/CopilotKit/open-research-ANA) | Run a research canvas | 400 | ✅ agent/requirements.txt declares a CopilotKit package |
 | [dawnai](https://github.com/cacheplane/dawnai) | Build LangGraph agents like Next.js apps. | 327 | ✅ package.json declares a CopilotKit package |
 | [shadify](https://github.com/CopilotKit/shadify) | Stream shadcn components instead of plain text | 265 | ✅ apps/agent/pyproject.toml declares a CopilotKit package |
 | [stratix-python](https://github.com/LayerLens/stratix-python) |  | 260 | ✅ samples/copilotkit/app/backend/requirements.txt declares a CopilotKit package |
-| [AgenticX](https://github.com/DemonDamon/AgenticX) | Build on a production multi-agent platform | 225 | — |
+| [AgenticX](https://github.com/DemonDamon/AgenticX) | Build on a production multi-agent platform | 226 | — |
 | [idun-agent-platform](https://github.com/Idun-Group/idun-agent-platform) | 🟪 Open-source runtime that ships any LangGraph or Google ADK agent as a production-ready FastAPI service. Bundled ,… | 198 | ✅ libs/idun_agent_engine/pyproject.toml declares an AG-UI package |
 | [wayflow](https://github.com/oracle/wayflow) | Serve a Wayflow agent to a front end | 189 | ✅ the protocol repo ships an integration for it |
 | [agentpool](https://github.com/phil65/agentpool) | Orchestrate a pool of configured agents | 186 | ✅ pyproject.toml declares an AG-UI package |
@@ -340,15 +340,25 @@ is [README.md](README.md).
 | [agui-antdvn-chat](https://github.com/yuWorm/agui-antdvn-chat) | a antdv-next ai chat components with agui | 1 | ✅ package.json declares an AG-UI package |
 | [zillow-mcp](https://github.com/ZeroPointRepo/zillow-mcp) | Look up a US property, its Zestimate, and its price history | 1 | ✅ live MCP endpoint, takes a bearer key the middleware can stamp |
 | [registry](https://github.com/zonlabs/registry) | Register and discover agents | 1 | — |
+| [Weekend-Plan-Builder](https://github.com/4ppleSA0CE/Weekend-Plan-Builder) |  | 0 | ✅ backend/pyproject.toml declares an AG-UI package |
+| [simplifynext](https://github.com/aalricc/simplifynext) |  | 0 | ✅ ui_client/agui/package.json declares an AG-UI package |
+| [pausemesh](https://github.com/aantenore/pausemesh) | Lets long-running AI workflows pause for approval and resume exactly once after disconnects or restarts, without… | 0 | ✅ package.json declares an AG-UI package |
+| [docpoc](https://github.com/abshravan/docpoc) |  | 0 | ✅ web/package.json declares an AG-UI package |
+| [RN-AG-UI](https://github.com/Acexhat/RN-AG-UI) |  | 0 | ✅ package.json declares an AG-UI package |
+| [StudyAssistant-MicrosoftAgentFramework-AG-UI](https://github.com/akshaykokane/StudyAssistant-MicrosoftAgentFramework-AG-UI) | This repository demonstrates how to build a study assistant agent using Microsoft Agent Framework, and CopilotKit | 0 | ✅ package.json declares an AG-UI package |
+| [chatbot-demo](https://github.com/alejomartinez8/chatbot-demo) | Chatbot with Vite (react) | 0 | ✅ package.json declares an AG-UI package |
+| [A2UI](https://github.com/alfredo-huware/A2UI) |  | 0 | ✅ agent/requirements.txt declares an AG-UI package |
+| [chat-kit-agui-demo](https://github.com/Ali-Aleph-Alpha/chat-kit-agui-demo) |  | 0 | ✅ frontend/package.json declares an AG-UI package |
 | [memory-companion-genui](https://github.com/alinjfz/memory-companion-genui) | Adaptive generative-UI care companion for calm, familiar day-to-day support. | 0 | ✅ package.json declares an AG-UI package |
-| [Agentic-Dynamic-UI-CRM-example-](https://github.com/arjunagi-a-rehman/Agentic-Dynamic-UI-CRM-example-) | Agentic Dynamic UI — an AI agent that answers with live, interactive React components (forms, tables, charts, confirm… | 0 | ✅ agent/requirements.txt declares an AG-UI package |
-| [ag_ui_debug](https://github.com/dddd1127/ag_ui_debug) |  | 0 | ✅ server/requirements.txt declares an AG-UI package |
+| [crisisgrid-runtime](https://github.com/Amawta-labs/crisisgrid-runtime) | CrisisGrid agentic generative UI runtime for Chilean disaster response | 0 | ✅ package.json declares an AG-UI package |
+| [repo-research](https://github.com/AndrewADev/repo-research) | Agentic flows for discovering and exploring repos. | 0 | ✅ pyproject.toml declares an AG-UI package |
+| [AI-document-assistant](https://github.com/andyvo190998/AI-document-assistant) |  | 0 | ✅ backend/pyproject.toml declares a CopilotKit package |
+| [geoai-2026-practical-exercise](https://github.com/AneeshaM-gras/geoai-2026-practical-exercise) |  | 0 | ✅ 02-simple-chat/package.json declares an AG-UI package |
+| [stock-research-agents](https://github.com/aniketkalamkar/stock-research-agents) |  | 0 | ✅ frontend/package.json declares an AG-UI package |
+| [digital-twin-backend](https://github.com/anktsrkr/digital-twin-backend) |  | 0 | ✅ src/resume-assistant-frontend/package.json declares a CopilotKit package |
 | [copilot-agent-network](https://github.com/iknowcodesoup/copilot-agent-network) | Study a reference multi-agent architecture | 0 | ✅ package.json declares a CopilotKit package |
-| [free-grokbot](https://github.com/jayamitkatariya/free-grokbot) | Autobot — self-hosted AI coworkers with BYOK, browser + files + MCP, local Postgres threads. Fork of OpenBot, no… | 0 | ✅ package.json declares a CopilotKit package |
-| [solarsimpilot](https://github.com/sharabhshukla/solarsimpilot) | Solar + battery sizing app where an AI copilot and the dashboard share live state (FastAPI · Microsoft Agent Framework… | 0 | ✅ frontend/package.json declares an AG-UI package |
-| [ai-mail-copilot](https://github.com/trickymind1324/ai-mail-copilot) | An AI mail client where the assistant drives the UI — compose, search, open and reply by natural language, against… | 0 | ✅ package.json declares a CopilotKit package |
 
-<sub>342 AG-UI projects · same rows as data in [catalog.csv](catalog.csv) · rebuilt by
+<sub>352 AG-UI projects · same rows as data in [catalog.csv](catalog.csv) · rebuilt by
 [`build-catalog.mjs`](.github/scripts/build-catalog.mjs) on every
 [refresh-catalog](.github/workflows/refresh-catalog.yml) run · edits here are overwritten, send them
 to [README.md](README.md).</sub>
