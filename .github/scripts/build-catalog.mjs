@@ -19,6 +19,12 @@
 // Usage: GH_TOKEN=... node .github/scripts/build-catalog.mjs
 
 import { readFileSync, writeFileSync } from 'node:fs';
+import { rankUnknownIds, byStarRank } from './lib/star-rank.mjs';
+
+// Ordering only: some published star counts cannot be read as measurements. Empty unless the
+// environment supplies ids, in which case those entries sort last instead of high. Presence and
+// display are untouched — see lib/star-rank.mjs.
+const RANK_UNKNOWN = rankUnknownIds();
 
 // ------------------------------------------------------------------ TUNE THIS BLOCK PER REPO
 
@@ -220,7 +226,8 @@ if (found.size === 0) {
 const curatedSlugs = new Set(curated.map((e) => e.slug.toLowerCase()));
 const ranked = [...found.values()]
   .filter((it) => !curatedSlugs.has(it.full_name.toLowerCase()))
-  .sort((a, b) => b.stargazers_count - a.stargazers_count);
+  .sort(byStarRank({ id: (x) => x.id, stars: (x) => x.stargazers_count,
+                     tiebreak: (a, b) => a.full_name.localeCompare(b.full_name) }, RANK_UNKNOWN));
 const shortlist = ranked.slice(0, MAX_CANDIDATES);
 
 // Every candidate discovery turned up has to end this run in exactly one bucket. A candidate that
@@ -520,6 +527,7 @@ await run(curated, async (e) => {
   rows.push({
     name: e.name,
     slug: j.full_name,
+    id: j.id,
     blurb: e.desc || j.description || '',
     stars: j.stargazers_count,
     cmd: e.cmd,
@@ -550,6 +558,7 @@ await run(shortlist, async (it) => {
   rows.push({
     name: it.full_name.split('/')[1],
     slug: it.full_name,
+    id: it.id,
     blurb: it.description || '',
     stars: it.stargazers_count,
     cmd,
@@ -573,7 +582,8 @@ console.log(
     `(${og.size} from an uploaded social preview). Data capture only, CATALOG.md is unchanged.`
 );
 
-rows.sort((a, b) => b.stars - a.stars || a.slug.localeCompare(b.slug));
+rows.sort(byStarRank({ id: (x) => x.id, stars: (x) => x.stars,
+                       tiebreak: (a, b) => a.slug.localeCompare(b.slug) }, RANK_UNKNOWN));
 
 discovery.listed = rows.filter((r) => !r.curated).length;
 
