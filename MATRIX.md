@@ -1,7 +1,7 @@
 # AG-UI capability matrix
 
 Every framework integration in `ag-ui-protocol/ag-ui` against every capability the protocol's dojo defines.
-Read from `apps/dojo/src/menu.ts` and `apps/dojo/e2e/tests` at commit `e929f557f59bdd96f744a8b019932648f62af0c3` on 2026-09-02.
+Read from `apps/dojo/src/menu.ts` and `apps/dojo/e2e/tests` at commit `bb34bb684cecfaa54d3ceb4e8f0d4d1c9f46929a` on 2026-09-07.
 
 ✅ declared and driven by an end-to-end spec · ◻️ declared, no spec resolved · 🚫 present in the config but commented out
 

@@ -1,7 +1,7 @@
 {
   "source": "ag-ui-protocol/ag-ui",
-  "commit": "e929f557f59bdd96f744a8b019932648f62af0c3",
-  "checked": "2026-09-02",
+  "commit": "bb34bb684cecfaa54d3ceb4e8f0d4d1c9f46929a",
+  "checked": "2026-09-07",
   "integrations": [
     {
       "id": "agent-spec-langgraph",
