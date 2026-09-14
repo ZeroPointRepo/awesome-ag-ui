@@ -50,7 +50,7 @@ it next to the entry.
 - [Good to know](#good-to-know)
 
 <!-- catalogcount:start -->
-**Full catalog:** all 356 AG-UI projects this list can resolve and check, in [CATALOG.md](CATALOG.md)
+**Full catalog:** all 353 AG-UI projects this list can resolve and check, in [CATALOG.md](CATALOG.md)
 
 **Machine-readable:** the same rows as data in [catalog.csv](catalog.csv) and [projects.json](projects.json), and the capability grid in [matrix.csv](matrix.csv)
 <!-- catalogcount:end -->
@@ -378,7 +378,7 @@ The plugins those sessions run are catalogued in
 
 - **Add a chat element with one tag** with [ag-ui-web-component](https://github.com/Artui/ag-ui-web-component) by [Artui](https://github.com/Artui). Framework-free <ag-ui-chat> custom element speaking the protocol directly. 2★, MIT.
 - **Render A2UI natively on iOS, Android, and HarmonyOS** with [AGenUI](https://github.com/AGenUI/AGenUI) by [AGenUI](https://github.com/AGenUI). High-performance streaming renderer for the structured-UI payload AG-UI carries. 1,120★, Apache-2.0.
-- **Build agentic Angular apps** with [angular-agent-framework](https://github.com/cacheplane/angular-agent-framework) by [cacheplane](https://github.com/cacheplane). Angular SDK over @ag-ui/client with generative UI support. 70★, MIT.
+- **Build agentic Angular apps** with [threadplane](https://github.com/cacheplane/threadplane) by [cacheplane](https://github.com/cacheplane). Angular SDK over @ag-ui/client with generative UI support. 70★, MIT.
 - **Drop a copilot into a React, Angular, or mobile app** with [CopilotKit](https://github.com/CopilotKit/CopilotKit) by [CopilotKit](https://github.com/CopilotKit). The reference front-end stack for AG-UI, from the team that wrote the protocol. Chat, generative UI, shared state, and human in the loop out of the box. 37,068★, MIT.
 - **Use Vue 3 instead of React** with [CopilotKitVue](https://github.com/Aenas11/CopilotKitVue) by [Aenas11](https://github.com/Aenas11). Native Vue bindings for the CopilotKit stack. 4★.
 - **Add a copilot to a Plotly Dash app** with [dash-copilotkit](https://github.com/dash-copilotkit/dash-copilotkit) by [dash-copilotkit](https://github.com/dash-copilotkit). Dash component library wrapping the CopilotKit runtime. 2★.
