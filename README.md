@@ -50,7 +50,7 @@ it next to the entry.
 - [Good to know](#good-to-know)
 
 <!-- catalogcount:start -->
-**Full catalog:** all 353 AG-UI projects this list can resolve and check, in [CATALOG.md](CATALOG.md)
+**Full catalog:** all 355 AG-UI projects this list can resolve and check, in [CATALOG.md](CATALOG.md)
 
 **Machine-readable:** the same rows as data in [catalog.csv](catalog.csv) and [projects.json](projects.json), and the capability grid in [matrix.csv](matrix.csv)
 <!-- catalogcount:end -->
@@ -453,7 +453,7 @@ The plugins those sessions run are catalogued in
 
 - **Backtest and paper-trade equities** with [alpatrade](https://github.com/predictivelabsai/alpatrade) by [predictivelabsai](https://github.com/predictivelabsai). Trading workbench with an AG-UI surface. 2★, Apache-2.0.
 - **Reason over a biomedical knowledge graph** with [ATHENA](https://github.com/mims-harvard/ATHENA) by [mims-harvard](https://github.com/mims-harvard). Harvard research agent for treatment reasoning. 63★, MIT.
-- **Run an AI desktop companion** with [Cyrene-Agent](https://github.com/Playa-0v0/Cyrene-Agent) by [Playa-0v0](https://github.com/Playa-0v0). Desktop agent built on @ag-ui/client. 426★, MIT.
+- **Run an AI desktop companion** with [Cyrene-Agent](https://github.com/Playa-Cyrene/Cyrene-Agent) by [Playa-0v0](https://github.com/Playa-0v0). Desktop agent built on @ag-ui/client. 426★, MIT.
 - **Search open research data** with [data-commons-search](https://github.com/EOSC-Data-Commons/data-commons-search) by [EOSC-Data-Commons](https://github.com/EOSC-Data-Commons). Search server across open access data sources. 14★, MIT.
 - **Analyse data in an agent workbench** with [dataagent](https://github.com/datagallery-ai/dataagent) by [datagallery-ai](https://github.com/datagallery-ai). Open-source AI workbench unifying data analysis behind a copilot. 744★, Apache-2.0.
 - **Watch competitive intelligence assemble itself** with [Dominad](https://github.com/samy-clivolt/Dominad) by [samy-clivolt](https://github.com/samy-clivolt). Ads intelligence platform on @ag-ui/client. 3★, MIT.
