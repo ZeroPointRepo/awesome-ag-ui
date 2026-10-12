@@ -165,6 +165,10 @@
       "id": 1180226026,
       "full_name": "CopilotKit/OpenGenerativeUI"
     },
+    "copilotkit/openintelligentui": {
+      "id": 1180226026,
+      "full_name": "CopilotKit/OpenIntelligentUI"
+    },
     "copilotkit/opentag": {
       "id": 1280934172,
       "full_name": "CopilotKit/OpenTag"

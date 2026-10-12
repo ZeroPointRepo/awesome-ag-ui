@@ -50,7 +50,7 @@ it next to the entry.
 - [Good to know](#good-to-know)
 
 <!-- catalogcount:start -->
-**Full catalog:** all 344 AG-UI projects this list can resolve and check, in [CATALOG.md](CATALOG.md)
+**Full catalog:** all 341 AG-UI projects this list can resolve and check, in [CATALOG.md](CATALOG.md)
 
 **Machine-readable:** the same rows as data in [catalog.csv](catalog.csv) and [projects.json](projects.json), and the capability grid in [matrix.csv](matrix.csv)
 <!-- catalogcount:end -->
@@ -385,7 +385,7 @@ The plugins those sessions run are catalogued in
 - **Study a finished generative-UI front end** with [financial-agent-ui](https://github.com/virattt/financial-agent-ui) by [virattt](https://github.com/virattt). Financial agent with a full generative interface. 794★.
 - **Build the front end in Vue** with [galvanized-pukeko](https://github.com/pukeko-robotics/galvanized-pukeko) by [pukeko-robotics](https://github.com/pukeko-robotics). Generative UI for agents, Vue flavour. 5★, MIT.
 - **Keep a streaming agent interface accessible** with [generative-a11y](https://github.com/bhaveshchow20/generative-a11y) by [bhaveshchow20](https://github.com/bhaveshchow20). Accessibility runtime for streaming AI and agent UIs. 1★, MIT.
-- **Render generative UI from any agent** with [OpenGenerativeUI](https://github.com/CopilotKit/OpenGenerativeUI) by [CopilotKit](https://github.com/CopilotKit). Framework-level generative UI, not tied to one chat component. 1,521★, MIT.
+- **Render generative UI from any agent** with [OpenIntelligentUI](https://github.com/CopilotKit/OpenIntelligentUI) by [CopilotKit](https://github.com/CopilotKit). Framework-level generative UI, not tied to one chat component. 1,521★, MIT.
 - **Stream shadcn components instead of plain text** with [shadify](https://github.com/CopilotKit/shadify) by [CopilotKit](https://github.com/CopilotKit). Server streams generated shadcn/ui components into the chat. 263★, MIT.
 - **Reach for a Vue component library** with [vue-copilotkit](https://github.com/fe-51shebao/vue-copilotkit) by [fe-51shebao](https://github.com/fe-51shebao). Vue port of the CopilotKit React UI kit. 87★, MIT.
 

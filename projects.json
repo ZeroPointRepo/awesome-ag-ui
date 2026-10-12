@@ -2,18 +2,18 @@
   "name": "awesome-ag-ui",
   "url": "https://github.com/ZeroPointRepo/awesome-ag-ui",
   "source": "https://github.com/ZeroPointRepo/awesome-ag-ui",
-  "updated": "2026-10-05",
-  "count": 344,
+  "updated": "2026-10-12",
+  "count": 341,
   "coverage": {
     "_note": "What this run actually looked at. `listed` plus every other field equals `candidates`: a candidate the run did not reach is reported here rather than omitted, because a cap that is not published reads as if everything was checked.",
-    "candidates": 777,
-    "listed": 246,
+    "candidates": 780,
+    "listed": 243,
     "curated": 98,
-    "dropped_no_dependency": 254,
+    "dropped_no_dependency": 257,
     "dropped_no_install_command": 0,
     "dropped_unreadable": 0,
     "skipped_for_rest_budget": 0,
-    "not_reached_by_cap": 277,
+    "not_reached_by_cap": 280,
     "curated_unchecked_for_rest_budget": 0
   },
   "categories": {
@@ -66,7 +66,7 @@
       "description": {
         "en": "Serve a LangChain agent over AG-UI"
       },
-      "stars": 147452,
+      "stars": 147664,
       "install": "",
       "added": "2026-08-27",
       "agui_dependency": true,
@@ -84,7 +84,7 @@
       "description": {
         "en": "Drive a CrewAI Flow from the browser"
       },
-      "stars": 59354,
+      "stars": 59592,
       "install": "",
       "added": "2026-08-27",
       "agui_dependency": true,
@@ -103,7 +103,7 @@
       "description": {
         "en": "Give a LlamaIndex agent a front end"
       },
-      "stars": 52411,
+      "stars": 52469,
       "install": "",
       "added": "2026-08-27",
       "agui_dependency": true,
@@ -117,7 +117,7 @@
       "description": {
         "en": "Stream a LangGraph run into a React app"
       },
-      "stars": 42726,
+      "stars": 43109,
       "install": "",
       "added": "2026-08-27",
       "agui_dependency": true,
@@ -135,7 +135,7 @@
       "description": {
         "en": "Put an Agno agent behind a copilot"
       },
-      "stars": 42558,
+      "stars": 42682,
       "install": "",
       "added": "2026-08-27",
       "agui_dependency": true,
@@ -152,7 +152,7 @@
       "description": {
         "en": "Drop a copilot into a React, Angular, or mobile app"
       },
-      "stars": 37748,
+      "stars": 37957,
       "install": "",
       "added": "2026-08-27",
       "agui_dependency": true,
@@ -172,7 +172,7 @@
       "description": {
         "en": "Wire a Mastra agent to a chat UI"
       },
-      "stars": 28561,
+      "stars": 28728,
       "install": "",
       "added": "2026-08-27",
       "agui_dependency": true,
@@ -186,7 +186,7 @@
       "description": {
         "en": "Bridge the Vercel AI SDK"
       },
-      "stars": 27123,
+      "stars": 27263,
       "install": "",
       "added": "2026-08-27",
       "agui_dependency": true,
@@ -203,7 +203,7 @@
       "description": {
         "en": "Bring a Google ADK agent into a front end"
       },
-      "stars": 21707,
+      "stars": 21780,
       "install": "",
       "added": "2026-08-27",
       "agui_dependency": true,
@@ -222,7 +222,7 @@
       "description": {
         "en": "Serve a Pydantic AI agent over AG-UI"
       },
-      "stars": 20412,
+      "stars": 20566,
       "install": "",
       "added": "2026-08-27",
       "agui_dependency": true,
@@ -236,7 +236,7 @@
       "description": {
         "en": "Read the protocol itself"
       },
-      "stars": 16314,
+      "stars": 16467,
       "install": "",
       "added": "2026-08-27",
       "agui_dependency": true,
@@ -255,7 +255,7 @@
       "description": {
         "en": "Attach a UI to Microsoft Agent Framework"
       },
-      "stars": 13944,
+      "stars": 14071,
       "install": "",
       "added": "2026-08-27",
       "agui_dependency": true,
@@ -272,7 +272,7 @@
       "description": {
         "en": "Generative UI SDK for React"
       },
-      "stars": 11179,
+      "stars": 11187,
       "install": "",
       "added": "2026-08-27",
       "agui_dependency": true,
@@ -290,7 +290,7 @@
       "description": {
         "en": "Put a Spring AI agent behind a copilot"
       },
-      "stars": 9508,
+      "stars": 9532,
       "install": "",
       "added": "2026-08-27",
       "agui_dependency": true,
@@ -304,7 +304,7 @@
       "description": {
         "en": "Run AWS Strands agents with a UI attached"
       },
-      "stars": 8666,
+      "stars": 8775,
       "install": "",
       "added": "2026-08-27",
       "agui_dependency": true,
@@ -318,7 +318,7 @@
       "description": {
         "en": "Front-end the Claude Agent SDK"
       },
-      "stars": 8215,
+      "stars": 8252,
       "install": "",
       "added": "2026-08-27",
       "agui_dependency": true,
@@ -332,7 +332,7 @@
       "description": {
         "en": "Connect Firebase Genkit to AG-UI"
       },
-      "stars": 6471,
+      "stars": 6510,
       "install": "",
       "added": "2026-08-27",
       "agui_dependency": true,
@@ -351,7 +351,7 @@
       "description": {
         "en": "Open-source AI coworkers that each get a computer of their own: a browser, files and tools, with every action decided before it happens and recorded after. Bring any AG-UI agent."
       },
-      "stars": 6049,
+      "stars": 6370,
       "install": "",
       "added": "2026-08-27",
       "agui_dependency": true,
@@ -368,7 +368,7 @@
       "description": {
         "en": "Run an AG-UI agent on Cloudflare"
       },
-      "stars": 5775,
+      "stars": 5810,
       "install": "",
       "added": "2026-08-27",
       "agui_dependency": true,
@@ -385,7 +385,7 @@
       "description": {
         "en": "Connect an AG2 conversation to the browser"
       },
-      "stars": 4976,
+      "stars": 4989,
       "install": "",
       "added": "2026-08-27",
       "agui_dependency": true,
@@ -395,6 +395,34 @@
       ]
     },
     {
+      "name": "OpenDots",
+      "owner": "CopilotKit",
+      "url": "https://github.com/CopilotKit/OpenDots",
+      "category": "unsorted",
+      "description": {
+        "en": "Your always-on AI coworkers that move between text, calls, and Slack."
+      },
+      "stars": 4970,
+      "install": "",
+      "added": "2026-10-05",
+      "agui_dependency": true,
+      "evidence": "package.json declares an AG-UI package"
+    },
+    {
+      "name": "openmuse",
+      "owner": "CopilotKit",
+      "url": "https://github.com/CopilotKit/openmuse",
+      "category": "unsorted",
+      "description": {
+        "en": "A personal agent with a browser, terminal, files, and work that keeps going built with CopilotKit and AG-UI."
+      },
+      "stars": 4724,
+      "install": "",
+      "added": "2026-09-21",
+      "agui_dependency": true,
+      "evidence": "package.json declares an AG-UI package"
+    },
+    {
       "name": "agent-service-toolkit",
       "owner": "JoshuaC215",
       "url": "https://github.com/JoshuaC215/agent-service-toolkit",
@@ -402,7 +430,7 @@
       "description": {
         "en": "Full toolkit for running an AI agent service built with LangGraph, FastAPI and Streamlit"
       },
-      "stars": 4508,
+      "stars": 4518,
       "install": "",
       "added": "2026-08-27",
       "agui_dependency": true,
@@ -421,7 +449,7 @@
       "description": {
         "en": "Stream Langroid agents to a UI"
       },
-      "stars": 4110,
+      "stars": 4113,
       "install": "",
       "added": "2026-08-27",
       "agui_dependency": true,
@@ -433,34 +461,6 @@
       ]
     },
     {
-      "name": "openmuse",
-      "owner": "CopilotKit",
-      "url": "https://github.com/CopilotKit/openmuse",
-      "category": "unsorted",
-      "description": {
-        "en": "A personal agent with a browser, terminal, files, and work that keeps going built with CopilotKit and AG-UI."
-      },
-      "stars": 3946,
-      "install": "",
-      "added": "2026-09-21",
-      "agui_dependency": true,
-      "evidence": "package.json declares an AG-UI package"
-    },
-    {
-      "name": "OpenDots",
-      "owner": "CopilotKit",
-      "url": "https://github.com/CopilotKit/OpenDots",
-      "category": "unsorted",
-      "description": {
-        "en": "Your always-on AI coworkers that move between text, calls, and Slack."
-      },
-      "stars": 3336,
-      "install": "",
-      "added": "2026-10-05",
-      "agui_dependency": true,
-      "evidence": "package.json declares an AG-UI package"
-    },
-    {
       "name": "core",
       "owner": "cheshire-cat-ai",
       "url": "https://github.com/cheshire-cat-ai/core",
@@ -468,11 +468,31 @@
       "description": {
         "en": "Run a pluggable agent microservice"
       },
-      "stars": 3090,
+      "stars": 3094,
       "install": "",
       "added": "2026-08-27",
       "agui_dependency": true,
       "evidence": "pyproject.toml declares an AG-UI package"
+    },
+    {
+      "name": "OpenIntelligentUI",
+      "owner": "CopilotKit",
+      "url": "https://github.com/CopilotKit/OpenIntelligentUI",
+      "category": "render-the-agent-in-your-front-end",
+      "description": {
+        "en": "Render generative UI from any agent"
+      },
+      "stars": 2771,
+      "install": "",
+      "added": "2026-10-12",
+      "agui_dependency": true,
+      "evidence": "apps/agent/pyproject.toml declares a CopilotKit package",
+      "screenshots": [
+        "https://github.com/user-attachments/assets/b74a1551-a096-4c12-84e8-af79949a2df6",
+        "https://github.com/user-attachments/assets/6a25cc1d-d401-4914-b4f8-6488f3b17005",
+        "https://github.com/user-attachments/assets/dea3c40b-025c-4d50-8fef-b14c50e3ca62",
+        "https://github.com/user-attachments/assets/098d4aad-95a9-4229-aae6-2de38f1eaa69"
+      ]
     },
     {
       "name": "trpc-agent-go",
@@ -482,7 +502,7 @@
       "description": {
         "en": "A Go framework for building production agent systems with graph workflows, tools, memory, A2A, AG-UI, MCP, evaluation, and observability."
       },
-      "stars": 1845,
+      "stars": 1857,
       "install": "",
       "added": "2026-08-27",
       "agui_dependency": true,
@@ -502,7 +522,7 @@
       "description": {
         "en": "Talk to any MCP server from an agent chat"
       },
-      "stars": 1652,
+      "stars": 1651,
       "install": "",
       "added": "2026-08-27",
       "agui_dependency": true,
@@ -512,20 +532,6 @@
       ]
     },
     {
-      "name": "OpenGenerativeUI",
-      "owner": "CopilotKit",
-      "url": "https://github.com/CopilotKit/OpenGenerativeUI",
-      "category": "render-the-agent-in-your-front-end",
-      "description": {
-        "en": "Render generative UI from any agent"
-      },
-      "stars": 1583,
-      "install": "",
-      "added": "2026-08-27",
-      "agui_dependency": true,
-      "evidence": "apps/agent/pyproject.toml declares a CopilotKit package"
-    },
-    {
       "name": "OpenTag",
       "owner": "CopilotKit",
       "url": "https://github.com/CopilotKit/OpenTag",
@@ -533,7 +539,7 @@
       "description": {
         "en": "Run a self-hosted on-call agent"
       },
-      "stars": 1237,
+      "stars": 1259,
       "install": "",
       "added": "2026-08-27",
       "agui_dependency": true,
@@ -552,7 +558,7 @@
       "description": {
         "en": "Render A2UI natively on iOS, Android, and HarmonyOS"
       },
-      "stars": 1182,
+      "stars": 1193,
       "install": "",
       "added": "2026-08-27",
       "agui_dependency": false,
@@ -572,7 +578,7 @@
       "description": {
         "en": "ALwrity - AI-first Digital Marketing Platform. AI Content Strategy and Planning, Multimodal content generation, Publishing, Analytics, AI SEO, Connect & Manage Social Accounts. Marketing OS - WIP"
       },
-      "stars": 1182,
+      "stars": 1189,
       "install": "",
       "added": "2026-08-27",
       "agui_dependency": true,
@@ -592,7 +598,7 @@
       "description": {
         "en": "Mock everything the app talks to"
       },
-      "stars": 958,
+      "stars": 971,
       "install": "",
       "added": "2026-08-27",
       "agui_dependency": true,
@@ -606,7 +612,7 @@
       "description": {
         "en": "Put your agent in Slack, Teams, or Discord"
       },
-      "stars": 932,
+      "stars": 937,
       "install": "",
       "added": "2026-08-27",
       "agui_dependency": true,
@@ -626,7 +632,7 @@
       "description": {
         "en": "Study a finished generative-UI front end"
       },
-      "stars": 794,
+      "stars": 793,
       "install": "",
       "added": "2026-08-27",
       "agui_dependency": false,
@@ -640,7 +646,7 @@
       "description": {
         "en": "Analyse data in an agent workbench"
       },
-      "stars": 780,
+      "stars": 788,
       "install": "",
       "added": "2026-08-31",
       "agui_dependency": true,
@@ -677,7 +683,7 @@
       "description": {
         "en": "Run an AI desktop companion"
       },
-      "stars": 661,
+      "stars": 698,
       "install": "",
       "added": "2026-09-21",
       "agui_dependency": true,
@@ -697,7 +703,7 @@
       "description": {
         "en": "Agentic RAG for local and self-hosted document search: hybrid retrieval, reranking and multimodal RAG on embedded LanceDB, with Docling parsing and an MCP server"
       },
-      "stars": 620,
+      "stars": 626,
       "install": "",
       "added": "2026-08-27",
       "agui_dependency": true,
@@ -711,7 +717,7 @@
       "description": {
         "en": "Manage several agents in one chat"
       },
-      "stars": 540,
+      "stars": 544,
       "install": "",
       "added": "2026-08-27",
       "agui_dependency": true,
@@ -751,7 +757,7 @@
       "description": {
         "en": "Run an Open Agent Spec agent over AG-UI"
       },
-      "stars": 436,
+      "stars": 440,
       "install": "",
       "added": "2026-08-27",
       "agui_dependency": true,
@@ -769,13 +775,33 @@
       "description": {
         "en": "Run a research canvas"
       },
-      "stars": 412,
+      "stars": 416,
       "install": "",
       "added": "2026-08-27",
       "agui_dependency": true,
       "evidence": "agent/requirements.txt declares a CopilotKit package",
       "screenshots": [
         "https://github.com/user-attachments/assets/70c7db1b-de5b-4fb2-b447-09a3a1b78d73"
+      ]
+    },
+    {
+      "name": "AgenticX",
+      "owner": "DemonDamon",
+      "url": "https://github.com/DemonDamon/AgenticX",
+      "category": "agent-runtimes-and-platforms-that-speak-ag-ui",
+      "description": {
+        "en": "Build on a production multi-agent platform"
+      },
+      "stars": 376,
+      "install": "",
+      "added": "2026-08-27",
+      "agui_dependency": false,
+      "evidence": "no dependency found",
+      "screenshots": [
+        "https://raw.githubusercontent.com/DemonDamon/AgenticX/HEAD/assets/near-app-icon.png",
+        "https://raw.githubusercontent.com/DemonDamon/AgenticX/HEAD/assets/agenticx-logo-orange-light.svg",
+        "https://raw.githubusercontent.com/DemonDamon/AgenticX/HEAD/assets/AgenticX",
+        "https://raw.githubusercontent.com/DemonDamon/AgenticX/HEAD/desktop/assets/near-desktop-architecture-en.png"
       ]
     },
     {
@@ -813,8 +839,24 @@
       "evidence": "package.json declares a CopilotKit package",
       "screenshots": [
         "https://repository-images.githubusercontent.com/1210070282/3f832428-20ae-457f-a06a-6c77b2f7dc16",
-        "https://raw.githubusercontent.com/cacheplane/b4run/HEAD/docs/brand/b4-logo-horizontal-black-on-white.png",
-        "https://raw.githubusercontent.com/cacheplane/b4run/HEAD/docs/brand/product-loop.gif"
+        "https://raw.githubusercontent.com/cacheplane/b4run/HEAD/docs/brand/b4-logo-horizontal-black-on-white.png"
+      ]
+    },
+    {
+      "name": "threadplane",
+      "owner": "cacheplane",
+      "url": "https://github.com/cacheplane/threadplane",
+      "category": "render-the-agent-in-your-front-end",
+      "description": {
+        "en": "Build agentic Angular apps"
+      },
+      "stars": 305,
+      "install": "",
+      "added": "2026-09-14",
+      "agui_dependency": true,
+      "evidence": "package.json declares an AG-UI package",
+      "screenshots": [
+        "https://repository-images.githubusercontent.com/1185745318/35fd6408-ed2e-4b6f-8ac1-89e78d442a05"
       ]
     },
     {
@@ -825,31 +867,11 @@
       "description": {
         "en": "Stream shadcn components instead of plain text"
       },
-      "stars": 269,
+      "stars": 272,
       "install": "",
       "added": "2026-08-27",
       "agui_dependency": true,
       "evidence": "apps/agent/pyproject.toml declares a CopilotKit package"
-    },
-    {
-      "name": "AgenticX",
-      "owner": "DemonDamon",
-      "url": "https://github.com/DemonDamon/AgenticX",
-      "category": "agent-runtimes-and-platforms-that-speak-ag-ui",
-      "description": {
-        "en": "Build on a production multi-agent platform"
-      },
-      "stars": 259,
-      "install": "",
-      "added": "2026-08-27",
-      "agui_dependency": false,
-      "evidence": "no dependency found",
-      "screenshots": [
-        "https://raw.githubusercontent.com/DemonDamon/AgenticX/HEAD/assets/near-app-icon.png",
-        "https://raw.githubusercontent.com/DemonDamon/AgenticX/HEAD/assets/agenticx-logo-orange-light.svg",
-        "https://raw.githubusercontent.com/DemonDamon/AgenticX/HEAD/assets/AgenticX",
-        "https://raw.githubusercontent.com/DemonDamon/AgenticX/HEAD/desktop/assets/near-desktop-architecture-en.png"
-      ]
     },
     {
       "name": "idun-agent-platform",
@@ -879,7 +901,7 @@
       "description": {
         "en": "Orchestrate a pool of configured agents"
       },
-      "stars": 191,
+      "stars": 196,
       "install": "",
       "added": "2026-08-27",
       "agui_dependency": true,
@@ -893,7 +915,7 @@
       "description": {
         "en": "The Operating System for Scalable Enterprise AI Agents - Run, orchestrate, and deploy Compliant Enterprise AI Agents at scale across frameworks, without lock-in, rewrites or fragile glue code. Native support for MCP, A2A. Interface with all mainstream communication channels seamlessly out of the box, production ready from day one."
       },
-      "stars": 190,
+      "stars": 192,
       "install": "",
       "added": "2026-08-27",
       "agui_dependency": true,
@@ -910,7 +932,7 @@
       "description": {
         "en": "Serve a Wayflow agent to a front end"
       },
-      "stars": 189,
+      "stars": 190,
       "install": "",
       "added": "2026-08-27",
       "agui_dependency": true,
@@ -928,11 +950,25 @@
       "description": {
         "en": ""
       },
-      "stars": 180,
+      "stars": 179,
       "install": "",
       "added": "2026-08-27",
       "agui_dependency": true,
       "evidence": "package.json declares a CopilotKit package"
+    },
+    {
+      "name": "ui-dojo",
+      "owner": "mastra-ai",
+      "url": "https://github.com/mastra-ai/ui-dojo",
+      "category": "unsorted",
+      "description": {
+        "en": "Mastra + UI Frameworks"
+      },
+      "stars": 179,
+      "install": "",
+      "added": "2026-08-27",
+      "agui_dependency": true,
+      "evidence": "package.json declares an AG-UI package"
     },
     {
       "name": "ibm-watsonx-orchestrate-adk",
@@ -951,20 +987,6 @@
         "https://raw.githubusercontent.com/IBM/ibm-watsonx-orchestrate-adk/HEAD/_docs/assets/chat-example.png",
         "https://raw.githubusercontent.com/IBM/ibm-watsonx-orchestrate-adk/HEAD/_docs/assets/watsonx-orchestrate-hero.png"
       ]
-    },
-    {
-      "name": "ui-dojo",
-      "owner": "mastra-ai",
-      "url": "https://github.com/mastra-ai/ui-dojo",
-      "category": "unsorted",
-      "description": {
-        "en": "Mastra + UI Frameworks"
-      },
-      "stars": 178,
-      "install": "",
-      "added": "2026-08-27",
-      "agui_dependency": true,
-      "evidence": "package.json declares an AG-UI package"
     },
     {
       "name": "codebase-navigator",
@@ -995,20 +1017,6 @@
       "evidence": "ui/package.json declares a CopilotKit package"
     },
     {
-      "name": "scene-creator-copilot",
-      "owner": "CopilotKit",
-      "url": "https://github.com/CopilotKit/scene-creator-copilot",
-      "category": "unsorted",
-      "description": {
-        "en": ""
-      },
-      "stars": 160,
-      "install": "",
-      "added": "2026-08-27",
-      "agui_dependency": true,
-      "evidence": "package.json declares an AG-UI package"
-    },
-    {
       "name": "open-gemini-canvas",
       "owner": "CopilotKit",
       "url": "https://github.com/CopilotKit/open-gemini-canvas",
@@ -1021,20 +1029,6 @@
       "added": "2026-08-27",
       "agui_dependency": true,
       "evidence": "package.json declares a CopilotKit package"
-    },
-    {
-      "name": "generative-ui-playground",
-      "owner": "CopilotKit",
-      "url": "https://github.com/CopilotKit/generative-ui-playground",
-      "category": "unsorted",
-      "description": {
-        "en": "Interact with all three types of generative UI, all in one interface"
-      },
-      "stars": 128,
-      "install": "",
-      "added": "2026-08-27",
-      "agui_dependency": true,
-      "evidence": "package.json declares an AG-UI package"
     },
     {
       "name": "copilotkit-mcp-demo",
@@ -1099,20 +1093,6 @@
       ]
     },
     {
-      "name": "v0-copilot-next",
-      "owner": "Tabintel",
-      "url": "https://github.com/Tabintel/v0-copilot-next",
-      "category": "unsorted",
-      "description": {
-        "en": ""
-      },
-      "stars": 99,
-      "install": "",
-      "added": "2026-08-27",
-      "agui_dependency": true,
-      "evidence": "package.json declares a CopilotKit package"
-    },
-    {
       "name": "AgenticGenUI",
       "owner": "vivek100",
       "url": "https://github.com/vivek100/AgenticGenUI",
@@ -1141,10 +1121,24 @@
       "install": "",
       "added": "2026-09-28",
       "agui_dependency": true,
-      "evidence": "src/NTG.Agent.CopilotKitApp/package.json declares an AG-UI package",
+      "evidence": "src/Directory.Packages.props declares an AG-UI package",
       "screenshots": [
         "https://raw.githubusercontent.com/nashtech-garage/ntg-agent/HEAD/ntg-agent-components.png"
       ]
+    },
+    {
+      "name": "v0-copilot-next",
+      "owner": "Tabintel",
+      "url": "https://github.com/Tabintel/v0-copilot-next",
+      "category": "unsorted",
+      "description": {
+        "en": ""
+      },
+      "stars": 98,
+      "install": "",
+      "added": "2026-08-27",
+      "agui_dependency": true,
+      "evidence": "package.json declares a CopilotKit package"
     },
     {
       "name": "copilotmate",
@@ -1230,23 +1224,6 @@
       "evidence": "frontend/package.json declares an AG-UI package"
     },
     {
-      "name": "threadplane",
-      "owner": "cacheplane",
-      "url": "https://github.com/cacheplane/threadplane",
-      "category": "render-the-agent-in-your-front-end",
-      "description": {
-        "en": "Build agentic Angular apps"
-      },
-      "stars": 65,
-      "install": "",
-      "added": "2026-09-14",
-      "agui_dependency": true,
-      "evidence": "package.json declares an AG-UI package",
-      "screenshots": [
-        "https://repository-images.githubusercontent.com/1185745318/35fd6408-ed2e-4b6f-8ac1-89e78d442a05"
-      ]
-    },
-    {
       "name": "agent-adaptor",
       "owner": "agent-dance",
       "url": "https://github.com/agent-dance/agent-adaptor",
@@ -1254,7 +1231,7 @@
       "description": {
         "en": "Go SDK for standardizing local agent execution across `codex`, `claude`, `cursor` and `codebuddy`."
       },
-      "stars": 64,
+      "stars": 65,
       "install": "",
       "added": "2026-08-27",
       "agui_dependency": true,
@@ -1285,7 +1262,7 @@
       "description": {
         "en": "Durable execution framework for AI agents in Go. Keeps agent state, tool calls, and execution loops resilient across process crashes."
       },
-      "stars": 57,
+      "stars": 58,
       "install": "",
       "added": "2026-08-27",
       "agui_dependency": true,
@@ -1302,7 +1279,7 @@
       "description": {
         "en": "Draw diagrams from the chat"
       },
-      "stars": 57,
+      "stars": 58,
       "install": "",
       "added": "2026-08-27",
       "agui_dependency": true,
@@ -1311,6 +1288,24 @@
         "https://github.com/user-attachments/assets/c0bbf341-c4a9-44fb-86b3-a1ed5523fcf9",
         "https://github.com/user-attachments/assets/edeaeb7a-746e-4aa0-8362-e0cc3b3dce76",
         "https://github.com/user-attachments/assets/08650072-bcff-42c2-a1a6-83ad803f9456"
+      ]
+    },
+    {
+      "name": "mucgpt",
+      "owner": "it-at-m",
+      "url": "https://github.com/it-at-m/mucgpt",
+      "category": "unsorted",
+      "description": {
+        "en": "MUCGPT is an assistant-focused AI toolkit aimed at public administration. It includes different modes of interaction and lets users create and share individual assistants."
+      },
+      "stars": 58,
+      "install": "",
+      "added": "2026-10-12",
+      "agui_dependency": true,
+      "evidence": "mucgpt-core-service/pyproject.toml declares an AG-UI package",
+      "screenshots": [
+        "https://raw.githubusercontent.com/it-at-m/mucgpt/HEAD/mucgpt-frontend/src/assets/edelweiss_full_borderd.svg",
+        "https://raw.githubusercontent.com/it-at-m/mucgpt/HEAD/docs/architecture.png"
       ]
     },
     {
@@ -1367,7 +1362,7 @@
       "description": {
         "en": "Enterprise AI Agent Orchestration Platform — Secure, Observable, Configurable. Multi-agent teams with IAM policies, n8n workflows, LangChain memory, LangSmith traces, NemoClaw security, OpenTelemetry, and 20+ LLM providers."
       },
-      "stars": 48,
+      "stars": 49,
       "install": "",
       "added": "2026-08-27",
       "agui_dependency": true,
@@ -1380,6 +1375,20 @@
       ]
     },
     {
+      "name": "pathfinder",
+      "owner": "CopilotKit",
+      "url": "https://github.com/CopilotKit/pathfinder",
+      "category": "give-an-ag-ui-agent-tools",
+      "description": {
+        "en": "Search your docs and code from the chat"
+      },
+      "stars": 48,
+      "install": "",
+      "added": "2026-08-27",
+      "agui_dependency": true,
+      "evidence": "package.json declares a CopilotKit package"
+    },
+    {
       "name": "crewform",
       "owner": "CrewForm",
       "url": "https://github.com/CrewForm/crewform",
@@ -1387,7 +1396,7 @@
       "description": {
         "en": "Assemble a crew from a form"
       },
-      "stars": 45,
+      "stars": 47,
       "install": "",
       "added": "2026-08-27",
       "agui_dependency": false,
@@ -1414,18 +1423,24 @@
       "evidence": "package.json declares a CopilotKit package"
     },
     {
-      "name": "pathfinder",
-      "owner": "CopilotKit",
-      "url": "https://github.com/CopilotKit/pathfinder",
-      "category": "give-an-ag-ui-agent-tools",
+      "name": "inalpha",
+      "owner": "mirror29",
+      "url": "https://github.com/mirror29/inalpha",
+      "category": "unsorted",
       "description": {
-        "en": "Search your docs and code from the chat"
+        "en": "🦊 Open-source professional quant agent framework. Agents pick the factors working now to time entries, write full strategies, and evolve them in a sandbox — every order through machine approval, the LLM never on the order path. Multi-market, audit-grade."
       },
       "stars": 44,
       "install": "",
       "added": "2026-08-27",
       "agui_dependency": true,
-      "evidence": "package.json declares a CopilotKit package"
+      "evidence": "apps/dashboard/package.json declares an AG-UI package",
+      "screenshots": [
+        "https://raw.githubusercontent.com/mirror29/inalpha/HEAD/assets/mascot-avatar.png",
+        "https://raw.githubusercontent.com/mirror29/inalpha/HEAD/assets/screenshots/en/overview.png",
+        "https://raw.githubusercontent.com/mirror29/inalpha/HEAD/assets/screenshots/en/lab.png",
+        "https://raw.githubusercontent.com/mirror29/inalpha/HEAD/assets/screenshots/en/runners.png"
+      ]
     },
     {
       "name": "trunk-transcribe",
@@ -1442,26 +1457,6 @@
       "evidence": "frontend/package.json declares an AG-UI package",
       "screenshots": [
         "https://user-images.githubusercontent.com/498525/215303132-9249123f-0fcd-41a4-b29e-8d9c5847e663.png"
-      ]
-    },
-    {
-      "name": "inalpha",
-      "owner": "mirror29",
-      "url": "https://github.com/mirror29/inalpha",
-      "category": "unsorted",
-      "description": {
-        "en": "🦊 Open-source professional quant agent framework. Agents pick the factors working now to time entries, write full strategies, and evolve them in a sandbox — every order through machine approval, the LLM never on the order path. Multi-market, audit-grade."
-      },
-      "stars": 42,
-      "install": "",
-      "added": "2026-08-27",
-      "agui_dependency": true,
-      "evidence": "apps/dashboard/package.json declares an AG-UI package",
-      "screenshots": [
-        "https://raw.githubusercontent.com/mirror29/inalpha/HEAD/assets/mascot-avatar.png",
-        "https://raw.githubusercontent.com/mirror29/inalpha/HEAD/assets/screenshots/en/overview.png",
-        "https://raw.githubusercontent.com/mirror29/inalpha/HEAD/assets/screenshots/en/lab.png",
-        "https://raw.githubusercontent.com/mirror29/inalpha/HEAD/assets/screenshots/en/runners.png"
       ]
     },
     {
@@ -1582,6 +1577,20 @@
       ]
     },
     {
+      "name": "tako-copilotkit",
+      "owner": "TakoData",
+      "url": "https://github.com/TakoData/tako-copilotkit",
+      "category": "unsorted",
+      "description": {
+        "en": ""
+      },
+      "stars": 35,
+      "install": "",
+      "added": "2026-08-27",
+      "agui_dependency": true,
+      "evidence": "package.json declares a CopilotKit package"
+    },
+    {
       "name": "open-ag-ui-langgraph",
       "owner": "TheGreatBonnie",
       "url": "https://github.com/TheGreatBonnie/open-ag-ui-langgraph",
@@ -1596,18 +1605,24 @@
       "evidence": "agent/pyproject.toml declares an AG-UI package"
     },
     {
-      "name": "tako-copilotkit",
-      "owner": "TakoData",
-      "url": "https://github.com/TakoData/tako-copilotkit",
+      "name": "sample-FAST-applications",
+      "owner": "aws-samples",
+      "url": "https://github.com/aws-samples/sample-FAST-applications",
       "category": "unsorted",
       "description": {
-        "en": ""
+        "en": "Fullstack AgentCore Solution Template samples repository. See what others have built with FAST!"
       },
-      "stars": 34,
+      "stars": 33,
       "install": "",
       "added": "2026-08-27",
       "agui_dependency": true,
-      "evidence": "package.json declares a CopilotKit package"
+      "evidence": "samples/copilotkit-generative-ui/pyproject.toml declares a CopilotKit package",
+      "screenshots": [
+        "https://raw.githubusercontent.com/aws-samples/sample-FAST-applications/HEAD/samples/restaurant-assistant/docs/img/restaurant-assistant-screenshot.png",
+        "https://raw.githubusercontent.com/aws-samples/sample-FAST-applications/HEAD/samples/copilotkit-generative-ui/docs/img/generative-ui-screenshot2.png",
+        "https://raw.githubusercontent.com/aws-samples/sample-FAST-applications/HEAD/samples/llm-council/docs/architecture-diagram/llm-council-stages.png",
+        "https://raw.githubusercontent.com/aws-samples/sample-FAST-applications/HEAD/samples/dual-monitoring-system/docs/architecture-diagram/Dual-monitoring-20260407.jpg"
+      ]
     },
     {
       "name": "Socrates",
@@ -1622,26 +1637,6 @@
       "added": "2026-08-27",
       "agui_dependency": true,
       "evidence": "pyproject.toml declares an AG-UI package"
-    },
-    {
-      "name": "sample-FAST-applications",
-      "owner": "aws-samples",
-      "url": "https://github.com/aws-samples/sample-FAST-applications",
-      "category": "unsorted",
-      "description": {
-        "en": "Fullstack AgentCore Solution Template samples repository. See what others have built with FAST!"
-      },
-      "stars": 32,
-      "install": "",
-      "added": "2026-08-27",
-      "agui_dependency": true,
-      "evidence": "samples/copilotkit-generative-ui/pyproject.toml declares a CopilotKit package",
-      "screenshots": [
-        "https://raw.githubusercontent.com/aws-samples/sample-FAST-applications/HEAD/samples/restaurant-assistant/docs/img/restaurant-assistant-screenshot.png",
-        "https://raw.githubusercontent.com/aws-samples/sample-FAST-applications/HEAD/samples/copilotkit-generative-ui/docs/img/generative-ui-screenshot2.png",
-        "https://raw.githubusercontent.com/aws-samples/sample-FAST-applications/HEAD/samples/llm-council/docs/architecture-diagram/llm-council-stages.png",
-        "https://raw.githubusercontent.com/aws-samples/sample-FAST-applications/HEAD/samples/dual-monitoring-system/docs/architecture-diagram/Dual-monitoring-20260407.jpg"
-      ]
     },
     {
       "name": "demo-campaign-manager",
@@ -1709,6 +1704,37 @@
       ]
     },
     {
+      "name": "insight-copilot",
+      "owner": "al-mz",
+      "url": "https://github.com/al-mz/insight-copilot",
+      "category": "unsorted",
+      "description": {
+        "en": "An open-source template that enables natural language querying and real-time data visualization for structured dataset."
+      },
+      "stars": 27,
+      "install": "",
+      "added": "2026-08-27",
+      "agui_dependency": true,
+      "evidence": "backend/requirements.txt declares a CopilotKit package",
+      "screenshots": [
+        "https://github.com/user-attachments/assets/6ed3e665-01d7-49b0-addc-5ae7abdc3ccf"
+      ]
+    },
+    {
+      "name": "caudalflow",
+      "owner": "caudal-labs",
+      "url": "https://github.com/caudal-labs/caudalflow",
+      "category": "unsorted",
+      "description": {
+        "en": "A visual canvas for AI conversations. Branch into sidequests, explore in parallel, and merge insights back together."
+      },
+      "stars": 27,
+      "install": "",
+      "added": "2026-08-27",
+      "agui_dependency": true,
+      "evidence": "apps/agent/pyproject.toml declares a CopilotKit package"
+    },
+    {
       "name": "HouseClick",
       "owner": "ClickHouse",
       "url": "https://github.com/ClickHouse/HouseClick",
@@ -1723,23 +1749,6 @@
       "evidence": "app/package.json declares a CopilotKit package",
       "screenshots": [
         "https://raw.githubusercontent.com/ClickHouse/HouseClick/HEAD/house-click.png"
-      ]
-    },
-    {
-      "name": "insight-copilot",
-      "owner": "al-mz",
-      "url": "https://github.com/al-mz/insight-copilot",
-      "category": "unsorted",
-      "description": {
-        "en": "An open-source template that enables natural language querying and real-time data visualization for structured dataset."
-      },
-      "stars": 26,
-      "install": "",
-      "added": "2026-08-27",
-      "agui_dependency": true,
-      "evidence": "backend/requirements.txt declares a CopilotKit package",
-      "screenshots": [
-        "https://github.com/user-attachments/assets/6ed3e665-01d7-49b0-addc-5ae7abdc3ccf"
       ]
     },
     {
@@ -1777,20 +1786,6 @@
       ]
     },
     {
-      "name": "caudalflow",
-      "owner": "caudal-labs",
-      "url": "https://github.com/caudal-labs/caudalflow",
-      "category": "unsorted",
-      "description": {
-        "en": "A visual canvas for AI conversations. Branch into sidequests, explore in parallel, and merge insights back together."
-      },
-      "stars": 25,
-      "install": "",
-      "added": "2026-08-27",
-      "agui_dependency": true,
-      "evidence": "apps/agent/pyproject.toml declares a CopilotKit package"
-    },
-    {
       "name": "talk-to-page",
       "owner": "k0msenapati",
       "url": "https://github.com/k0msenapati/talk-to-page",
@@ -1803,6 +1798,20 @@
       "added": "2026-08-27",
       "agui_dependency": true,
       "evidence": "agent/pyproject.toml declares a CopilotKit package"
+    },
+    {
+      "name": "isrvd",
+      "owner": "rehiy",
+      "url": "https://github.com/rehiy/isrvd",
+      "category": "unsorted",
+      "description": {
+        "en": "一体化服务器管理工具，基于 Go + Vue 3 构建，提供文件管理、Docker/Swarm/Compose、APISIX/Caddy 网关、Web 终端、计划任务等全栈运维能力。"
+      },
+      "stars": 24,
+      "install": "",
+      "added": "2026-09-07",
+      "agui_dependency": true,
+      "evidence": "webview/package.json declares a CopilotKit package"
     },
     {
       "name": "langgraph-whatsapp-bot",
@@ -1834,20 +1843,6 @@
       "added": "2026-08-27",
       "agui_dependency": true,
       "evidence": "backend/package.json declares a CopilotKit package"
-    },
-    {
-      "name": "isrvd",
-      "owner": "rehiy",
-      "url": "https://github.com/rehiy/isrvd",
-      "category": "unsorted",
-      "description": {
-        "en": "一体化服务器管理工具，基于 Go + Vue 3 构建，提供文件管理、Docker/Swarm/Compose、APISIX/Caddy 网关、Web 终端、计划任务等全栈运维能力。"
-      },
-      "stars": 23,
-      "install": "",
-      "added": "2026-09-07",
-      "agui_dependency": true,
-      "evidence": "webview/package.json declares a CopilotKit package"
     },
     {
       "name": "mcp-ts",
@@ -2035,6 +2030,20 @@
       "evidence": "pyproject.toml declares an AG-UI package"
     },
     {
+      "name": "miiflow-agent",
+      "owner": "MiiFlow",
+      "url": "https://github.com/MiiFlow/miiflow-agent",
+      "category": "unsorted",
+      "description": {
+        "en": "Lightweight Python SDK for LLMs with unified API across 9 providers. Built-in ReAct & Plan-Execute agents, streaming, native tool calling, context injection, structured outputs, and observability."
+      },
+      "stars": 19,
+      "install": "",
+      "added": "2026-10-12",
+      "agui_dependency": true,
+      "evidence": "pyproject.toml declares an AG-UI package"
+    },
+    {
       "name": "agui_demo",
       "owner": "breeznik",
       "url": "https://github.com/breeznik/agui_demo",
@@ -2089,6 +2098,25 @@
       "added": "2026-08-27",
       "agui_dependency": true,
       "evidence": "ag-ui-research-agent/pyproject.toml declares an AG-UI package"
+    },
+    {
+      "name": "sample-agentcore-enterprise-platform",
+      "owner": "aws-samples",
+      "url": "https://github.com/aws-samples/sample-agentcore-enterprise-platform",
+      "category": "unsorted",
+      "description": {
+        "en": "Amazon Bedrock AgentCore enterprise platform accelerator with AWS CDK, Terraform organization guardrails, MCP/A2A agents, security, memory, and observability."
+      },
+      "stars": 16,
+      "install": "",
+      "added": "2026-08-27",
+      "agui_dependency": true,
+      "evidence": "agent-code/agui-langgraph-agent/requirements.txt declares a CopilotKit package",
+      "screenshots": [
+        "https://raw.githubusercontent.com/aws-samples/sample-agentcore-enterprise-platform/HEAD/docs/architecture-accounts.png",
+        "https://raw.githubusercontent.com/aws-samples/sample-agentcore-enterprise-platform/HEAD/docs/architecture.png",
+        "https://raw.githubusercontent.com/aws-samples/sample-agentcore-enterprise-platform/HEAD/docs/dashboard-monitor.png"
+      ]
     },
     {
       "name": "Agents.KT",
@@ -2204,25 +2232,6 @@
       ]
     },
     {
-      "name": "sample-agentcore-enterprise-platform",
-      "owner": "aws-samples",
-      "url": "https://github.com/aws-samples/sample-agentcore-enterprise-platform",
-      "category": "unsorted",
-      "description": {
-        "en": "Amazon Bedrock AgentCore enterprise platform accelerator with AWS CDK, Terraform organization guardrails, MCP/A2A agents, security, memory, and observability."
-      },
-      "stars": 13,
-      "install": "",
-      "added": "2026-08-27",
-      "agui_dependency": true,
-      "evidence": "agent-code/agui-langgraph-agent/requirements.txt declares a CopilotKit package",
-      "screenshots": [
-        "https://raw.githubusercontent.com/aws-samples/sample-agentcore-enterprise-platform/HEAD/docs/architecture-accounts.png",
-        "https://raw.githubusercontent.com/aws-samples/sample-agentcore-enterprise-platform/HEAD/docs/architecture.png",
-        "https://raw.githubusercontent.com/aws-samples/sample-agentcore-enterprise-platform/HEAD/docs/dashboard-monitor.png"
-      ]
-    },
-    {
       "name": "DATACLAW-AGENT",
       "owner": "gopivikranth28",
       "url": "https://github.com/gopivikranth28/DATACLAW-AGENT",
@@ -2299,6 +2308,20 @@
       "evidence": "package.json declares a CopilotKit package"
     },
     {
+      "name": "outpost",
+      "owner": "CopilotKit",
+      "url": "https://github.com/CopilotKit/outpost",
+      "category": "unsorted",
+      "description": {
+        "en": "AI-powered customer support operations platform"
+      },
+      "stars": 12,
+      "install": "",
+      "added": "2026-09-21",
+      "agui_dependency": true,
+      "evidence": "package.json declares a CopilotKit package"
+    },
+    {
       "name": "geovision",
       "owner": "dsouzavijeth",
       "url": "https://github.com/dsouzavijeth/geovision",
@@ -2324,7 +2347,7 @@
       "install": "",
       "added": "2026-08-27",
       "agui_dependency": true,
-      "evidence": "pkg/agui/web/ui/package.json declares an AG-UI package"
+      "evidence": "packages/copilotkit/package.json declares an AG-UI package"
     },
     {
       "name": "GenUI-LoomAgent",
@@ -2379,6 +2402,20 @@
       ]
     },
     {
+      "name": "GenUI_MCP",
+      "owner": "adner",
+      "url": "https://github.com/adner/GenUI_MCP",
+      "category": "give-an-ag-ui-agent-tools",
+      "description": {
+        "en": "Turn a sentence into a rendered UI over MCP"
+      },
+      "stars": 11,
+      "install": "",
+      "added": "2026-08-27",
+      "agui_dependency": true,
+      "evidence": "package.json declares an AG-UI package"
+    },
+    {
       "name": "hndigest",
       "owner": "Anmol-Baranwal",
       "url": "https://github.com/Anmol-Baranwal/hndigest",
@@ -2391,20 +2428,6 @@
       "added": "2026-08-27",
       "agui_dependency": true,
       "evidence": "package.json declares a CopilotKit package"
-    },
-    {
-      "name": "UIX",
-      "owner": "Deepractice",
-      "url": "https://github.com/Deepractice/UIX",
-      "category": "unsorted",
-      "description": {
-        "en": "AI-to-UI IR Protocol Layer — The Last Mile from AI to Human. Includes Lucid UI Skill for professional AI-generated interfaces."
-      },
-      "stars": 11,
-      "install": "",
-      "added": "2026-08-27",
-      "agui_dependency": true,
-      "evidence": "packages/adapter-agui/package.json declares an AG-UI package"
     },
     {
       "name": "use-ai",
@@ -2424,20 +2447,6 @@
         "https://github.com/user-attachments/assets/87aea2e3-9680-4164-a92b-e2554d8e2e3b",
         "https://github.com/user-attachments/assets/e8dd5176-cca0-4104-9342-a6dea914f0f8"
       ]
-    },
-    {
-      "name": "GenUI_MCP",
-      "owner": "adner",
-      "url": "https://github.com/adner/GenUI_MCP",
-      "category": "give-an-ag-ui-agent-tools",
-      "description": {
-        "en": "Turn a sentence into a rendered UI over MCP"
-      },
-      "stars": 10,
-      "install": "",
-      "added": "2026-08-27",
-      "agui_dependency": true,
-      "evidence": "package.json declares an AG-UI package"
     },
     {
       "name": "orchestra",
@@ -2488,18 +2497,18 @@
       "evidence": "package.json declares a CopilotKit package"
     },
     {
-      "name": "outpost",
-      "owner": "CopilotKit",
-      "url": "https://github.com/CopilotKit/outpost",
+      "name": "UIX",
+      "owner": "Deepractice",
+      "url": "https://github.com/Deepractice/UIX",
       "category": "unsorted",
       "description": {
-        "en": "AI-powered customer support operations platform"
+        "en": "AI-to-UI IR Protocol Layer — The Last Mile from AI to Human. Includes Lucid UI Skill for professional AI-generated interfaces."
       },
       "stars": 10,
       "install": "",
-      "added": "2026-09-21",
+      "added": "2026-08-27",
       "agui_dependency": true,
-      "evidence": "package.json declares a CopilotKit package"
+      "evidence": "packages/adapter-agui/package.json declares an AG-UI package"
     },
     {
       "name": "si-mapper",
@@ -2573,20 +2582,6 @@
       "added": "2026-08-27",
       "agui_dependency": true,
       "evidence": "packages/agent/package.json declares an AG-UI package"
-    },
-    {
-      "name": "ag-ui-cloudflare",
-      "owner": "Klammertime",
-      "url": "https://github.com/Klammertime/ag-ui-cloudflare",
-      "category": "middleware-change-what-a-run-does-without-touching-the-agent",
-      "description": {
-        "en": "Serve AG-UI from a Cloudflare Worker"
-      },
-      "stars": 9,
-      "install": "",
-      "added": "2026-08-27",
-      "agui_dependency": true,
-      "evidence": "package.json declares an AG-UI package"
     },
     {
       "name": "content-flow",
@@ -2740,46 +2735,18 @@
       "evidence": "src/requirements.txt declares an AG-UI package"
     },
     {
-      "name": "mcp-server-workshop",
-      "owner": "mastra-ai",
-      "url": "https://github.com/mastra-ai/mcp-server-workshop",
-      "category": "unsorted",
+      "name": "ag-ui-cloudflare",
+      "owner": "Klammertime",
+      "url": "https://github.com/Klammertime/ag-ui-cloudflare",
+      "category": "middleware-change-what-a-run-does-without-touching-the-agent",
       "description": {
-        "en": "Mastra MCP Server workshop"
+        "en": "Serve AG-UI from a Cloudflare Worker"
       },
       "stars": 8,
       "install": "",
       "added": "2026-08-27",
-      "agui_dependency": true,
-      "evidence": "packages/web/package.json declares an AG-UI package"
-    },
-    {
-      "name": "standup-pulse",
-      "owner": "Soverius-AI",
-      "url": "https://github.com/Soverius-AI/standup-pulse",
-      "category": "unsorted",
-      "description": {
-        "en": ""
-      },
-      "stars": 8,
-      "install": "",
-      "added": "2026-09-21",
       "agui_dependency": true,
       "evidence": "package.json declares an AG-UI package"
-    },
-    {
-      "name": "MAF_Workshop",
-      "owner": "taeyo-kim",
-      "url": "https://github.com/taeyo-kim/MAF_Workshop",
-      "category": "unsorted",
-      "description": {
-        "en": "MAF 기본적인 사용법을 다루는 작은 워크샵"
-      },
-      "stars": 8,
-      "install": "",
-      "added": "2026-08-27",
-      "agui_dependency": true,
-      "evidence": "my-copilot-app/package.json declares an AG-UI package"
     },
     {
       "name": "adk-ag-ui-demo",
@@ -2855,6 +2822,23 @@
       "evidence": "requirements.txt declares an AG-UI package"
     },
     {
+      "name": "ably-ai-transport-js",
+      "owner": "ably",
+      "url": "https://github.com/ably/ably-ai-transport-js",
+      "category": "unsorted",
+      "description": {
+        "en": "Ably AI Transport SDK to create reliable AI experiences built on durable sessions (Javascript, Node, Typescript, React, React Native)"
+      },
+      "stars": 6,
+      "install": "",
+      "added": "2026-10-12",
+      "agui_dependency": true,
+      "evidence": "package.json declares an AG-UI package",
+      "screenshots": [
+        "https://raw.githubusercontent.com/ably/ably-ai-transport-js/HEAD/images/JavaScriptSDK-AITransport-github.png"
+      ]
+    },
+    {
       "name": "sample-multimodal-training-assistant",
       "owner": "aws-samples",
       "url": "https://github.com/aws-samples/sample-multimodal-training-assistant",
@@ -2869,6 +2853,24 @@
       "evidence": "agent/pyproject.toml declares an AG-UI package",
       "screenshots": [
         "https://raw.githubusercontent.com/aws-samples/sample-multimodal-training-assistant/HEAD/assets/architecture-diagram.png"
+      ]
+    },
+    {
+      "name": "generative-a11y",
+      "owner": "bhaveshchow20",
+      "url": "https://github.com/bhaveshchow20/generative-a11y",
+      "category": "render-the-agent-in-your-front-end",
+      "description": {
+        "en": "Keep a streaming agent interface accessible"
+      },
+      "stars": 6,
+      "install": "",
+      "added": "2026-08-27",
+      "agui_dependency": true,
+      "evidence": "package.json declares an AG-UI package",
+      "screenshots": [
+        "https://repository-images.githubusercontent.com/1329294056/057eb5e7-c8ef-40ad-9b23-3e9eccfb4357",
+        "https://raw.githubusercontent.com/bhaveshchow20/generative-a11y/HEAD/.github/assets/header.svg"
       ]
     },
     {
@@ -2954,6 +2956,20 @@
       "evidence": "backend/requirements.txt declares an AG-UI package"
     },
     {
+      "name": "10xgraph-api",
+      "owner": "10xGraph",
+      "url": "https://github.com/10xGraph/10xgraph-api",
+      "category": "unsorted",
+      "description": {
+        "en": "FastAPI server and CLI for Agentflow. Auto-generates a REST API from your agent graph, with JWT/custom auth, RBAC authorization, rate limiting, dual-layer checkpointing, and Docker/Kubernetes-ready builds."
+      },
+      "stars": 5,
+      "install": "",
+      "added": "2026-10-12",
+      "agui_dependency": true,
+      "evidence": "pyproject.toml declares an AG-UI package"
+    },
+    {
       "name": "AgUI_MicrosoftAgentFramework_Sample",
       "owner": "adner",
       "url": "https://github.com/adner/AgUI_MicrosoftAgentFramework_Sample",
@@ -2966,24 +2982,6 @@
       "added": "2026-08-27",
       "agui_dependency": true,
       "evidence": "package.json declares an AG-UI package"
-    },
-    {
-      "name": "generative-a11y",
-      "owner": "bhaveshchow20",
-      "url": "https://github.com/bhaveshchow20/generative-a11y",
-      "category": "render-the-agent-in-your-front-end",
-      "description": {
-        "en": "Keep a streaming agent interface accessible"
-      },
-      "stars": 5,
-      "install": "",
-      "added": "2026-08-27",
-      "agui_dependency": true,
-      "evidence": "package.json declares an AG-UI package",
-      "screenshots": [
-        "https://repository-images.githubusercontent.com/1329294056/057eb5e7-c8ef-40ad-9b23-3e9eccfb4357",
-        "https://raw.githubusercontent.com/bhaveshchow20/generative-a11y/HEAD/.github/assets/header.svg"
-      ]
     },
     {
       "name": "ag-ui-adk-grounding-app",
@@ -3029,6 +3027,24 @@
       "screenshots": [
         "https://raw.githubusercontent.com/NikiforovAll/company-intel-dotnet/HEAD/assets/ingestion.png",
         "https://raw.githubusercontent.com/NikiforovAll/company-intel-dotnet/HEAD/assets/chat.png"
+      ]
+    },
+    {
+      "name": "plurnk",
+      "owner": "plurnk",
+      "url": "https://github.com/plurnk/plurnk",
+      "category": "unsorted",
+      "description": {
+        "en": "Terminal client for Plurnk: model-curated context, composable tools, and cooperating workers. Local or cloud models."
+      },
+      "stars": 5,
+      "install": "",
+      "added": "2026-10-05",
+      "agui_dependency": true,
+      "evidence": "package.json declares an AG-UI package",
+      "screenshots": [
+        "https://repository-images.githubusercontent.com/1241322899/91a85d43-3fd2-45ca-aa40-f1d0d3611c1d",
+        "https://raw.githubusercontent.com/plurnk/plurnk-service/main/docs/media/session.gif"
       ]
     },
     {
@@ -3241,24 +3257,6 @@
       ]
     },
     {
-      "name": "plurnk",
-      "owner": "plurnk",
-      "url": "https://github.com/plurnk/plurnk",
-      "category": "unsorted",
-      "description": {
-        "en": "Terminal client for Plurnk: model-curated context, composable tools, and cooperating workers. Local or cloud models."
-      },
-      "stars": 4,
-      "install": "",
-      "added": "2026-10-05",
-      "agui_dependency": true,
-      "evidence": "package.json declares an AG-UI package",
-      "screenshots": [
-        "https://repository-images.githubusercontent.com/1241322899/91a85d43-3fd2-45ca-aa40-f1d0d3611c1d",
-        "https://raw.githubusercontent.com/plurnk/plurnk-service/main/docs/media/session.gif"
-      ]
-    },
-    {
       "name": "uncensored.ai",
       "owner": "pramodthe",
       "url": "https://github.com/pramodthe/uncensored.ai",
@@ -3271,6 +3269,37 @@
       "added": "2026-08-27",
       "agui_dependency": true,
       "evidence": "deep-agent/agent/pyproject.toml declares a CopilotKit package"
+    },
+    {
+      "name": "2026-claude-classroom",
+      "owner": "rstropek",
+      "url": "https://github.com/rstropek/2026-claude-classroom",
+      "category": "unsorted",
+      "description": {
+        "en": ""
+      },
+      "stars": 4,
+      "install": "",
+      "added": "2026-09-07",
+      "agui_dependency": true,
+      "evidence": "session-1-result/package.json declares an AG-UI package"
+    },
+    {
+      "name": "ngx-json-render",
+      "owner": "shteynu",
+      "url": "https://github.com/shteynu/ngx-json-render",
+      "category": "unsorted",
+      "description": {
+        "en": "Generative UI for Angular: a json-render renderer that streams AI-generated JSON specs into real Angular components with signals. Works with AG-UI agents and CopilotKit, MCP Apps and the Vercel AI SDK."
+      },
+      "stars": 4,
+      "install": "",
+      "added": "2026-10-12",
+      "agui_dependency": true,
+      "evidence": "package.json declares an AG-UI package",
+      "screenshots": [
+        "https://raw.githubusercontent.com/shteynu/ngx-json-render/HEAD/docs/streaming.gif"
+      ]
     },
     {
       "name": "chatbot",
@@ -3439,6 +3468,25 @@
       "evidence": "services/agent/pyproject.toml declares a CopilotKit package"
     },
     {
+      "name": "agui-inspector",
+      "owner": "dogganidhal",
+      "url": "https://github.com/dogganidhal/agui-inspector",
+      "category": "unsorted",
+      "description": {
+        "en": "See the wire of any AG-UI server. Records every request and SSE frame, validates them against the protocol, and drives runs like a client: interrupts, client tools and A2UI surfaces."
+      },
+      "stars": 3,
+      "install": "",
+      "added": "2026-10-05",
+      "agui_dependency": true,
+      "evidence": "packages/inspector/package.json declares an AG-UI package",
+      "screenshots": [
+        "https://repository-images.githubusercontent.com/1400636918/c9fc1b0d-8770-40c3-870c-fc1cdaf2808d",
+        "https://raw.githubusercontent.com/dogganidhal/agui-inspector/HEAD/branding/icon.svg",
+        "https://raw.githubusercontent.com/dogganidhal/agui-inspector/HEAD/docs/images/showcase-light.webp"
+      ]
+    },
+    {
       "name": "agentic-fullstack-template",
       "owner": "fulltechfactory",
       "url": "https://github.com/fulltechfactory/agentic-fullstack-template",
@@ -3451,6 +3499,20 @@
       "added": "2026-08-27",
       "agui_dependency": true,
       "evidence": "backend/requirements.txt declares an AG-UI package"
+    },
+    {
+      "name": "comonadic-harness",
+      "owner": "getmissionctrl",
+      "url": "https://github.com/getmissionctrl/comonadic-harness",
+      "category": "unsorted",
+      "description": {
+        "en": "A comonadic agent harness: Free/Cofree recipe-oracle pairing with a closed alphabet, affordance/admit repair, and compaction — Haskell."
+      },
+      "stars": 3,
+      "install": "",
+      "added": "2026-10-12",
+      "agui_dependency": true,
+      "evidence": "web/package.json declares an AG-UI package"
     },
     {
       "name": "agentickit",
@@ -3630,20 +3692,6 @@
       ]
     },
     {
-      "name": "2026-claude-classroom",
-      "owner": "rstropek",
-      "url": "https://github.com/rstropek/2026-claude-classroom",
-      "category": "unsorted",
-      "description": {
-        "en": ""
-      },
-      "stars": 3,
-      "install": "",
-      "added": "2026-09-07",
-      "agui_dependency": true,
-      "evidence": "session-1-result/package.json declares an AG-UI package"
-    },
-    {
       "name": "Dominad",
       "owner": "samy-clivolt",
       "url": "https://github.com/samy-clivolt/Dominad",
@@ -3659,6 +3707,20 @@
       "screenshots": [
         "https://raw.githubusercontent.com/samy-clivolt/Dominad/HEAD/api/proxy-image?url=https://googleadservices.com/..."
       ]
+    },
+    {
+      "name": "fastapi_langgraph_template",
+      "owner": "TekkenSteve",
+      "url": "https://github.com/TekkenSteve/fastapi_langgraph_template",
+      "category": "unsorted",
+      "description": {
+        "en": "Production-ready template for a self-hosted Agent Protocol server: FastAPI + LangGraph + PostgreSQL (+ optional Redis), clean-architecture layering, dual graph-authoring paradigms, staged writes, generative UI, and a CopilotKit demo frontend. E2E-tested with real SDK clients."
+      },
+      "stars": 3,
+      "install": "",
+      "added": "2026-09-14",
+      "agui_dependency": true,
+      "evidence": "apps/web/package.json declares an AG-UI package"
     },
     {
       "name": "ag-ui-langgraph-agent",
@@ -4130,6 +4192,23 @@
       "evidence": "package.json declares a CopilotKit package"
     },
     {
+      "name": "openmuse",
+      "owner": "jerelvelarde",
+      "url": "https://github.com/jerelvelarde/openmuse",
+      "category": "unsorted",
+      "description": {
+        "en": "An open-source personal agent with a persistent browser computer, CopilotKit rich chat, and a React Native app."
+      },
+      "stars": 2,
+      "install": "",
+      "added": "2026-09-28",
+      "agui_dependency": true,
+      "evidence": "package.json declares an AG-UI package",
+      "screenshots": [
+        "https://raw.githubusercontent.com/jerelvelarde/openmuse/HEAD/assets/openmuse-demo.gif"
+      ]
+    },
+    {
       "name": "ag-ui-rust",
       "owner": "kaija",
       "url": "https://github.com/kaija/ag-ui-rust",
@@ -4203,6 +4282,20 @@
       ]
     },
     {
+      "name": "ai_home_designer",
+      "owner": "mezberg",
+      "url": "https://github.com/mezberg/ai_home_designer",
+      "category": "unsorted",
+      "description": {
+        "en": ""
+      },
+      "stars": 2,
+      "install": "",
+      "added": "2026-10-05",
+      "agui_dependency": true,
+      "evidence": "package.json declares an AG-UI package"
+    },
+    {
       "name": "ts-elise-oss",
       "owner": "mrpotatodip",
       "url": "https://github.com/mrpotatodip/ts-elise-oss",
@@ -4246,6 +4339,20 @@
       "added": "2026-09-14",
       "agui_dependency": true,
       "evidence": "services/backend/pyproject.toml declares an AG-UI package"
+    },
+    {
+      "name": "book_agentic_patterns",
+      "owner": "pcingola",
+      "url": "https://github.com/pcingola/book_agentic_patterns",
+      "category": "unsorted",
+      "description": {
+        "en": "Book: Agentic Patterns"
+      },
+      "stars": 2,
+      "install": "",
+      "added": "2026-10-12",
+      "agui_dependency": true,
+      "evidence": "agentic_patterns/examples/ui/frontend/package.json declares an AG-UI package"
     },
     {
       "name": "MicrosoftAgentFrameworkAgentWithVueAG-UIClient",
@@ -4395,20 +4502,6 @@
       "evidence": "client/package.json declares an AG-UI package"
     },
     {
-      "name": "fastapi_langgraph_template",
-      "owner": "TekkenSteve",
-      "url": "https://github.com/TekkenSteve/fastapi_langgraph_template",
-      "category": "unsorted",
-      "description": {
-        "en": "Production-ready template for a self-hosted Agent Protocol server: FastAPI + LangGraph + PostgreSQL (+ optional Redis), clean-architecture layering, dual graph-authoring paradigms, staged writes, generative UI, and a CopilotKit demo frontend. E2E-tested with real SDK clients."
-      },
-      "stars": 2,
-      "install": "",
-      "added": "2026-09-14",
-      "agui_dependency": true,
-      "evidence": "apps/web/package.json declares an AG-UI package"
-    },
-    {
       "name": "tkhwang-pico",
       "owner": "tkhwang",
       "url": "https://github.com/tkhwang/tkhwang-pico",
@@ -4439,6 +4532,23 @@
       "added": "2026-09-28",
       "agui_dependency": true,
       "evidence": "webapp/package.json declares an AG-UI package"
+    },
+    {
+      "name": "nexus",
+      "owner": "travisnielsen",
+      "url": "https://github.com/travisnielsen/nexus",
+      "category": "unsorted",
+      "description": {
+        "en": "Nexus is a reference design for an interactive dashboard powered by AG-UI and Microsoft Agent Framework."
+      },
+      "stars": 2,
+      "install": "",
+      "added": "2026-08-27",
+      "agui_dependency": true,
+      "evidence": "src/frontend/package.json declares an AG-UI package",
+      "screenshots": [
+        "https://raw.githubusercontent.com/travisnielsen/nexus/HEAD/media/images/demo.gif"
+      ]
     },
     {
       "name": "AIaaS-Boilerplate-Framework",
@@ -4503,20 +4613,6 @@
       ]
     },
     {
-      "name": "agui-multi-user",
-      "owner": "aakashns",
-      "url": "https://github.com/aakashns/agui-multi-user",
-      "category": "unsorted",
-      "description": {
-        "en": ""
-      },
-      "stars": 1,
-      "install": "",
-      "added": "2026-08-27",
-      "agui_dependency": true,
-      "evidence": "package.json declares an AG-UI package"
-    },
-    {
       "name": "dspack-studio",
       "owner": "aestheticfunction",
       "url": "https://github.com/aestheticfunction/dspack-studio",
@@ -4532,6 +4628,20 @@
       "screenshots": [
         "https://raw.githubusercontent.com/aestheticfunction/dspack-studio/HEAD/docs/assets/dspack-studio-catch.gif"
       ]
+    },
+    {
+      "name": "ag2-samples",
+      "owner": "ag2ai",
+      "url": "https://github.com/ag2ai/ag2-samples",
+      "category": "unsorted",
+      "description": {
+        "en": ""
+      },
+      "stars": 1,
+      "install": "",
+      "added": "2026-10-12",
+      "agui_dependency": true,
+      "evidence": "ui/package.json declares an AG-UI package"
     },
     {
       "name": "uni-acp-agui",
@@ -4701,22 +4811,21 @@
       "evidence": "pyproject.toml declares an AG-UI package"
     },
     {
-      "name": "agui-inspector",
-      "owner": "dogganidhal",
-      "url": "https://github.com/dogganidhal/agui-inspector",
+      "name": "signoff-ui",
+      "owner": "dgesteves",
+      "url": "https://github.com/dgesteves/signoff-ui",
       "category": "unsorted",
       "description": {
-        "en": "See the wire of any AG-UI server. Records every request and SSE frame, validates them against the protocol, and drives runs like a client: interrupts, client tools and A2UI surfaces."
+        "en": "Review what your agent changed and approve what it may do: React components for multi-file diff review and tool approvals, for AI SDK 6 & 7 and AG-UI agents."
       },
       "stars": 1,
       "install": "",
-      "added": "2026-10-05",
+      "added": "2026-10-12",
       "agui_dependency": true,
-      "evidence": "packages/inspector/package.json declares an AG-UI package",
+      "evidence": "examples/playground/package.json declares an AG-UI package",
       "screenshots": [
-        "https://repository-images.githubusercontent.com/1400636918/c9fc1b0d-8770-40c3-870c-fc1cdaf2808d",
-        "https://raw.githubusercontent.com/dogganidhal/agui-inspector/HEAD/branding/icon.svg",
-        "https://raw.githubusercontent.com/dogganidhal/agui-inspector/HEAD/docs/images/showcase-light.webp"
+        "https://repository-images.githubusercontent.com/1407893234/71aafaca-5501-482c-99a4-7f6c0c197279",
+        "https://raw.githubusercontent.com/dgesteves/signoff-ui/HEAD/docs/media/demo.webp"
       ]
     },
     {
@@ -4830,26 +4939,6 @@
       "added": "2026-08-27",
       "agui_dependency": true,
       "evidence": "package.json declares an AG-UI package"
-    },
-    {
-      "name": "foot-agui-sample",
-      "owner": "fredgis",
-      "url": "https://github.com/fredgis/foot-agui-sample",
-      "category": "unsorted",
-      "description": {
-        "en": "AG-UI plus GPT5.2 avec Microsoft Agent Framework"
-      },
-      "stars": 1,
-      "install": "",
-      "added": "2026-08-27",
-      "agui_dependency": true,
-      "evidence": "package.json declares an AG-UI package",
-      "screenshots": [
-        "https://raw.githubusercontent.com/fredgis/foot-agui-sample/HEAD/assets/RepoHeader.svg",
-        "https://raw.githubusercontent.com/fredgis/foot-agui-sample/HEAD/images/IMG1.png",
-        "https://raw.githubusercontent.com/fredgis/foot-agui-sample/HEAD/images/IMG2.png",
-        "https://raw.githubusercontent.com/fredgis/foot-agui-sample/HEAD/images/IMG3.png"
-      ]
     },
     {
       "name": "hanfani-core",
@@ -5027,20 +5116,6 @@
       ]
     },
     {
-      "name": "langchain-deepagent-bedrock-agentcore",
-      "owner": "iker592",
-      "url": "https://github.com/iker592/langchain-deepagent-bedrock-agentcore",
-      "category": "unsorted",
-      "description": {
-        "en": ""
-      },
-      "stars": 1,
-      "install": "",
-      "added": "2026-08-27",
-      "agui_dependency": true,
-      "evidence": "pyproject.toml declares an AG-UI package"
-    },
-    {
       "name": "langgraph-copilotkit-a2ui-product-assistant",
       "owner": "jamalla",
       "url": "https://github.com/jamalla/langgraph-copilotkit-a2ui-product-assistant",
@@ -5069,20 +5144,6 @@
       "evidence": "package.json declares a CopilotKit package"
     },
     {
-      "name": "hermes-cpk",
-      "owner": "jerelvelarde",
-      "url": "https://github.com/jerelvelarde/hermes-cpk",
-      "category": "unsorted",
-      "description": {
-        "en": ""
-      },
-      "stars": 1,
-      "install": "",
-      "added": "2026-08-27",
-      "agui_dependency": true,
-      "evidence": "expense-tracker-live/package.json declares an AG-UI package"
-    },
-    {
       "name": "margin-analyst-demo",
       "owner": "jerelvelarde",
       "url": "https://github.com/jerelvelarde/margin-analyst-demo",
@@ -5097,23 +5158,6 @@
       "evidence": "package.json declares an AG-UI package",
       "screenshots": [
         "https://raw.githubusercontent.com/jerelvelarde/margin-analyst-demo/HEAD/docs/hero.gif"
-      ]
-    },
-    {
-      "name": "openmuse",
-      "owner": "jerelvelarde",
-      "url": "https://github.com/jerelvelarde/openmuse",
-      "category": "unsorted",
-      "description": {
-        "en": "An open-source personal agent with a persistent browser computer, CopilotKit rich chat, and a React Native app."
-      },
-      "stars": 1,
-      "install": "",
-      "added": "2026-09-28",
-      "agui_dependency": true,
-      "evidence": "package.json declares an AG-UI package",
-      "screenshots": [
-        "https://raw.githubusercontent.com/jerelvelarde/openmuse/HEAD/assets/openmuse-demo.gif"
       ]
     },
     {
@@ -5167,6 +5211,23 @@
       "evidence": "crates/ag-ui/Cargo.toml declares an AG-UI package"
     },
     {
+      "name": "material3-expressive-ag-ui",
+      "owner": "Language-Lit",
+      "url": "https://github.com/Language-Lit/material3-expressive-ag-ui",
+      "category": "unsorted",
+      "description": {
+        "en": "Material 3 Expressive React client for AG-UI: streaming chat, generative UI, and human approval. Optional CopilotKit adapter."
+      },
+      "stars": 1,
+      "install": "",
+      "added": "2026-10-12",
+      "agui_dependency": true,
+      "evidence": "package.json declares an AG-UI package",
+      "screenshots": [
+        "https://raw.githubusercontent.com/Language-Lit/material3-expressive-ag-ui/HEAD/docs/assets/agent-preview.webp"
+      ]
+    },
+    {
       "name": "copilotkit-foundry-hitl-templates",
       "owner": "lordlinus",
       "url": "https://github.com/lordlinus/copilotkit-foundry-hitl-templates",
@@ -5207,20 +5268,6 @@
       "added": "2026-10-05",
       "agui_dependency": true,
       "evidence": "package.json declares a CopilotKit package"
-    },
-    {
-      "name": "ai_home_designer",
-      "owner": "mezberg",
-      "url": "https://github.com/mezberg/ai_home_designer",
-      "category": "unsorted",
-      "description": {
-        "en": ""
-      },
-      "stars": 1,
-      "install": "",
-      "added": "2026-10-05",
-      "agui_dependency": true,
-      "evidence": "package.json declares an AG-UI package"
     },
     {
       "name": "fpl-chat-app",
@@ -5296,6 +5343,26 @@
       "evidence": "ts-agents/package.json declares an AG-UI package"
     },
     {
+      "name": "KAFKA-Agent",
+      "owner": "nanshan118",
+      "url": "https://github.com/nanshan118/KAFKA-Agent",
+      "category": "unsorted",
+      "description": {
+        "en": "Live2D+桌面Agent陪伴"
+      },
+      "stars": 1,
+      "install": "",
+      "added": "2026-10-12",
+      "agui_dependency": true,
+      "evidence": "package.json declares an AG-UI package",
+      "screenshots": [
+        "https://raw.githubusercontent.com/nanshan118/KAFKA-Agent/HEAD/docs/image/harness.png",
+        "https://raw.githubusercontent.com/nanshan118/KAFKA-Agent/HEAD/docs/image/work.png",
+        "https://raw.githubusercontent.com/nanshan118/KAFKA-Agent/HEAD/docs/image/code.png",
+        "https://raw.githubusercontent.com/nanshan118/KAFKA-Agent/HEAD/docs/image/music.png"
+      ]
+    },
+    {
       "name": "intake-copilot",
       "owner": "NathanTarbert",
       "url": "https://github.com/NathanTarbert/intake-copilot",
@@ -5361,93 +5428,6 @@
       "category": "unsorted",
       "description": {
         "en": "Proposed: Hamlet, OPHELIA sees everything. God's eye is great but....I'm after something specific"
-      },
-      "stars": 1,
-      "install": "",
-      "added": "2026-08-27",
-      "agui_dependency": true,
-      "evidence": "package.json declares an AG-UI package"
-    },
-    {
-      "name": "agui-weather-dashboard",
-      "owner": "pouriamrt",
-      "url": "https://github.com/pouriamrt/agui-weather-dashboard",
-      "category": "unsorted",
-      "description": {
-        "en": "AI-powered weather dashboard with Google ADK agent, CopilotKit frontend, and AG-UI protocol. Rich card-based UI rendered via useFrontendTool pattern."
-      },
-      "stars": 1,
-      "install": "",
-      "added": "2026-08-27",
-      "agui_dependency": true,
-      "evidence": "frontend/package.json declares an AG-UI package"
-    },
-    {
-      "name": "agui-provider",
-      "owner": "protolabs42",
-      "url": "https://github.com/protolabs42/agui-provider",
-      "category": "unsorted",
-      "description": {
-        "en": "Agent Zero plugin: AG-UI protocol server — connect any CopilotKit/React frontend to Agent Zero"
-      },
-      "stars": 1,
-      "install": "",
-      "added": "2026-08-27",
-      "agui_dependency": true,
-      "evidence": "example/package.json declares an AG-UI package"
-    },
-    {
-      "name": "agenthud-agui-a2ui",
-      "owner": "qte77",
-      "url": "https://github.com/qte77/agenthud-agui-a2ui",
-      "category": "unsorted",
-      "description": {
-        "en": "AG-UI event replay + A2UI component rendering in a Vite/React app."
-      },
-      "stars": 1,
-      "install": "",
-      "added": "2026-09-02",
-      "agui_dependency": true,
-      "evidence": "ui/package.json declares an AG-UI package",
-      "screenshots": [
-        "https://raw.githubusercontent.com/qte77/agenthud-agui-a2ui/HEAD/assets/usage-light.gif"
-      ]
-    },
-    {
-      "name": "a4i",
-      "owner": "rakesh-vs",
-      "url": "https://github.com/rakesh-vs/a4i",
-      "category": "unsorted",
-      "description": {
-        "en": ""
-      },
-      "stars": 1,
-      "install": "",
-      "added": "2026-08-27",
-      "agui_dependency": true,
-      "evidence": "ui/package.json declares an AG-UI package"
-    },
-    {
-      "name": "polyglot-devenv",
-      "owner": "ricable",
-      "url": "https://github.com/ricable/polyglot-devenv",
-      "category": "unsorted",
-      "description": {
-        "en": "Polyglot development environment with Python, TypeScript, Rust, Go, and Nushell using Devbox for isolated, reproducible environments"
-      },
-      "stars": 1,
-      "install": "",
-      "added": "2026-08-27",
-      "agui_dependency": true,
-      "evidence": "dojo/package.json declares an AG-UI package"
-    },
-    {
-      "name": "CopilotKit_Generative_UI_MCP_Framework",
-      "owner": "Roentek",
-      "url": "https://github.com/Roentek/CopilotKit_Generative_UI_MCP_Framework",
-      "category": "unsorted",
-      "description": {
-        "en": "A plug-and-play framework for building AI-powered generative user interfaces using CopilotKit, MCP Apps and OpenRouter. MCP server tools return interactive HTML components that render directly in a browser-based chat interface."
       },
       "stars": 1,
       "install": "",
